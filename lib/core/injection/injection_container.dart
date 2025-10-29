@@ -6,7 +6,9 @@ import 'package:flutter_gastro_go/features/dish/data/repositories/dish_repositor
 import 'package:flutter_gastro_go/features/dish/data/repositories/i_dish_repository.dart';
 import 'package:flutter_gastro_go/features/dish/data/services/dish_service.dart';
 import 'package:flutter_gastro_go/features/dish/data/services/i_dish_service.dart';
+import 'package:flutter_gastro_go/features/dish/domain/usecases/filter_dishes_by_vegan_usecase.dart';
 import 'package:flutter_gastro_go/features/dish/domain/usecases/search_dishes_by_name_or_description_usecase.dart';
+import 'package:flutter_gastro_go/features/dish/domain/usecases/sort_dishes_usecase.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/repositories/i_restaurant_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/repositories/restaurant_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/services/i_restaurant_service.dart';
@@ -86,6 +88,12 @@ Future<void> setupInjections() async {
   getIt.registerLazySingleton<SearchDishesByNameOrDescriptionUseCase>(
     () => SearchDishesByNameOrDescriptionUseCase(getIt<IDishRepository>()),
   );
+
+  getIt.registerLazySingleton<FilterDishesByVeganUseCase>(
+    () => FilterDishesByVeganUseCase(getIt<IDishRepository>()),
+  );
+
+  getIt.registerLazySingleton<SortDishesUseCase>(() => SortDishesUseCase());
 
   // Esse carinha precisa dos repos de Restaurant e Dish
   getIt.registerLazySingleton(
