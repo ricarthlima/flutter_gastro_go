@@ -6,24 +6,17 @@ import 'package:flutter_gastro_go/features/dish/data/repositories/dish_repositor
 import 'package:flutter_gastro_go/features/dish/data/repositories/i_dish_repository.dart';
 import 'package:flutter_gastro_go/features/dish/data/services/dish_service.dart';
 import 'package:flutter_gastro_go/features/dish/data/services/i_dish_service.dart';
-import 'package:flutter_gastro_go/features/dish/domain/usecases/filter_dishes_by_vegan_usecase.dart';
-import 'package:flutter_gastro_go/features/dish/domain/usecases/search_dishes_by_name_or_description_usecase.dart';
-import 'package:flutter_gastro_go/features/dish/domain/usecases/sort_dishes_usecase.dart';
+import 'package:flutter_gastro_go/features/dish/domain/usecases/usecases.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/repositories/i_restaurant_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/repositories/restaurant_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/services/i_restaurant_service.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/services/restaurant_service.dart';
-import 'package:flutter_gastro_go/features/restaurant/domain/usecases/filter_restaurants_by_category_usecase.dart';
-import 'package:flutter_gastro_go/features/restaurant/domain/usecases/filter_restaurants_by_distance_usecase.dart';
-import 'package:flutter_gastro_go/features/restaurant/domain/usecases/filter_restaurants_by_rating_usecase.dart';
-import 'package:flutter_gastro_go/features/restaurant/domain/usecases/filter_restaurants_with_vegan_dishes_usecase.dart';
-import 'package:flutter_gastro_go/features/restaurant/domain/usecases/sort_restaurants_usecase.dart';
 import 'package:flutter_gastro_go/features/settings/data/repositories/i_settings_repository.dart';
 import 'package:flutter_gastro_go/features/settings/data/repositories/settings_repository.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../../features/restaurant/domain/usecases/search_restaurants_by_name_usecase.dart';
+import '../../features/restaurant/domain/usecases/usecases.dart';
 import '../../features/settings/domain/stores/theme_store.dart';
 
 GetIt getIt = GetIt.instance;
