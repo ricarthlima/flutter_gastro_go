@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gastro_go/core/injection/injection_container.dart';
-import 'package:flutter_gastro_go/features/dish/data/repositories/i_dish_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/repositories/i_restaurant_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/domain/usecases/search_restaurants_by_name_usecase.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
