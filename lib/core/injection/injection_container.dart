@@ -1,7 +1,13 @@
+import 'package:flutter_gastro_go/core/services/api/assets_api_service.dart';
+import 'package:flutter_gastro_go/core/services/api/i_api_service.dart';
 import 'package:flutter_gastro_go/core/services/i_prefs_storage_service.dart';
 import 'package:flutter_gastro_go/core/services/shared_prefs_storage_service.dart';
-import 'package:flutter_gastro_go/features/settings/repositories/i_settings_repository.dart';
-import 'package:flutter_gastro_go/features/settings/repositories/settings_repository.dart';
+import 'package:flutter_gastro_go/features/restaurant/data/repositories/i_restaurant_repository.dart';
+import 'package:flutter_gastro_go/features/restaurant/data/repositories/restaurant_repository.dart';
+import 'package:flutter_gastro_go/features/restaurant/data/services/i_restaurant_service.dart';
+import 'package:flutter_gastro_go/features/restaurant/data/services/restaurant_service.dart';
+import 'package:flutter_gastro_go/features/settings/data/repositories/i_settings_repository.dart';
+import 'package:flutter_gastro_go/features/settings/data/repositories/settings_repository.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -22,6 +28,17 @@ Future<void> setupInjections() async {
 
   getIt.registerLazySingleton<ISettingsRepository>(
     () => SettingRepository(storageService: getIt<IPrefsStorageService>()),
+  );
+
+  getIt.registerLazySingleton<IApiService>(() => AssetsApiService());
+
+  // Restaurant
+  getIt.registerLazySingleton<IRestaurantService>(
+    () => RestaurantService(getIt<IApiService>()),
+  );
+
+  getIt.registerLazySingleton<IRestaurantRepository>(
+    () => RestaurantRepository(getIt<IRestaurantService>()),
   );
 
   // Stores
