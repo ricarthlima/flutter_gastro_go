@@ -2,6 +2,10 @@ import 'package:flutter_gastro_go/core/services/api/assets_api_service.dart';
 import 'package:flutter_gastro_go/core/services/api/i_api_service.dart';
 import 'package:flutter_gastro_go/core/services/i_prefs_storage_service.dart';
 import 'package:flutter_gastro_go/core/services/shared_prefs_storage_service.dart';
+import 'package:flutter_gastro_go/features/dish/data/repositories/dish_repository.dart';
+import 'package:flutter_gastro_go/features/dish/data/repositories/i_dish_repository.dart';
+import 'package:flutter_gastro_go/features/dish/data/services/dish_service.dart';
+import 'package:flutter_gastro_go/features/dish/data/services/i_dish_service.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/repositories/i_restaurant_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/repositories/restaurant_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/services/i_restaurant_service.dart';
@@ -39,6 +43,16 @@ Future<void> setupInjections() async {
 
   getIt.registerLazySingleton<IRestaurantRepository>(
     () => RestaurantRepository(getIt<IRestaurantService>()),
+  );
+
+  // Dish
+
+  getIt.registerLazySingleton<IDishService>(
+    () => DishService(getIt<IApiService>()),
+  );
+
+  getIt.registerLazySingleton<IDishRepository>(
+    () => DishRepository(getIt<IDishService>()),
   );
 
   // Stores

@@ -35,3 +35,4 @@ flutter:
     - assets/
     - assets/data/
     - assets/data/restaurants.json
+    - assets/data/dishes.json

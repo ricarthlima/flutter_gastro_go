@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gastro_go/core/injection/injection_container.dart';
+import 'package:flutter_gastro_go/features/dish/data/repositories/i_dish_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/repositories/i_restaurant_repository.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
@@ -70,6 +71,25 @@ class ChangeThemeScreen extends StatelessWidget {
                       child: ListView(
                         children: snapshot.data!
                             .map((rest) => ListTile(title: Text(rest.name)))
+                            .toList(),
+                      ),
+                    );
+                  }
+                  return Center(child: CircularProgressIndicator());
+                },
+              ),
+
+              FutureBuilder(
+                future: getIt<IDishRepository>().getAll(),
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.done &&
+                      snapshot.hasData &&
+                      snapshot.data != null) {
+                    return SizedBox(
+                      height: 300,
+                      child: ListView(
+                        children: snapshot.data!
+                            .map((dish) => ListTile(title: Text(dish.name)))
                             .toList(),
                       ),
                     );
