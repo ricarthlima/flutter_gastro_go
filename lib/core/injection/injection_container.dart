@@ -17,6 +17,7 @@ import 'package:flutter_gastro_go/features/settings/data/repositories/settings_r
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../../features/dish/presentation/stores/dish_list_store.dart';
 import '../../features/restaurant/domain/usecases/usecases.dart';
 import '../../features/settings/domain/stores/theme_store.dart';
 
@@ -65,7 +66,7 @@ Future<void> setupInjections() async {
   );
 
   getIt.registerLazySingleton(
-    () => SearchRestaurantsByNameUseCase(getIt<IRestaurantRepository>()),
+    () => SearchRestaurantsByCategoryUseCase(getIt<IRestaurantRepository>()),
   );
 
   getIt.registerLazySingleton(() => SortRestaurantsUseCase());
@@ -113,6 +114,16 @@ Future<void> setupInjections() async {
       getIt<FilterRestaurantsByRatingUseCase>(),
       getIt<FilterRestaurantsWithVeganDishesUseCase>(),
       getIt<SortRestaurantsUseCase>(),
+    ),
+  );
+
+  // Gera uma nova instancia sempre que precisar
+  getIt.registerFactory<DishListStore>(
+    () => DishListStore(
+      getIt<IDishRepository>(),
+      getIt<SearchDishesByNameOrDescriptionUseCase>(),
+      getIt<FilterDishesByVeganUseCase>(),
+      getIt<SortDishesUseCase>(),
     ),
   );
 }

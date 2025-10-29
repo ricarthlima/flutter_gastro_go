@@ -47,7 +47,7 @@ void main() {
   test('deve retornar apenas os pratos que são veganos', () async {
     when(mockDishRepository.getAll()).thenAnswer((_) async => tDishList);
 
-    final result = await useCase.call();
+    final result = await useCase.call(true);
 
     expect(result.length, 1);
     expect(result.first.id, 'd3');
@@ -58,7 +58,7 @@ void main() {
     final nonVeganList = tDishList.where((d) => !d.isVegan).toList();
     when(mockDishRepository.getAll()).thenAnswer((_) async => nonVeganList);
 
-    final result = await useCase.call();
+    final result = await useCase.call(true);
 
     expect(result, isEmpty);
     verify(mockDishRepository.getAll()).called(1);
@@ -67,7 +67,7 @@ void main() {
   test('deve propagar a exceção se o repositório falhar', () async {
     when(mockDishRepository.getAll()).thenThrow(Exception('Falha'));
 
-    expect(() => useCase.call(), throwsA(isA<Exception>()));
+    expect(() => useCase.call(true), throwsA(isA<Exception>()));
     verify(mockDishRepository.getAll()).called(1);
   });
 }
