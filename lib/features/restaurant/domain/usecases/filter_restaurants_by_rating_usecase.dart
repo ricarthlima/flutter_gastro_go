@@ -6,9 +6,12 @@ class FilterRestaurantsByRatingUseCase {
 
   FilterRestaurantsByRatingUseCase(this.restaurantRepository);
 
-  Future<List<RestaurantDto>> call(double minRating) async {
+  Future<List<RestaurantDto>> call(
+    double minRating, {
+    List<RestaurantDto>? restaurants,
+  }) async {
     try {
-      final allRestaurants = await restaurantRepository.getAll();
+      final allRestaurants = restaurants ?? await restaurantRepository.getAll();
 
       if (minRating <= 0) {
         return allRestaurants;

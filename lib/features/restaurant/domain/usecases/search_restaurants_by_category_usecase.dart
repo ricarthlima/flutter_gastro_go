@@ -6,9 +6,12 @@ class SearchRestaurantsByCategoryUseCase {
 
   SearchRestaurantsByCategoryUseCase(this.restaurantRepository);
 
-  Future<List<RestaurantDto>> call(String query) async {
+  Future<List<RestaurantDto>> call(
+    String query, {
+    List<RestaurantDto>? restaurants,
+  }) async {
     try {
-      final allRestaurants = await restaurantRepository.getAll();
+      final allRestaurants = restaurants ?? await restaurantRepository.getAll();
 
       if (query.isEmpty) {
         return allRestaurants;

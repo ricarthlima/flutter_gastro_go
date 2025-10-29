@@ -7,9 +7,9 @@ class FilterDishesByVeganUseCase {
 
   FilterDishesByVeganUseCase(this.dishRepository);
 
-  Future<List<DishDto>> call() async {
+  Future<List<DishDto>> call({List<DishDto>? dishes}) async {
     try {
-      final allDishes = await dishRepository.getAll();
+      final allDishes = dishes ?? await dishRepository.getAll();
 
       final filteredList = allDishes.where((dish) {
         return dish.isVegan;

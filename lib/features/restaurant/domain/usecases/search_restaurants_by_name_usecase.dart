@@ -5,10 +5,13 @@ class SearchRestaurantsByNameUseCase {
   final IRestaurantRepository restaurantRepository;
   SearchRestaurantsByNameUseCase(this.restaurantRepository);
 
-  Future<List<RestaurantDto>> call(String query) async {
+  Future<List<RestaurantDto>> call(
+    String query, {
+    List<RestaurantDto>? restaurants,
+  }) async {
     try {
       // No mundo ideal, isso ficaria com o backend ne
-      final allRestaurants = await restaurantRepository.getAll();
+      final allRestaurants = restaurants ?? await restaurantRepository.getAll();
 
       //Se a busca for vazia, retorna tudo
       if (query.isEmpty) {

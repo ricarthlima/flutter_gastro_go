@@ -6,9 +6,9 @@ class SearchDishesByNameOrDescriptionUseCase {
 
   SearchDishesByNameOrDescriptionUseCase(this.dishRepository);
 
-  Future<List<DishDto>> call(String query) async {
+  Future<List<DishDto>> call(String query, {List<DishDto>? dishes}) async {
     try {
-      final allDishes = await dishRepository.getAll();
+      final allDishes = dishes ?? await dishRepository.getAll();
 
       if (query.isEmpty) {
         return allDishes;

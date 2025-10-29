@@ -6,9 +6,12 @@ class FilterRestaurantsByDistanceUseCase {
 
   FilterRestaurantsByDistanceUseCase(this.restaurantRepository);
 
-  Future<List<RestaurantDto>> call(double maxDistance) async {
+  Future<List<RestaurantDto>> call(
+    double maxDistance, {
+    List<RestaurantDto>? restaurants,
+  }) async {
     try {
-      final allRestaurants = await restaurantRepository.getAll();
+      final allRestaurants = restaurants ?? await restaurantRepository.getAll();
 
       if (maxDistance <= 0) {
         return allRestaurants;
