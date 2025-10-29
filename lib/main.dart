@@ -5,6 +5,7 @@ import 'package:flutter_gastro_go/features/restaurant/domain/usecases/search_res
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import 'features/settings/domain/stores/theme_store.dart';
+import 'l10n/app_localizations.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,6 +25,11 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Observer(
       builder: (_) => MaterialApp(
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+        supportedLocales: AppLocalizations.supportedLocales,
+        onGenerateTitle: (context) {
+          return AppLocalizations.of(context)?.appTitle ?? 'GastroGo';
+        },
         theme: ThemeData(),
         darkTheme: ThemeData.dark(),
         themeMode: getIt<ThemeStore>().themeMode,
@@ -46,6 +52,7 @@ class ChangeThemeScreen extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
+              Text(AppLocalizations.of(context)!.appTitle),
               Observer(
                 builder: (_) => Switch(
                   value: themeStore.isDarkTheme,

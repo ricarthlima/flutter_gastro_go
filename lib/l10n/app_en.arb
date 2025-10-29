@@ -1,0 +1,17 @@
+{
+    "@@locale": "en",
+    "appTitle": "GastroGo",
+    "navRestaurants": "Restaurants",
+    "navFavorites": "Favorites",
+    "searchHint": "Search restaurants...",
+    "filterBy": "Filter by",
+    "sortBy": "Sort by",
+    "rating": "Rating",
+    "distance": "Distance",
+    "dishes": "Dishes",
+    "vegan": "Vegan",
+    "favoritesRestaurantsTitle": "Favorite Restaurants",
+    "favoritesDishesTitle": "Favorite Dishes",
+    "errorLoading": "Failed to load data",
+    "errorRetry": "Try Again"
+}

@@ -1,0 +1,17 @@
+{
+    "@@locale": "pt",
+    "appTitle": "GastroGo",
+    "navRestaurants": "Restaurantes",
+    "navFavorites": "Favoritos",
+    "searchHint": "Buscar restaurantes...",
+    "filterBy": "Filtrar por",
+    "sortBy": "Ordenar por",
+    "rating": "Avaliação",
+    "distance": "Distância",
+    "dishes": "Pratos",
+    "vegan": "Vegano",
+    "favoritesRestaurantsTitle": "Restaurantes Favoritos",
+    "favoritesDishesTitle": "Pratos Favoritos",
+    "errorLoading": "Falha ao carregar dados",
+    "errorRetry": "Tentar Novamente"
+}
