@@ -13,6 +13,8 @@ import 'package:flutter_gastro_go/features/restaurant/data/services/restaurant_s
 import 'package:flutter_gastro_go/features/restaurant/domain/usecases/filter_restaurants_by_category_usecase.dart';
 import 'package:flutter_gastro_go/features/restaurant/domain/usecases/filter_restaurants_by_distance_usecase.dart';
 import 'package:flutter_gastro_go/features/restaurant/domain/usecases/filter_restaurants_by_rating_usecase.dart';
+import 'package:flutter_gastro_go/features/restaurant/domain/usecases/filter_restaurants_with_vegan_dishes_usecase.dart';
+import 'package:flutter_gastro_go/features/restaurant/domain/usecases/sort_restaurants_usecase.dart';
 import 'package:flutter_gastro_go/features/settings/data/repositories/i_settings_repository.dart';
 import 'package:flutter_gastro_go/features/settings/data/repositories/settings_repository.dart';
 import 'package:get_it/get_it.dart';
@@ -69,6 +71,8 @@ Future<void> setupInjections() async {
     () => SearchRestaurantsByNameUseCase(getIt<IRestaurantRepository>()),
   );
 
+  getIt.registerLazySingleton(() => SortRestaurantsUseCase());
+
   // Dish
   getIt.registerLazySingleton<IDishService>(
     () => DishService(getIt<IApiService>()),
@@ -76,6 +80,14 @@ Future<void> setupInjections() async {
 
   getIt.registerLazySingleton<IDishRepository>(
     () => DishRepository(getIt<IDishService>()),
+  );
+
+  // Esse carinha precisa dos repos de Restaurant e Dish
+  getIt.registerLazySingleton(
+    () => FilterRestaurantsWithVeganDishesUseCase(
+      restaurantRepository: getIt<IRestaurantRepository>(),
+      dishRepository: getIt<IDishRepository>(),
+    ),
   );
 
   // Stores
