@@ -10,6 +10,8 @@ import 'package:flutter_gastro_go/features/restaurant/data/repositories/i_restau
 import 'package:flutter_gastro_go/features/restaurant/data/repositories/restaurant_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/services/i_restaurant_service.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/services/restaurant_service.dart';
+import 'package:flutter_gastro_go/features/restaurant/domain/usecases/filter_restaurants_by_category_usecase.dart';
+import 'package:flutter_gastro_go/features/restaurant/domain/usecases/filter_restaurants_by_distance_usecase.dart';
 import 'package:flutter_gastro_go/features/settings/data/repositories/i_settings_repository.dart';
 import 'package:flutter_gastro_go/features/settings/data/repositories/settings_repository.dart';
 import 'package:get_it/get_it.dart';
@@ -48,6 +50,14 @@ Future<void> setupInjections() async {
 
   getIt.registerLazySingleton(
     () => SearchRestaurantsByNameUseCase(getIt<IRestaurantRepository>()),
+  );
+
+  getIt.registerLazySingleton(
+    () => FilterRestaurantsByCategoryUseCase(getIt<IRestaurantRepository>()),
+  );
+
+  getIt.registerLazySingleton(
+    () => FilterRestaurantsByDistanceUseCase(getIt<IRestaurantRepository>()),
   );
 
   // Dish
