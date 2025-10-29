@@ -23,8 +23,8 @@ coverage/
 # Arquivos e scripts auxiliares
 /lib/_core/private/*
 /lib/_core/private/auth_user.dart
-/lib/estrutura.json
-/lib/dir_to_json.py
+estrutura.json
+dir_to_json.py
 
 # Arquivos de ambiente (.env)
 *.env

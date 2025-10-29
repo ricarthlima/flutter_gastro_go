@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mobx/mobx.dart';
 
-import '../../repositories/i_settings_repository.dart';
+import '../../data/repositories/i_settings_repository.dart';
 
 part 'theme_store.g.dart';
 
