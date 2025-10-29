@@ -15,6 +15,7 @@ import 'package:flutter_gastro_go/features/settings/data/repositories/settings_r
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../../features/restaurant/domain/usecases/search_restaurants_by_name_usecase.dart';
 import '../../features/settings/domain/stores/theme_store.dart';
 
 GetIt getIt = GetIt.instance;
@@ -45,8 +46,11 @@ Future<void> setupInjections() async {
     () => RestaurantRepository(getIt<IRestaurantService>()),
   );
 
-  // Dish
+  getIt.registerLazySingleton(
+    () => SearchRestaurantsByNameUseCase(getIt<IRestaurantRepository>()),
+  );
 
+  // Dish
   getIt.registerLazySingleton<IDishService>(
     () => DishService(getIt<IApiService>()),
   );

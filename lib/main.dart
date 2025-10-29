@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gastro_go/core/injection/injection_container.dart';
 import 'package:flutter_gastro_go/features/dish/data/repositories/i_dish_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/repositories/i_restaurant_repository.dart';
+import 'package:flutter_gastro_go/features/restaurant/domain/usecases/search_restaurants_by_name_usecase.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import 'features/settings/domain/stores/theme_store.dart';
@@ -80,7 +81,7 @@ class ChangeThemeScreen extends StatelessWidget {
               ),
 
               FutureBuilder(
-                future: getIt<IDishRepository>().getAll(),
+                future: getIt<SearchRestaurantsByNameUseCase>().call('sushi'),
                 builder: (context, snapshot) {
                   if (snapshot.connectionState == ConnectionState.done &&
                       snapshot.hasData &&
