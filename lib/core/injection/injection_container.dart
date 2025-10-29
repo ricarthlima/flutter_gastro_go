@@ -65,6 +65,10 @@ Future<void> setupInjections() async {
     () => FilterRestaurantsByRatingUseCase(getIt<IRestaurantRepository>()),
   );
 
+  getIt.registerLazySingleton(
+    () => SearchRestaurantsByNameUseCase(getIt<IRestaurantRepository>()),
+  );
+
   // Dish
   getIt.registerLazySingleton<IDishService>(
     () => DishService(getIt<IApiService>()),
