@@ -6,6 +6,7 @@ import 'package:flutter_gastro_go/features/dish/data/repositories/dish_repositor
 import 'package:flutter_gastro_go/features/dish/data/repositories/i_dish_repository.dart';
 import 'package:flutter_gastro_go/features/dish/data/services/dish_service.dart';
 import 'package:flutter_gastro_go/features/dish/data/services/i_dish_service.dart';
+import 'package:flutter_gastro_go/features/dish/domain/usecases/search_dishes_by_name_or_description_usecase.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/repositories/i_restaurant_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/repositories/restaurant_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/services/i_restaurant_service.dart';
@@ -80,6 +81,10 @@ Future<void> setupInjections() async {
 
   getIt.registerLazySingleton<IDishRepository>(
     () => DishRepository(getIt<IDishService>()),
+  );
+
+  getIt.registerLazySingleton<SearchDishesByNameOrDescriptionUseCase>(
+    () => SearchDishesByNameOrDescriptionUseCase(getIt<IDishRepository>()),
   );
 
   // Esse carinha precisa dos repos de Restaurant e Dish
