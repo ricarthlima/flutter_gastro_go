@@ -11,6 +11,7 @@ import 'package:flutter_gastro_go/features/restaurant/data/repositories/i_restau
 import 'package:flutter_gastro_go/features/restaurant/data/repositories/restaurant_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/services/i_restaurant_service.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/services/restaurant_service.dart';
+import 'package:flutter_gastro_go/features/restaurant/presentation/stores/restaurant_list_store.dart';
 import 'package:flutter_gastro_go/features/settings/data/repositories/i_settings_repository.dart';
 import 'package:flutter_gastro_go/features/settings/data/repositories/settings_repository.dart';
 import 'package:get_it/get_it.dart';
@@ -100,5 +101,18 @@ Future<void> setupInjections() async {
 
   getIt.registerLazySingleton<ThemeStore>(
     () => ThemeStore(getIt<ISettingsRepository>()),
+  );
+
+  getIt.registerLazySingleton<RestaurantListStore>(
+    () => RestaurantListStore(
+      getIt<IRestaurantRepository>(),
+      getIt<SearchRestaurantsByNameUseCase>(),
+      getIt<FilterRestaurantsByCategoryUseCase>(),
+      getIt<SearchRestaurantsByCategoryUseCase>(),
+      getIt<FilterRestaurantsByDistanceUseCase>(),
+      getIt<FilterRestaurantsByRatingUseCase>(),
+      getIt<FilterRestaurantsWithVeganDishesUseCase>(),
+      getIt<SortRestaurantsUseCase>(),
+    ),
   );
 }
