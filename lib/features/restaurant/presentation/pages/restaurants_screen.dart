@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gastro_go/core/injection/injection_container.dart';
 import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
 import 'package:flutter_gastro_go/features/restaurant/presentation/stores/restaurant_list_store.dart';
+import 'package:flutter_gastro_go/features/restaurant/presentation/widgets/banners_carousel.dart';
 import 'package:flutter_gastro_go/features/restaurant/presentation/widgets/home_app_bar.dart';
 import 'package:flutter_gastro_go/shared/widgets/error_widget.dart';
 import 'package:flutter_gastro_go/shared/widgets/loading_widget.dart';
@@ -71,7 +72,12 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                         style: Theme.of(context).textTheme.titleMedium!
                             .copyWith(fontWeight: FontWeight.w700),
                       ),
-                      Image.asset("assets/images/banners/banner_promo.png"),
+                      BannersCarousel(
+                        bannerAssets: [
+                          "assets/images/banners/banner_promo.png",
+                          "assets/images/banners/banner_promo.png",
+                        ],
+                      ),
                       Text(
                         i18n.homeCategoryCTA,
                         style: Theme.of(context).textTheme.titleMedium,
