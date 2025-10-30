@@ -44,3 +44,9 @@ flutter:
     - assets/data/
     - assets/data/restaurants.json
     - assets/data/dishes.json
+    - assets/images/
+    - assets/images/banners/
+    - assets/images/categories/
+    - assets/images/dishes/
+    - assets/images/others/
+    - assets/images/restaurants/
