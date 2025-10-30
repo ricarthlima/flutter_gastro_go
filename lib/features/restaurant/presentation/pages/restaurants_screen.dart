@@ -112,6 +112,7 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                         prefixIcon: Icon(Icons.search),
                         labelText: "O que você quer comer?",
                       ),
+                      onChanged: onSearchChanged,
                       onFieldSubmitted: (value) => _animateToEnd(),
                     ),
                     Column(
@@ -140,6 +141,10 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
     } else {
       store.setSelectedCategory(categoryName);
     }
+  }
+
+  void onSearchChanged(String query) {
+    store.setNameQuery(query);
   }
 
   void _animateToEnd() {
