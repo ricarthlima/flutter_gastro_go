@@ -96,201 +96,202 @@ abstract class AppLocalizations {
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
     Locale('pt'),
+    Locale('pt', 'BR'),
   ];
 
-  /// No description provided for @appTitle.
+  /// Description for appTitle
   ///
   /// In pt, this message translates to:
   /// **'GastroGo'**
   String get appTitle;
 
-  /// No description provided for @navRestaurants.
+  /// Description for navRestaurants
   ///
   /// In pt, this message translates to:
   /// **'Restaurantes'**
   String get navRestaurants;
 
-  /// No description provided for @navFavorites.
+  /// Description for navFavorites
   ///
   /// In pt, this message translates to:
   /// **'Favoritos'**
   String get navFavorites;
 
-  /// No description provided for @searchHint.
+  /// Description for searchHint
   ///
   /// In pt, this message translates to:
   /// **'Buscar restaurantes...'**
   String get searchHint;
 
-  /// No description provided for @filterBy.
+  /// Description for filterBy
   ///
   /// In pt, this message translates to:
   /// **'Filtrar por'**
   String get filterBy;
 
-  /// No description provided for @sortBy.
+  /// Description for sortBy
   ///
   /// In pt, this message translates to:
   /// **'Ordenar por'**
   String get sortBy;
 
-  /// No description provided for @rating.
+  /// Description for rating
   ///
   /// In pt, this message translates to:
   /// **'Avaliação'**
   String get rating;
 
-  /// No description provided for @distance.
+  /// Description for distance
   ///
   /// In pt, this message translates to:
   /// **'Distância'**
   String get distance;
 
-  /// No description provided for @dishes.
+  /// Description for dishes
   ///
   /// In pt, this message translates to:
   /// **'Pratos'**
   String get dishes;
 
-  /// No description provided for @vegan.
+  /// Description for vegan
   ///
   /// In pt, this message translates to:
   /// **'Vegano'**
   String get vegan;
 
-  /// No description provided for @favoritesRestaurantsTitle.
+  /// Description for favoritesRestaurantsTitle
   ///
   /// In pt, this message translates to:
   /// **'Restaurantes Favoritos'**
   String get favoritesRestaurantsTitle;
 
-  /// No description provided for @favoritesDishesTitle.
+  /// Description for favoritesDishesTitle
   ///
   /// In pt, this message translates to:
   /// **'Pratos Favoritos'**
   String get favoritesDishesTitle;
 
-  /// No description provided for @errorLoading.
+  /// Description for errorLoading
   ///
   /// In pt, this message translates to:
   /// **'Falha ao carregar dados'**
   String get errorLoading;
 
-  /// No description provided for @errorRetry.
+  /// Description for errorRetry
   ///
   /// In pt, this message translates to:
   /// **'Tentar Novamente'**
   String get errorRetry;
 
-  /// No description provided for @searchDishes.
+  /// Description for searchDishes
   ///
   /// In pt, this message translates to:
   /// **'Buscar no cardápio...'**
   String get searchDishes;
 
-  /// No description provided for @filterVeganDishes.
+  /// Description for filterVeganDishes
   ///
   /// In pt, this message translates to:
   /// **'Filtrar pratos veganos'**
   String get filterVeganDishes;
 
-  /// No description provided for @dishesLoadingError.
+  /// Description for dishesLoadingError
   ///
   /// In pt, this message translates to:
   /// **'Erro ao carregar pratos'**
   String get dishesLoadingError;
 
-  /// No description provided for @noDishesOnRestaurant.
+  /// Description for noDishesOnRestaurant
   ///
   /// In pt, this message translates to:
   /// **'Este restaurante não possui pratos cadastrados.'**
   String get noDishesOnRestaurant;
 
-  /// No description provided for @emptyFavoriteRestaurants.
+  /// Description for emptyFavoriteRestaurants
   ///
   /// In pt, this message translates to:
   /// **'Você ainda não favoritou restaurantes.'**
   String get emptyFavoriteRestaurants;
 
-  /// No description provided for @emptyFavoriteDishes.
+  /// Description for emptyFavoriteDishes
   ///
   /// In pt, this message translates to:
   /// **'Você ainda não favoritou pratos.'**
   String get emptyFavoriteDishes;
 
-  /// No description provided for @onboardingUpperQuote.
+  /// Description for onboardingUpperQuote
   ///
   /// In pt, this message translates to:
   /// **'Uma experiência culinária'**
   String get onboardingUpperQuote;
 
-  /// No description provided for @onboardingLowerQuote.
+  /// Description for onboardingLowerQuote
   ///
   /// In pt, this message translates to:
   /// **'para quem está \'ready to go\'!'**
   String get onboardingLowerQuote;
 
-  /// No description provided for @onboardingCTA.
+  /// Description for onboardingCTA
   ///
   /// In pt, this message translates to:
   /// **'Bora!'**
   String get onboardingCTA;
 
-  /// No description provided for @homeWelcome.
+  /// Description for homeWelcome
   ///
   /// In pt, this message translates to:
   /// **'Boas vindas!'**
   String get homeWelcome;
 
-  /// No description provided for @homeCategoryCTA.
+  /// Description for homeCategoryCTA
   ///
   /// In pt, this message translates to:
   /// **'Fome de quê?'**
   String get homeCategoryCTA;
 
-  /// No description provided for @homeRestaurants.
+  /// Description for homeRestaurants
   ///
   /// In pt, this message translates to:
   /// **'Restaurantes para você'**
   String get homeRestaurants;
 
-  /// No description provided for @homeSearchLabel.
+  /// Description for homeSearchLabel
   ///
   /// In pt, this message translates to:
   /// **'O que você quer comer?'**
   String get homeSearchLabel;
 
-  /// No description provided for @clean.
+  /// Description for clean
   ///
   /// In pt, this message translates to:
   /// **'Limpar'**
   String get clean;
 
-  /// No description provided for @filterAndSort.
+  /// Description for filterAndSort
   ///
   /// In pt, this message translates to:
   /// **'Filtros e ordenação'**
   String get filterAndSort;
 
-  /// No description provided for @onlyVegans.
+  /// Description for onlyVegans
   ///
   /// In pt, this message translates to:
   /// **'Apenas veganos'**
   String get onlyVegans;
 
-  /// No description provided for @minimumRating.
+  /// Description for minimumRating
   ///
   /// In pt, this message translates to:
   /// **'Avaliação mínima'**
   String get minimumRating;
 
-  /// No description provided for @maximumDistance.
+  /// Description for maximumDistance
   ///
   /// In pt, this message translates to:
   /// **'Distância máxima'**
   String get maximumDistance;
 
-  /// No description provided for @applyFilters.
+  /// Description for applyFilters
   ///
   /// In pt, this message translates to:
   /// **'Aplicar filtros'**
@@ -315,6 +316,18 @@ class _AppLocalizationsDelegate
 }
 
 AppLocalizations lookupAppLocalizations(Locale locale) {
+  // Lookup logic when language+country codes are specified.
+  switch (locale.languageCode) {
+    case 'pt':
+      {
+        switch (locale.countryCode) {
+          case 'BR':
+            return AppLocalizationsPtBr();
+        }
+        break;
+      }
+  }
+
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
     case 'en':

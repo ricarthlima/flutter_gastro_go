@@ -65,7 +65,6 @@ abstract class _FavoritesStore with Store {
       dishFavoriteIds = ObservableSet.of(dishIds);
     } catch (e) {
       // Falha silenciosa na inicialização, ou logar
-      print("Erro ao carregar IDs de favoritos: $e");
     }
   }
 
@@ -109,7 +108,6 @@ abstract class _FavoritesStore with Store {
       }
     } catch (e) {
       // Tratar erro na UI (ex: com um SnackBar)
-      print("Erro ao alternar favorito: $e");
     }
   }
 
@@ -132,7 +130,7 @@ abstract class _FavoritesStore with Store {
         dishFavoriteIds.remove(dishId);
       }
     } catch (e) {
-      print("Erro ao alternar favorito: $e");
+      //
     }
   }
 }

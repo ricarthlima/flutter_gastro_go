@@ -1,36 +1,169 @@
 {
-    "@@locale": "pt",
-    "appTitle": "GastroGo",
-    "navRestaurants": "Restaurantes",
-    "navFavorites": "Favoritos",
-    "searchHint": "Buscar restaurantes...",
-    "filterBy": "Filtrar por",
-    "sortBy": "Ordenar por",
-    "rating": "Avaliação",
-    "distance": "Distância",
-    "dishes": "Pratos",
-    "vegan": "Vegano",
-    "favoritesRestaurantsTitle": "Restaurantes Favoritos",
-    "favoritesDishesTitle": "Pratos Favoritos",
-    "errorLoading": "Falha ao carregar dados",
-    "errorRetry": "Tentar Novamente",
-    "searchDishes": "Buscar no cardápio...",
-    "filterVeganDishes": "Filtrar pratos veganos",
-    "dishesLoadingError": "Erro ao carregar pratos",
-    "noDishesOnRestaurant": "Este restaurante não possui pratos cadastrados.",
-    "emptyFavoriteRestaurants": "Você ainda não favoritou restaurantes.",
-    "emptyFavoriteDishes": "Você ainda não favoritou pratos.",
-    "onboardingUpperQuote": "Uma experiência culinária",
-    "onboardingLowerQuote": "para quem está 'ready to go'!",
-    "onboardingCTA": "Bora!",
-    "homeWelcome": "Boas vindas!",
-    "homeCategoryCTA": "Fome de quê?",
-    "homeRestaurants": "Restaurantes para você",
-    "homeSearchLabel": "O que você quer comer?",
-    "clean": "Limpar",
-    "filterAndSort": "Filtros e ordenação",
-    "onlyVegans": "Apenas veganos",
-    "minimumRating": "Avaliação mínima",
-    "maximumDistance": "Distância máxima",
-    "applyFilters": "Aplicar filtros"
+  "@@locale": "pt",
+  "appTitle": "GastroGo",
+  "@appTitle": {
+    "description": "Description for appTitle",
+    "placeholders": {}
+  },
+  "navRestaurants": "Restaurantes",
+  "@navRestaurants": {
+    "description": "Description for navRestaurants",
+    "placeholders": {}
+  },
+  "navFavorites": "Favoritos",
+  "@navFavorites": {
+    "description": "Description for navFavorites",
+    "placeholders": {}
+  },
+  "searchHint": "Buscar restaurantes...",
+  "@searchHint": {
+    "description": "Description for searchHint",
+    "placeholders": {}
+  },
+  "filterBy": "Filtrar por",
+  "@filterBy": {
+    "description": "Description for filterBy",
+    "placeholders": {}
+  },
+  "sortBy": "Ordenar por",
+  "@sortBy": {
+    "description": "Description for sortBy",
+    "placeholders": {}
+  },
+  "rating": "Avaliação",
+  "@rating": {
+    "description": "Description for rating",
+    "placeholders": {}
+  },
+  "distance": "Distância",
+  "@distance": {
+    "description": "Description for distance",
+    "placeholders": {}
+  },
+  "dishes": "Pratos",
+  "@dishes": {
+    "description": "Description for dishes",
+    "placeholders": {}
+  },
+  "vegan": "Vegano",
+  "@vegan": {
+    "description": "Description for vegan",
+    "placeholders": {}
+  },
+  "favoritesRestaurantsTitle": "Restaurantes Favoritos",
+  "@favoritesRestaurantsTitle": {
+    "description": "Description for favoritesRestaurantsTitle",
+    "placeholders": {}
+  },
+  "favoritesDishesTitle": "Pratos Favoritos",
+  "@favoritesDishesTitle": {
+    "description": "Description for favoritesDishesTitle",
+    "placeholders": {}
+  },
+  "errorLoading": "Falha ao carregar dados",
+  "@errorLoading": {
+    "description": "Description for errorLoading",
+    "placeholders": {}
+  },
+  "errorRetry": "Tentar Novamente",
+  "@errorRetry": {
+    "description": "Description for errorRetry",
+    "placeholders": {}
+  },
+  "searchDishes": "Buscar no cardápio...",
+  "@searchDishes": {
+    "description": "Description for searchDishes",
+    "placeholders": {}
+  },
+  "filterVeganDishes": "Filtrar pratos veganos",
+  "@filterVeganDishes": {
+    "description": "Description for filterVeganDishes",
+    "placeholders": {}
+  },
+  "dishesLoadingError": "Erro ao carregar pratos",
+  "@dishesLoadingError": {
+    "description": "Description for dishesLoadingError",
+    "placeholders": {}
+  },
+  "noDishesOnRestaurant": "Este restaurante não possui pratos cadastrados.",
+  "@noDishesOnRestaurant": {
+    "description": "Description for noDishesOnRestaurant",
+    "placeholders": {}
+  },
+  "emptyFavoriteRestaurants": "Você ainda não favoritou restaurantes.",
+  "@emptyFavoriteRestaurants": {
+    "description": "Description for emptyFavoriteRestaurants",
+    "placeholders": {}
+  },
+  "emptyFavoriteDishes": "Você ainda não favoritou pratos.",
+  "@emptyFavoriteDishes": {
+    "description": "Description for emptyFavoriteDishes",
+    "placeholders": {}
+  },
+  "onboardingUpperQuote": "Uma experiência culinária",
+  "@onboardingUpperQuote": {
+    "description": "Description for onboardingUpperQuote",
+    "placeholders": {}
+  },
+  "onboardingLowerQuote": "para quem está 'ready to go'!",
+  "@onboardingLowerQuote": {
+    "description": "Description for onboardingLowerQuote",
+    "placeholders": {}
+  },
+  "onboardingCTA": "Bora!",
+  "@onboardingCTA": {
+    "description": "Description for onboardingCTA",
+    "placeholders": {}
+  },
+  "homeWelcome": "Boas vindas!",
+  "@homeWelcome": {
+    "description": "Description for homeWelcome",
+    "placeholders": {}
+  },
+  "homeCategoryCTA": "Fome de quê?",
+  "@homeCategoryCTA": {
+    "description": "Description for homeCategoryCTA",
+    "placeholders": {}
+  },
+  "homeRestaurants": "Restaurantes para você",
+  "@homeRestaurants": {
+    "description": "Description for homeRestaurants",
+    "placeholders": {}
+  },
+  "homeSearchLabel": "O que você quer comer?",
+  "@homeSearchLabel": {
+    "description": "Description for homeSearchLabel",
+    "placeholders": {}
+  },
+  "clean": "Limpar",
+  "@clean": {
+    "description": "Description for clean",
+    "placeholders": {}
+  },
+  "filterAndSort": "Filtros e ordenação",
+  "@filterAndSort": {
+    "description": "Description for filterAndSort",
+    "placeholders": {}
+  },
+  "onlyVegans": "Apenas veganos",
+  "@onlyVegans": {
+    "description": "Description for onlyVegans",
+    "placeholders": {}
+  },
+  "minimumRating": "Avaliação mínima",
+  "@minimumRating": {
+    "description": "Description for minimumRating",
+    "placeholders": {}
+  },
+  "maximumDistance": "Distância máxima",
+  "@maximumDistance": {
+    "description": "Description for maximumDistance",
+    "placeholders": {}
+  },
+  "applyFilters": "Aplicar filtros",
+  "@applyFilters": {
+    "description": "Description for applyFilters",
+    "placeholders": {}
+  },
+  "@@last_modified": "2025-10-30T17:47:23.071065Z"
 }
