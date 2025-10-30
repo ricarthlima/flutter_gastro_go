@@ -111,6 +111,17 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                       decoration: InputDecoration(
                         prefixIcon: Icon(Icons.search),
                         labelText: "O que você quer comer?",
+                        suffixIcon: store.nameQuery.isEmpty
+                            ? null
+                            : IconButton(
+                                icon: Icon(Icons.clear),
+                                onPressed: () {
+                                  _searchController.clear();
+                                  onSearchChanged(
+                                    '',
+                                  ); // Limpa o filtro na store
+                                },
+                              ),
                       ),
                       onChanged: onSearchChanged,
                       onFieldSubmitted: (value) => _animateToEnd(),
