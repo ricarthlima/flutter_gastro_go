@@ -45,6 +45,13 @@ A lista de funcionalidades foi baseada no escopo do desafio.
 - [x] Navegação robusta com `GoRouter`
 - [x] Filtro "Apenas Vegano"
 
+### Extras
+- [x] Animação com Lottie para carregamento
+- [x] Shimmer para placeholder do carregamento de imagens
+- [x] Lógica de carrossel para banners
+- [x] Bloqueada rotação
+- [x] Tela de splash para inicialização
+- [x] Ícone de lançamento para Android
 
 ## 🏛️ Arquitetura e Decisões
 
