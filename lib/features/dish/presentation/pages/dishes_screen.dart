@@ -21,6 +21,8 @@ class _DishesScreenState extends State<DishesScreen> {
   final DishListStore store = getIt<DishListStore>();
   final FavoritesStore favoritesStore = getIt<FavoritesStore>();
 
+  final TextEditingController _searchController = TextEditingController();
+
   @override
   void initState() {
     super.initState();
@@ -30,102 +32,153 @@ class _DishesScreenState extends State<DishesScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: CustomScrollView(
-        slivers: [
-          SliverAppBar(
-            expandedHeight: 256,
-            pinned: true,
-            title: Text(widget.restaurant.name),
-            flexibleSpace: FlexibleSpaceBar(
-              background: Stack(
-                fit: StackFit.expand,
-                children: [
-                  Hero(
-                    tag: 'restaurant_image_${widget.restaurant.id}',
-                    child: Image.asset(
-                      "assets/images/${widget.restaurant.imageUrl ?? 'restaurants/default.png'}",
-                      fit: BoxFit.cover,
-                    ),
-                  ),
-                  Container(
-                    decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [
-                          Theme.of(
-                            context,
-                          ).scaffoldBackgroundColor.withAlpha(225),
-                          Colors.transparent,
-                        ],
-                        stops: const [0.0, 1],
+      body: SafeArea(
+        child: CustomScrollView(
+          slivers: [
+            SliverAppBar(
+              expandedHeight: 256,
+              pinned: true,
+              title: Text(widget.restaurant.name),
+              flexibleSpace: FlexibleSpaceBar(
+                background: Stack(
+                  fit: StackFit.expand,
+                  children: [
+                    Hero(
+                      tag: 'restaurant_image_${widget.restaurant.id}',
+                      child: Image.asset(
+                        "assets/images/${widget.restaurant.imageUrl ?? 'restaurants/default.png'}",
+                        fit: BoxFit.cover,
                       ),
                     ),
-                  ),
-                ],
-              ),
-            ),
-            actions: [
-              Observer(
-                builder: (context) {
-                  final isFavorite = favoritesStore.isRestaurantFavorite(
-                    widget.restaurant.id,
-                  );
-
-                  return IconButton(
-                    onPressed: () {
-                      favoritesStore.toggleRestaurantFavorite(
-                        widget.restaurant.id,
-                      );
-                    },
-                    icon: Icon(
-                      isFavorite
-                          ? Icons.favorite
-                          : Icons.favorite_border_outlined,
-                      color: isFavorite ? AppColors.main : null,
+                    Container(
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            Theme.of(
+                              context,
+                            ).scaffoldBackgroundColor.withAlpha(225),
+                            Colors.transparent,
+                          ],
+                          stops: const [0.0, 1],
+                        ),
+                      ),
                     ),
-                  );
-                },
+                    Center(child: Text(widget.restaurant.description)),
+                  ],
+                ),
               ),
-            ],
-          ),
+              actions: [
+                Observer(
+                  builder: (context) {
+                    final isFavorite = favoritesStore.isRestaurantFavorite(
+                      widget.restaurant.id,
+                    );
 
-          // 6. O Observer que lida com os estados da lista de PRATOS
-          SliverToBoxAdapter(
-            child: Observer(
-              builder: (_) {
-                // 7. Estado de Loading
-                if (store.isLoading) {
-                  return const Center(
-                    heightFactor: 5,
-                    child: CircularProgressIndicator(),
-                  );
-                }
-
-                // 8. Estado de Erro
-                if (store.hasError) {
-                  return Center(
-                    heightFactor: 5,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                    return IconButton(
+                      onPressed: () {
+                        favoritesStore.toggleRestaurantFavorite(
+                          widget.restaurant.id,
+                        );
+                      },
+                      icon: Icon(
+                        isFavorite
+                            ? Icons.favorite
+                            : Icons.favorite_border_outlined,
+                        color: isFavorite ? AppColors.main : null,
+                      ),
+                    );
+                  },
+                ),
+              ],
+            ),
+            SliverToBoxAdapter(
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
+                // Use um Observer para o botão de limpar
+                child: Observer(
+                  builder: (_) {
+                    return Row(
                       children: [
-                        Text(store.errorMessage ?? "Erro ao carregar pratos"),
-                        ElevatedButton(
-                          onPressed: () =>
-                              store.loadDishes(widget.restaurant.id),
-                          child: const Text("Tentar Novamente"),
+                        Flexible(
+                          child: TextFormField(
+                            controller: _searchController,
+                            decoration: InputDecoration(
+                              labelText: "Buscar no cardápio...",
+                              prefixIcon: Icon(Icons.search),
+                              border: OutlineInputBorder(
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                              suffixIcon: store.searchQuery.isEmpty
+                                  ? null
+                                  : IconButton(
+                                      icon: Icon(Icons.clear),
+                                      onPressed: () {
+                                        _searchController.clear();
+                                        store.setSearchQuery('');
+                                      },
+                                    ),
+                            ),
+                            onChanged: store.setSearchQuery,
+                          ),
+                        ),
+                        IconButton(
+                          icon: Icon(
+                            store.filterVegan ? Icons.eco : Icons.eco_outlined,
+                            color: store.filterVegan
+                                ? Colors.green
+                                : Colors.grey,
+                          ),
+                          iconSize: 32,
+                          tooltip: "Filtrar pratos veganos",
+
+                          onPressed: () {
+                            store.toggleVeganFilter(!store.filterVegan);
+                          },
                         ),
                       ],
-                    ),
-                  );
-                }
-
-                // 9. Estado de Sucesso (Lista de Pratos)
-                return _buildDishList(store.dishes);
-              },
+                    );
+                  },
+                ),
+              ),
             ),
-          ),
-        ],
+            SliverToBoxAdapter(
+              child: Observer(
+                builder: (_) {
+                  // 7. Estado de Loading
+                  if (store.isLoading) {
+                    return const Center(
+                      heightFactor: 5,
+                      child: CircularProgressIndicator(),
+                    );
+                  }
+
+                  // 8. Estado de Erro
+                  if (store.hasError) {
+                    return Center(
+                      heightFactor: 5,
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(store.errorMessage ?? "Erro ao carregar pratos"),
+                          ElevatedButton(
+                            onPressed: () =>
+                                store.loadDishes(widget.restaurant.id),
+                            child: const Text("Tentar Novamente"),
+                          ),
+                        ],
+                      ),
+                    );
+                  }
+
+                  // 9. Estado de Sucesso (Lista de Pratos)
+                  return _buildDishList(store.dishes);
+                },
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
