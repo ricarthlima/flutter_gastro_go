@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gastro_go/shared/widgets/error_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import '../../../../core/injection/injection_container.dart';
@@ -96,7 +97,6 @@ class _DishesScreenState extends State<DishesScreen> {
             SliverToBoxAdapter(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
-                // Use um Observer para o botão de limpar
                 child: Observer(
                   builder: (_) {
                     return Row(
@@ -146,7 +146,6 @@ class _DishesScreenState extends State<DishesScreen> {
             SliverToBoxAdapter(
               child: Observer(
                 builder: (_) {
-                  // 7. Estado de Loading
                   if (store.isLoading) {
                     return const Center(
                       heightFactor: 5,
@@ -154,25 +153,15 @@ class _DishesScreenState extends State<DishesScreen> {
                     );
                   }
 
-                  // 8. Estado de Erro
                   if (store.hasError) {
-                    return Center(
-                      heightFactor: 5,
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Text(store.errorMessage ?? "Erro ao carregar pratos"),
-                          ElevatedButton(
-                            onPressed: () =>
-                                store.loadDishes(widget.restaurant.id),
-                            child: const Text("Tentar Novamente"),
-                          ),
-                        ],
-                      ),
+                    return AppErrorWidget(
+                      message: store.errorMessage ?? "Erro ao carregar pratos",
+                      onPressed: () {
+                        store.loadDishes(widget.restaurant.id);
+                      },
                     );
                   }
 
-                  // 9. Estado de Sucesso (Lista de Pratos)
                   return _buildDishList(store.dishes);
                 },
               ),

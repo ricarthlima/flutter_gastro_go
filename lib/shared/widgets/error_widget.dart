@@ -1,0 +1,38 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_gastro_go/l10n/app_localizations.dart';
+
+class AppErrorWidget extends StatelessWidget {
+  final String message;
+  final Function() onPressed;
+  const AppErrorWidget({
+    super.key,
+    required this.message,
+    required this.onPressed,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Padding(
+        padding: EdgeInsetsGeometry.symmetric(horizontal: 32),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          spacing: 16,
+          children: [
+            Text(
+              "😭",
+              style: TextStyle(fontSize: 72),
+              textAlign: TextAlign.center,
+            ),
+            Text(message, textAlign: TextAlign.center),
+            ElevatedButton(
+              onPressed: onPressed,
+              child: Text(AppLocalizations.of(context)!.errorRetry),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}

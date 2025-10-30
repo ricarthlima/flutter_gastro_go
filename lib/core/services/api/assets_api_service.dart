@@ -12,9 +12,14 @@ class AssetsApiService implements IApiService {
     // Literalmente rolar um 1 natural kkkk
     if (Random().nextInt(20) == 1) {
       throw FailFetchDataException(
-        message: 'Não foi possível recuperar os dados',
+        message:
+            'Não foi possível recuperar os dados, você rolou um 1 natural.',
       );
     }
+
+    // Simulador de espera da rede
+    await Future.delayed(Duration(seconds: Random().nextInt(5)));
+
     return json.decode(await rootBundle.loadString(url));
   }
 }

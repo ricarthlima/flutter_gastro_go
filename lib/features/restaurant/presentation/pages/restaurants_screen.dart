@@ -3,6 +3,7 @@ import 'package:flutter_gastro_go/core/injection/injection_container.dart';
 import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
 import 'package:flutter_gastro_go/features/restaurant/presentation/stores/restaurant_list_store.dart';
 import 'package:flutter_gastro_go/features/restaurant/presentation/widgets/home_app_bar.dart';
+import 'package:flutter_gastro_go/shared/widgets/error_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import '../../helpers/categories_data.dart';
@@ -45,20 +46,9 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
             }
 
             if (store.hasError) {
-              return Center(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      store.errorMessage ?? "Erro",
-                      textAlign: TextAlign.center,
-                    ),
-                    ElevatedButton(
-                      onPressed: store.loadRestaurants,
-                      child: Text("Tentar Novamente"),
-                    ),
-                  ],
-                ),
+              return AppErrorWidget(
+                message: store.errorMessage ?? "Erro",
+                onPressed: store.loadRestaurants,
               );
             }
 

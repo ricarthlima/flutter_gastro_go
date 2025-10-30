@@ -63,7 +63,8 @@ abstract class _DishListStore with Store {
   Future<void> loadDishes(String restaurantId) async {
     // Evita recarregar se já estiver na tela do mesmo restaurante
     if (state == DishListState.loading ||
-        restaurantId == _currentRestaurantId) {
+        (restaurantId == _currentRestaurantId &&
+            state != DishListState.error)) {
       return;
     }
 
