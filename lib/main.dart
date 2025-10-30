@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_gastro_go/core/injection/injection_container.dart';
 import 'package:flutter_gastro_go/core/navigation/app_router.dart';
 import 'package:flutter_gastro_go/core/theme/app_theme.dart';
@@ -16,6 +17,8 @@ void main() async {
 
   await getIt<ThemeStore>().onLoad();
   await getIt<FavoritesStore>().loadAllFavoriteIds();
+
+  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
 
   runApp(const MainApp());
 }
