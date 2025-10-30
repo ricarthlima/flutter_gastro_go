@@ -259,6 +259,42 @@ abstract class AppLocalizations {
   /// In pt, this message translates to:
   /// **'O que você quer comer?'**
   String get homeSearchLabel;
+
+  /// No description provided for @clean.
+  ///
+  /// In pt, this message translates to:
+  /// **'Limpar'**
+  String get clean;
+
+  /// No description provided for @filterAndSort.
+  ///
+  /// In pt, this message translates to:
+  /// **'Filtros e ordenação'**
+  String get filterAndSort;
+
+  /// No description provided for @onlyVegans.
+  ///
+  /// In pt, this message translates to:
+  /// **'Apenas veganos'**
+  String get onlyVegans;
+
+  /// No description provided for @minimumRating.
+  ///
+  /// In pt, this message translates to:
+  /// **'Avaliação mínima'**
+  String get minimumRating;
+
+  /// No description provided for @maximumDistance.
+  ///
+  /// In pt, this message translates to:
+  /// **'Distância máxima'**
+  String get maximumDistance;
+
+  /// No description provided for @applyFilters.
+  ///
+  /// In pt, this message translates to:
+  /// **'Aplicar filtros'**
+  String get applyFilters;
 }
 
 class _AppLocalizationsDelegate

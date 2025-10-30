@@ -26,9 +26,12 @@ class AppErrorWidget extends StatelessWidget {
               child: Image.asset('assets/images/icons/dice.png'),
             ),
             Text(message, textAlign: TextAlign.center),
-            ElevatedButton(
-              onPressed: onPressed,
-              child: Text(AppLocalizations.of(context)!.errorRetry),
+            Tooltip(
+              message: AppLocalizations.of(context)!.errorRetry,
+              child: ElevatedButton(
+                onPressed: onPressed,
+                child: Text(AppLocalizations.of(context)!.errorRetry),
+              ),
             ),
           ],
         ),

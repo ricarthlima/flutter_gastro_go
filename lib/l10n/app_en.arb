@@ -26,5 +26,11 @@
     "homeWelcome": "Welcome!",
     "homeCategoryCTA": "What are you craving?",
     "homeRestaurants": "Restaurants for you",
-    "homeSearchLabel": "What do you want to eat?"
+    "homeSearchLabel": "What do you want to eat?",
+    "clean": "Clean",
+    "filterAndSort": "Filter and Sort",
+    "onlyVegans": "Only vegan",
+    "minimumRating": "Minimum Rating",
+    "maximumDistance": "Maximum Distance",
+    "applyFilters": "Apply Filters"
 }

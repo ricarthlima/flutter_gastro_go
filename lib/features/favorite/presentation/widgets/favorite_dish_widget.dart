@@ -53,6 +53,7 @@ class FavoriteDishWidget extends StatelessWidget {
                             restaurantId: dish.restaurantId,
                           );
                         },
+                        tooltip: i18n.navFavorites,
                         icon: Icon(
                           isFavorite ? Icons.favorite : Icons.favorite_border,
                           color: isFavorite ? Colors.red : Colors.white,

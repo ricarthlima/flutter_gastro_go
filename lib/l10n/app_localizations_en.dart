@@ -89,4 +89,22 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get homeSearchLabel => 'What do you want to eat?';
+
+  @override
+  String get clean => 'Clean';
+
+  @override
+  String get filterAndSort => 'Filter and Sort';
+
+  @override
+  String get onlyVegans => 'Only vegan';
+
+  @override
+  String get minimumRating => 'Minimum Rating';
+
+  @override
+  String get maximumDistance => 'Maximum Distance';
+
+  @override
+  String get applyFilters => 'Apply Filters';
 }

@@ -4,6 +4,7 @@ import 'package:flutter_gastro_go/core/constants/app_constants.dart';
 import 'package:flutter_gastro_go/core/theme/app_colors.dart';
 import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
 import 'package:flutter_gastro_go/features/restaurant/presentation/widgets/restaurant_fallback_image_widget.dart';
+import 'package:flutter_gastro_go/l10n/app_localizations.dart';
 import 'package:flutter_gastro_go/shared/widgets/image_placeholder_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:go_router/go_router.dart';
@@ -91,6 +92,7 @@ class RestaurantWidget extends StatelessWidget {
                   onPressed: () {
                     favoritesStore.toggleRestaurantFavorite(restaurant.id);
                   },
+                  tooltip: AppLocalizations.of(context)!.navFavorites,
                   icon: Icon(
                     isFavorite
                         ? Icons.favorite

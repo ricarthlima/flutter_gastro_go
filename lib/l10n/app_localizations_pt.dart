@@ -90,4 +90,22 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get homeSearchLabel => 'O que você quer comer?';
+
+  @override
+  String get clean => 'Limpar';
+
+  @override
+  String get filterAndSort => 'Filtros e ordenação';
+
+  @override
+  String get onlyVegans => 'Apenas veganos';
+
+  @override
+  String get minimumRating => 'Avaliação mínima';
+
+  @override
+  String get maximumDistance => 'Distância máxima';
+
+  @override
+  String get applyFilters => 'Aplicar filtros';
 }

@@ -26,5 +26,11 @@
     "homeWelcome": "Boas vindas!",
     "homeCategoryCTA": "Fome de quê?",
     "homeRestaurants": "Restaurantes para você",
-    "homeSearchLabel": "O que você quer comer?"
+    "homeSearchLabel": "O que você quer comer?",
+    "clean": "Limpar",
+    "filterAndSort": "Filtros e ordenação",
+    "onlyVegans": "Apenas veganos",
+    "minimumRating": "Avaliação mínima",
+    "maximumDistance": "Distância máxima",
+    "applyFilters": "Aplicar filtros"
 }

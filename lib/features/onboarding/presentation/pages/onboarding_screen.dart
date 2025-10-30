@@ -55,11 +55,14 @@ class OnboardingScreen extends StatelessWidget {
                     ),
                     SizedBox(
                       width: context.width,
-                      child: ElevatedButton(
-                        onPressed: () {
-                          context.goNamed(AppRouter.restaurants);
-                        },
-                        child: Text(i18n.onboardingCTA),
+                      child: Tooltip(
+                        message: i18n.onboardingCTA,
+                        child: ElevatedButton(
+                          onPressed: () {
+                            context.goNamed(AppRouter.restaurants);
+                          },
+                          child: Text(i18n.onboardingCTA),
+                        ),
                       ),
                     ),
                   ],

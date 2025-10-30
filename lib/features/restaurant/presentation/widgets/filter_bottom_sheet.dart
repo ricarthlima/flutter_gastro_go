@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gastro_go/features/restaurant/domain/usecases/sort_restaurants_usecase.dart';
+import 'package:flutter_gastro_go/l10n/app_localizations.dart';
 import '../models/restaurant_filter_model.dart';
 
 class FilterBottomSheet extends StatefulWidget {
@@ -29,6 +30,7 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
 
   @override
   Widget build(BuildContext context) {
+    final i18n = AppLocalizations.of(context)!;
     return SafeArea(
       child: Container(
         padding: const EdgeInsets.all(24.0),
@@ -38,20 +40,22 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
           spacing: 8,
           children: [
             Text(
-              "Filtros e Ordenação",
+              i18n.filterAndSort,
               style: Theme.of(context).textTheme.titleLarge,
             ),
-            Text("Ordenar por"),
+            Text(i18n.sortBy),
             SegmentedButton<SortType>(
-              segments: const [
+              segments: [
                 ButtonSegment(
                   value: SortType.byDistance,
-                  label: Text("Distância"),
+                  label: Text(i18n.distance),
+                  tooltip: i18n.distance,
                   icon: Icon(Icons.directions_walk),
                 ),
                 ButtonSegment(
                   value: SortType.byRating,
-                  label: Text("Avaliação"),
+                  label: Text(i18n.rating),
+                  tooltip: i18n.rating,
                   icon: Icon(Icons.star),
                 ),
               ],
@@ -65,20 +69,23 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
               },
             ),
             Divider(),
-            SwitchListTile(
-              title: const Text("Apenas veganos"),
-              value: _tempFilters.filterVegan,
-              contentPadding: EdgeInsets.zero,
-              secondary: Icon(Icons.eco),
-              onChanged: (newValue) {
-                setState(() {
-                  _tempFilters = _tempFilters.copyWith(filterVegan: newValue);
-                });
-              },
+            Tooltip(
+              message: i18n.onlyVegans,
+              child: SwitchListTile(
+                title: Text(i18n.onlyVegans),
+                value: _tempFilters.filterVegan,
+                contentPadding: EdgeInsets.zero,
+                secondary: Icon(Icons.eco),
+                onChanged: (newValue) {
+                  setState(() {
+                    _tempFilters = _tempFilters.copyWith(filterVegan: newValue);
+                  });
+                },
+              ),
             ),
             Divider(),
             Text(
-              "Avaliação Mínima: ${_tempFilters.minRating.toStringAsFixed(1)}",
+              "${i18n.minimumRating}: ${_tempFilters.minRating.toStringAsFixed(1)}",
             ),
             Slider(
               value: _tempFilters.minRating,
@@ -94,7 +101,7 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
             ),
             Divider(),
             Text(
-              "Distância Máxima: ${_tempFilters.maxDistance.toStringAsFixed(0)} km",
+              "${i18n.maximumDistance}: ${_tempFilters.maxDistance.toStringAsFixed(0)} km",
             ),
             Slider(
               value: _tempFilters.maxDistance,
@@ -113,17 +120,23 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
               spacing: 16,
               children: [
                 Expanded(
-                  child: OutlinedButton(
-                    onPressed: _clearModalFilters,
-                    child: const Text("Limpar"),
+                  child: Tooltip(
+                    message: i18n.clean,
+                    child: OutlinedButton(
+                      onPressed: _clearModalFilters,
+                      child: Text(i18n.clean),
+                    ),
                   ),
                 ),
                 Expanded(
-                  child: ElevatedButton(
-                    child: const Text("Aplicar Filtros"),
-                    onPressed: () {
-                      Navigator.pop(context, _tempFilters);
-                    },
+                  child: Tooltip(
+                    message: i18n.applyFilters,
+                    child: ElevatedButton(
+                      child: Text(i18n.applyFilters),
+                      onPressed: () {
+                        Navigator.pop(context, _tempFilters);
+                      },
+                    ),
                   ),
                 ),
               ],

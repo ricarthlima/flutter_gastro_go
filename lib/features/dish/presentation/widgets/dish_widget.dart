@@ -82,6 +82,7 @@ class DishWidget extends StatelessWidget {
                             restaurantId: dish.restaurantId,
                           );
                         },
+                        tooltip: i18n.navFavorites,
                         icon: Icon(
                           isFavorite
                               ? Icons.favorite

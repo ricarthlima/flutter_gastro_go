@@ -122,6 +122,7 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                                     ? null
                                     : IconButton(
                                         icon: Icon(Icons.clear),
+                                        tooltip: i18n.clean,
                                         onPressed: () {
                                           _searchController.clear();
                                           onSearchChanged(
@@ -136,6 +137,7 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                           ),
                           IconButton(
                             icon: Icon(Icons.filter_list),
+                            tooltip: i18n.filterBy,
                             onPressed: _showFilterModal,
                           ),
                         ],

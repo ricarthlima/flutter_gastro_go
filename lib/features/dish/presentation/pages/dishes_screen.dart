@@ -113,6 +113,7 @@ class _DishesScreenState extends State<DishesScreen> {
                             widget.restaurant.id,
                           );
                         },
+                        tooltip: i18n.navFavorites,
                         icon: Icon(
                           isFavorite
                               ? Icons.favorite
@@ -144,6 +145,7 @@ class _DishesScreenState extends State<DishesScreen> {
                                     ? null
                                     : IconButton(
                                         icon: Icon(Icons.clear),
+                                        tooltip: i18n.clean,
                                         onPressed: () {
                                           _searchController.clear();
                                           store.setSearchQuery('');
@@ -164,7 +166,6 @@ class _DishesScreenState extends State<DishesScreen> {
                             ),
                             iconSize: 32,
                             tooltip: i18n.filterVeganDishes,
-
                             onPressed: () {
                               store.toggleVeganFilter(!store.filterVegan);
                             },
