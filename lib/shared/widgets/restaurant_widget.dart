@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gastro_go/core/theme/app_colors.dart';
 import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../core/injection/injection_container.dart';
+import '../../core/navigation/app_router.dart';
 import '../../features/favorite/presentation/stores/favorites_store.dart';
 
 class RestaurantWidget extends StatelessWidget {
@@ -21,9 +23,12 @@ class RestaurantWidget extends StatelessWidget {
           Row(
             spacing: 16,
             children: [
-              Image.asset(
-                "assets/images/${restaurant.imageUrl ?? 'restaurants/default.png'}",
-                width: 96,
+              Hero(
+                tag: 'restaurant_image_${restaurant.id}',
+                child: Image.asset(
+                  "assets/images/${restaurant.imageUrl ?? 'restaurants/default.png'}",
+                  width: 96,
+                ),
               ),
               Column(
                 mainAxisSize: MainAxisSize.min,
@@ -85,7 +90,12 @@ class RestaurantWidget extends StatelessWidget {
   }
 
   void _onRestaurantPressed(BuildContext context) {
-    // context.push(AppRouter.restaurant, extra: restaurant);
-    // context.go("${AppRouter.restaurant}/${restaurant.id}");
+    context.push(
+      context.namedLocation(
+        AppRouter.dishes,
+        pathParameters: {'rid': restaurant.id},
+      ),
+      extra: restaurant,
+    );
   }
 }

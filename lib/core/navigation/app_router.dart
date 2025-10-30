@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import '../../features/dish/presentation/pages/dishes_screen.dart';
 import '../../features/favorite/presentation/pages/favorite_screen.dart';
 import '../../features/onboarding/presentation/pages/onboarding_screen.dart';
+import '../../features/restaurant/domain/entities/restaurant_dto.dart';
 import '../../features/restaurant/presentation/pages/restaurants_screen.dart';
 
 class AppRouter {
@@ -28,9 +29,8 @@ class AppRouter {
             path: dishes,
             name: dishes,
             builder: (context, state) {
-              // Pega o ID do restaurante da URL
-              final restaurantId = state.pathParameters['rid']!;
-              return DishesScreen(restaurantId: restaurantId);
+              final restaurant = state.extra as RestaurantDto;
+              return DishesScreen(restaurant: restaurant);
             },
           ),
         ],
