@@ -1,5 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_gastro_go/features/restaurant/presentation/widgets/restaurant_fallback_image_widget.dart';
 import 'package:flutter_gastro_go/shared/widgets/error_widget.dart';
 import 'package:flutter_gastro_go/shared/widgets/image_placeholder_widget.dart';
 import 'package:flutter_gastro_go/shared/widgets/loading_widget.dart';
@@ -61,10 +62,8 @@ class _DishesScreenState extends State<DishesScreen> {
                         imageUrl: imageUrl,
                         fit: BoxFit.cover,
                         placeholder: (context, url) => ImagePlaceholderWidget(),
-                        errorWidget: (context, url, error) => Image.asset(
-                          AppConstants.fallbackImageRestaurant,
-                          fit: BoxFit.cover,
-                        ),
+                        errorWidget: (context, url, error) =>
+                            RestaurantFallbackImageWidget(),
                       ),
                     ),
                     Container(

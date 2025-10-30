@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gastro_go/core/injection/injection_container.dart';
 import 'package:flutter_gastro_go/features/dish/domain/entities/dish_dto.dart';
 import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
+import 'package:flutter_gastro_go/features/restaurant/presentation/widgets/restaurant_fallback_image_widget.dart';
 import 'package:flutter_gastro_go/shared/widgets/image_placeholder_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
@@ -151,10 +152,8 @@ class _RestaurantChip extends StatelessWidget {
               imageUrl: imageUrl,
               fit: BoxFit.cover,
               placeholder: (context, url) => ImagePlaceholderWidget(),
-              errorWidget: (context, url, error) => Image.asset(
-                AppConstants.fallbackImageRestaurant,
-                fit: BoxFit.cover,
-              ),
+              errorWidget: (context, url, error) =>
+                  RestaurantFallbackImageWidget(),
             ),
           ),
           Text(
