@@ -95,7 +95,7 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                               child: CategoryWidget(
                                 category: category,
                                 isSelected:
-                                    store.categoryQuery == category.name,
+                                    store.selectedCategory == category.name,
                               ),
                             );
                           },
@@ -134,7 +134,13 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
     );
   }
 
-  void onCategoryTap(String categoryName) {}
+  void onCategoryTap(String categoryName) {
+    if (store.selectedCategory == categoryName) {
+      store.setSelectedCategory('');
+    } else {
+      store.setSelectedCategory(categoryName);
+    }
+  }
 
   void _animateToEnd() {
     _scrollController.animateTo(
