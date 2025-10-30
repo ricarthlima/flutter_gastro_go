@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gastro_go/core/injection/injection_container.dart';
 import 'package:flutter_gastro_go/features/favorite/presentation/stores/favorites_store.dart';
 import 'package:flutter_gastro_go/features/favorite/presentation/widgets/favorite_dish_widget.dart';
+import 'package:flutter_gastro_go/shared/widgets/error_widget.dart';
 import 'package:flutter_gastro_go/shared/widgets/restaurant_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
@@ -48,17 +49,9 @@ class _FavoriteScreenState extends State<FavoriteScreen>
             }
 
             if (store.state == FavoritesState.error) {
-              return Center(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(store.errorMessage ?? i18n.errorLoading),
-                    ElevatedButton(
-                      onPressed: store.loadFavoritesScreenData,
-                      child: Text(i18n.errorRetry),
-                    ),
-                  ],
-                ),
+              return AppErrorWidget(
+                message: store.errorMessage ?? i18n.errorLoading,
+                onPressed: store.loadFavoritesScreenData,
               );
             }
 

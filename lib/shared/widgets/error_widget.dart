@@ -20,10 +20,10 @@ class AppErrorWidget extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           spacing: 16,
           children: [
-            Text(
-              "😭",
-              style: TextStyle(fontSize: 72),
-              textAlign: TextAlign.center,
+            SizedBox(
+              width: 128,
+              height: 128,
+              child: Image.asset('assets/images/icons/dice.png'),
             ),
             Text(message, textAlign: TextAlign.center),
             ElevatedButton(
