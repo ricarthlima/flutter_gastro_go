@@ -3,8 +3,7 @@
 > Este projeto é uma solução para o **Desafio Mobile Flutter**, com foco em **arquitetura limpa**, **gerenciamento de estado reativo**, **testes** e **boas práticas** de desenvolvimento. Trata-se das telas iniciais de um aplicativo agregador de restaurantes, como iFood.
 
 <p align="center">
-  <video src="https://github.com/ricarthlima/flutter_gastro_go/raw/main/docs/demo.mp4"
-         autoplay loop muted playsinline height="400"></video>
+  <img src="docs/gif.gif" alt="Tela inicial" height="500"/>
 </p>
 
 ## ✨ Funcionalidades Implementadas
