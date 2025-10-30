@@ -4,6 +4,7 @@ import 'package:flutter_gastro_go/core/navigation/app_router.dart';
 import 'package:flutter_gastro_go/core/theme/app_theme.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
+import 'features/favorite/presentation/stores/favorites_store.dart';
 import 'features/settings/domain/stores/theme_store.dart';
 import 'l10n/app_localizations.dart';
 
@@ -14,6 +15,7 @@ void main() async {
   await getIt.allReady();
 
   await getIt<ThemeStore>().onLoad();
+  await getIt<FavoritesStore>().loadAllFavoriteIds();
 
   runApp(const MainApp());
 }
