@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'app_colors.dart';
 
 abstract class AppTheme {
+  static const _dividerTheme = DividerThemeData(thickness: 0.5);
+
   static const _baseTextTheme = TextTheme(
     headlineMedium: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
     bodyMedium: TextStyle(fontSize: 16, height: 1.5),
@@ -81,6 +83,7 @@ abstract class AppTheme {
       appBarTheme: _appBarTheme,
       textTheme: base.textTheme.merge(_baseTextTheme),
       inputDecorationTheme: _inputDecorationTheme,
+      dividerTheme: _dividerTheme,
       cardTheme: CardThemeData(shape: _baseShape, elevation: 6),
     );
   }();
@@ -95,7 +98,7 @@ abstract class AppTheme {
       scaffoldBackgroundColor: AppColors.background,
       elevatedButtonTheme: _elevatedButtonThemeData,
       appBarTheme: _appBarTheme,
-      // AQUI ESTÁ A MUDANÇA:
+      dividerTheme: _dividerTheme,
       textTheme: base.textTheme.merge(_baseTextTheme),
       inputDecorationTheme: _inputDecorationTheme,
       cardTheme: CardThemeData(shape: _baseShape, elevation: 6),

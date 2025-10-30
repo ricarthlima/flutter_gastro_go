@@ -7,7 +7,9 @@ import 'package:flutter_mobx/flutter_mobx.dart';
 
 import '../../helpers/categories_data.dart';
 import '../../helpers/category_model.dart';
+import '../models/restaurant_filter_model.dart';
 import '../widgets/category_widget.dart';
+import '../widgets/filter_bottom_sheet.dart';
 import '../widgets/restaurant_widget.dart';
 
 class RestaurantsScreen extends StatefulWidget {
@@ -106,25 +108,36 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                       "Restaurantes para você",
                       style: Theme.of(context).textTheme.titleMedium,
                     ),
-                    TextFormField(
-                      controller: _searchController,
-                      decoration: InputDecoration(
-                        prefixIcon: Icon(Icons.search),
-                        labelText: "O que você quer comer?",
-                        suffixIcon: store.nameQuery.isEmpty
-                            ? null
-                            : IconButton(
-                                icon: Icon(Icons.clear),
-                                onPressed: () {
-                                  _searchController.clear();
-                                  onSearchChanged(
-                                    '',
-                                  ); // Limpa o filtro na store
-                                },
-                              ),
-                      ),
-                      onChanged: onSearchChanged,
-                      onFieldSubmitted: (value) => _animateToEnd(),
+
+                    Row(
+                      children: [
+                        Flexible(
+                          child: TextFormField(
+                            controller: _searchController,
+                            decoration: InputDecoration(
+                              prefixIcon: Icon(Icons.search),
+                              labelText: "O que você quer comer?",
+                              suffixIcon: store.nameQuery.isEmpty
+                                  ? null
+                                  : IconButton(
+                                      icon: Icon(Icons.clear),
+                                      onPressed: () {
+                                        _searchController.clear();
+                                        onSearchChanged(
+                                          '',
+                                        ); // Limpa o filtro na store
+                                      },
+                                    ),
+                            ),
+                            onChanged: onSearchChanged,
+                            onFieldSubmitted: (value) => _animateToEnd(),
+                          ),
+                        ),
+                        IconButton(
+                          icon: Icon(Icons.filter_list),
+                          onPressed: _showFilterModal,
+                        ),
+                      ],
                     ),
                     Column(
                       spacing: 16,
@@ -164,5 +177,29 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
       duration: Duration(milliseconds: 750),
       curve: Curves.ease,
     );
+  }
+
+  void _showFilterModal() async {
+    final currentFilters = RestaurantFilterModel(
+      sortType: store.sortType,
+      minRating: store.minRating,
+      maxDistance: store.maxDistance,
+      filterVegan: store.filterVegan,
+    );
+
+    final newFilters = await showModalBottomSheet<RestaurantFilterModel>(
+      context: context,
+      isScrollControlled: true,
+      builder: (ctx) {
+        return FilterBottomSheet(initialFilters: currentFilters);
+      },
+    );
+
+    if (newFilters != null) {
+      store.setSort(newFilters.sortType);
+      store.setRating(newFilters.minRating);
+      store.setDistance(newFilters.maxDistance);
+      store.toggleVeganFilter(newFilters.filterVegan);
+    }
   }
 }
