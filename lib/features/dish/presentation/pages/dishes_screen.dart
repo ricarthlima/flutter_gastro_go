@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gastro_go/shared/widgets/error_widget.dart';
+import 'package:flutter_gastro_go/shared/widgets/loading_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import '../../../../core/injection/injection_container.dart';
@@ -150,10 +151,7 @@ class _DishesScreenState extends State<DishesScreen> {
               child: Observer(
                 builder: (_) {
                   if (store.isLoading) {
-                    return const Center(
-                      heightFactor: 5,
-                      child: CircularProgressIndicator(),
-                    );
+                    return LoadingWidget();
                   }
 
                   if (store.hasError) {

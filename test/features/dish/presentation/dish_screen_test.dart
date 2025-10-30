@@ -7,6 +7,7 @@ import 'package:flutter_gastro_go/features/favorite/presentation/stores/favorite
 import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
 import 'package:flutter_gastro_go/features/settings/domain/stores/theme_store.dart';
 import 'package:flutter_gastro_go/l10n/app_localizations.dart';
+import 'package:flutter_gastro_go/shared/widgets/loading_widget.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mobx/mobx.dart' show ObservableList;
 import 'package:mockito/mockito.dart';
@@ -68,7 +69,7 @@ void main() {
     await tester.pump(); // Aguarda os Futures do initState
 
     // 5. Verifique
-    expect(find.byType(CircularProgressIndicator), findsOneWidget);
+    expect(find.byType(LoadingWidget), findsOneWidget);
   });
 
   testWidgets('deve exibir a lista de pratos quando carregar com sucesso', (
@@ -101,6 +102,6 @@ void main() {
       find.text('Prato Falso Teste'),
       findsOneWidget,
     ); // (No item da lista)
-    expect(find.byType(CircularProgressIndicator), findsNothing);
+    expect(find.byType(LoadingWidget), findsNothing);
   });
 }

@@ -4,6 +4,7 @@ import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant
 import 'package:flutter_gastro_go/features/restaurant/presentation/stores/restaurant_list_store.dart';
 import 'package:flutter_gastro_go/features/restaurant/presentation/widgets/home_app_bar.dart';
 import 'package:flutter_gastro_go/shared/widgets/error_widget.dart';
+import 'package:flutter_gastro_go/shared/widgets/loading_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import '../../../../l10n/app_localizations.dart';
@@ -45,7 +46,7 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
         child: Observer(
           builder: (context) {
             if (store.isLoading) {
-              return Center(child: CircularProgressIndicator());
+              return LoadingWidget();
             }
 
             if (store.hasError) {

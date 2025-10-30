@@ -6,6 +6,7 @@ import 'package:flutter_gastro_go/features/restaurant/presentation/pages/restaur
 import 'package:flutter_gastro_go/features/restaurant/presentation/stores/restaurant_list_store.dart';
 import 'package:flutter_gastro_go/features/settings/domain/stores/theme_store.dart';
 import 'package:flutter_gastro_go/l10n/app_localizations.dart';
+import 'package:flutter_gastro_go/shared/widgets/loading_widget.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mobx/mobx.dart' show ObservableList;
 import 'package:mockito/mockito.dart';
@@ -57,7 +58,7 @@ void main() {
     await tester.pumpWidget(createTestApp(const RestaurantsScreen()));
 
     // 5. Verifique
-    expect(find.byType(CircularProgressIndicator), findsOneWidget);
+    expect(find.byType(LoadingWidget), findsOneWidget);
   });
 
   testWidgets(
@@ -86,7 +87,7 @@ void main() {
       // 5. Verifique
       expect(find.text("Boas vindas!"), findsOneWidget);
       expect(find.text("Restaurante Falso Teste"), findsOneWidget);
-      expect(find.byType(CircularProgressIndicator), findsNothing);
+      expect(find.byType(LoadingWidget), findsNothing);
     },
   );
 }
