@@ -6,6 +6,7 @@ import 'package:flutter_gastro_go/features/restaurant/presentation/widgets/home_
 import 'package:flutter_gastro_go/shared/widgets/error_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
+import '../../../../l10n/app_localizations.dart';
 import '../../helpers/categories_data.dart';
 import '../../helpers/category_model.dart';
 import '../models/restaurant_filter_model.dart';
@@ -36,6 +37,8 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final i18n = AppLocalizations.of(context)!;
+
     return Scaffold(
       appBar: HomeAppBar(),
       body: SafeArea(
@@ -47,7 +50,7 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
 
             if (store.hasError) {
               return AppErrorWidget(
-                message: store.errorMessage ?? "Erro",
+                message: store.errorMessage ?? i18n.errorLoading,
                 onPressed: store.loadRestaurants,
               );
             }
@@ -61,14 +64,14 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                   spacing: 16,
                   children: [
                     Text(
-                      "Boas vindas!",
+                      i18n.homeWelcome,
                       style: Theme.of(context).textTheme.titleMedium!.copyWith(
                         fontWeight: FontWeight.w700,
                       ),
                     ),
                     Image.asset("assets/images/banners/banner_promo.png"),
                     Text(
-                      "Fome de quê?",
+                      i18n.homeCategoryCTA,
                       style: Theme.of(context).textTheme.titleMedium,
                     ),
                     SingleChildScrollView(
@@ -95,7 +98,7 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                       ),
                     ),
                     Text(
-                      "Restaurantes para você",
+                      i18n.homeRestaurants,
                       style: Theme.of(context).textTheme.titleMedium,
                     ),
 
@@ -106,7 +109,7 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                             controller: _searchController,
                             decoration: InputDecoration(
                               prefixIcon: Icon(Icons.search),
-                              labelText: "O que você quer comer?",
+                              labelText: i18n.homeSearchLabel,
                               suffixIcon: store.nameQuery.isEmpty
                                   ? null
                                   : IconButton(

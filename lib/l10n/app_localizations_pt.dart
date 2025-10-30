@@ -49,4 +49,45 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get errorRetry => 'Tentar Novamente';
+
+  @override
+  String get searchDishes => 'Buscar no cardápio...';
+
+  @override
+  String get filterVeganDishes => 'Filtrar pratos veganos';
+
+  @override
+  String get dishesLoadingError => 'Erro ao carregar pratos';
+
+  @override
+  String get noDishesOnRestaurant =>
+      'Este restaurante não possui pratos cadastrados.';
+
+  @override
+  String get emptyFavoriteRestaurants =>
+      'Você ainda não favoritou restaurantes.';
+
+  @override
+  String get emptyFavoriteDishes => 'Você ainda não favoritou pratos.';
+
+  @override
+  String get onboardingUpperQuote => 'Uma experiência culinária';
+
+  @override
+  String get onboardingLowerQuote => 'para quem está \'ready to go\'!';
+
+  @override
+  String get onboardingCTA => 'Bora!';
+
+  @override
+  String get homeWelcome => 'Boas vindas!';
+
+  @override
+  String get homeCategoryCTA => 'Fome de quê?';
+
+  @override
+  String get homeRestaurants => 'Restaurantes para você';
+
+  @override
+  String get homeSearchLabel => 'O que você quer comer?';
 }

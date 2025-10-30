@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gastro_go/core/extensions/context_dimensions.dart';
 import 'package:flutter_gastro_go/core/navigation/app_router.dart';
+import 'package:flutter_gastro_go/l10n/app_localizations.dart';
 import 'package:flutter_gastro_go/shared/widgets/logo_widget.dart';
 import 'package:go_router/go_router.dart';
 
@@ -11,6 +12,8 @@ class OnboardingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final i18n = AppLocalizations.of(context)!;
+
     return Scaffold(
       body: Stack(
         children: [
@@ -37,11 +40,11 @@ class OnboardingScreen extends StatelessWidget {
                     Column(
                       children: [
                         Text(
-                          "Uma experiência culinária",
+                          i18n.onboardingUpperQuote,
                           style: Theme.of(context).textTheme.titleMedium!,
                         ),
                         Text(
-                          "para quem está 'ready to go'!",
+                          i18n.onboardingLowerQuote,
                           style: Theme.of(context).textTheme.titleMedium!
                               .copyWith(
                                 fontWeight: FontWeight.w700,
@@ -56,7 +59,7 @@ class OnboardingScreen extends StatelessWidget {
                         onPressed: () {
                           context.goNamed(AppRouter.restaurants);
                         },
-                        child: Text("Bora!"),
+                        child: Text(i18n.onboardingCTA),
                       ),
                     ),
                   ],

@@ -49,4 +49,44 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get errorRetry => 'Try Again';
+
+  @override
+  String get searchDishes => 'Search the menu...';
+
+  @override
+  String get filterVeganDishes => 'Filter vegan dishes';
+
+  @override
+  String get dishesLoadingError => 'Error loading dishes';
+
+  @override
+  String get noDishesOnRestaurant => 'This restaurant has no dishes yet.';
+
+  @override
+  String get emptyFavoriteRestaurants =>
+      'You haven\'t favorited any restaurants yet.';
+
+  @override
+  String get emptyFavoriteDishes => 'You haven\'t favorited any dishes yet.';
+
+  @override
+  String get onboardingUpperQuote => 'A culinary experience';
+
+  @override
+  String get onboardingLowerQuote => 'for those who are \'ready to go\'!';
+
+  @override
+  String get onboardingCTA => 'Let\'s go!';
+
+  @override
+  String get homeWelcome => 'Welcome!';
+
+  @override
+  String get homeCategoryCTA => 'What are you craving?';
+
+  @override
+  String get homeRestaurants => 'Restaurants for you';
+
+  @override
+  String get homeSearchLabel => 'What do you want to eat?';
 }

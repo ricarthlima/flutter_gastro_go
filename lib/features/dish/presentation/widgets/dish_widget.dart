@@ -3,6 +3,7 @@ import 'package:flutter_gastro_go/core/injection/injection_container.dart';
 import 'package:flutter_gastro_go/core/theme/app_colors.dart';
 import 'package:flutter_gastro_go/features/dish/domain/entities/dish_dto.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
+import '../../../../l10n/app_localizations.dart';
 import '../../../favorite/presentation/stores/favorites_store.dart';
 
 class DishWidget extends StatelessWidget {
@@ -13,6 +14,7 @@ class DishWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final FavoritesStore favoritesStore = getIt<FavoritesStore>();
+    final i18n = AppLocalizations.of(context)!;
 
     return Card(
       clipBehavior: Clip.antiAlias,
@@ -32,7 +34,7 @@ class DishWidget extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(Icons.eco),
-                    Text("Vegano", style: TextStyle(color: Colors.white)),
+                    Text(i18n.vegan, style: TextStyle(color: Colors.white)),
                   ],
                 ),
               ),

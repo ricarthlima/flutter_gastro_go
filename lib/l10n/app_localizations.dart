@@ -100,87 +100,165 @@ abstract class AppLocalizations {
 
   /// No description provided for @appTitle.
   ///
-  /// In en, this message translates to:
+  /// In pt, this message translates to:
   /// **'GastroGo'**
   String get appTitle;
 
   /// No description provided for @navRestaurants.
   ///
-  /// In en, this message translates to:
-  /// **'Restaurants'**
+  /// In pt, this message translates to:
+  /// **'Restaurantes'**
   String get navRestaurants;
 
   /// No description provided for @navFavorites.
   ///
-  /// In en, this message translates to:
-  /// **'Favorites'**
+  /// In pt, this message translates to:
+  /// **'Favoritos'**
   String get navFavorites;
 
   /// No description provided for @searchHint.
   ///
-  /// In en, this message translates to:
-  /// **'Search restaurants...'**
+  /// In pt, this message translates to:
+  /// **'Buscar restaurantes...'**
   String get searchHint;
 
   /// No description provided for @filterBy.
   ///
-  /// In en, this message translates to:
-  /// **'Filter by'**
+  /// In pt, this message translates to:
+  /// **'Filtrar por'**
   String get filterBy;
 
   /// No description provided for @sortBy.
   ///
-  /// In en, this message translates to:
-  /// **'Sort by'**
+  /// In pt, this message translates to:
+  /// **'Ordenar por'**
   String get sortBy;
 
   /// No description provided for @rating.
   ///
-  /// In en, this message translates to:
-  /// **'Rating'**
+  /// In pt, this message translates to:
+  /// **'Avaliação'**
   String get rating;
 
   /// No description provided for @distance.
   ///
-  /// In en, this message translates to:
-  /// **'Distance'**
+  /// In pt, this message translates to:
+  /// **'Distância'**
   String get distance;
 
   /// No description provided for @dishes.
   ///
-  /// In en, this message translates to:
-  /// **'Dishes'**
+  /// In pt, this message translates to:
+  /// **'Pratos'**
   String get dishes;
 
   /// No description provided for @vegan.
   ///
-  /// In en, this message translates to:
-  /// **'Vegan'**
+  /// In pt, this message translates to:
+  /// **'Vegano'**
   String get vegan;
 
   /// No description provided for @favoritesRestaurantsTitle.
   ///
-  /// In en, this message translates to:
-  /// **'Favorite Restaurants'**
+  /// In pt, this message translates to:
+  /// **'Restaurantes Favoritos'**
   String get favoritesRestaurantsTitle;
 
   /// No description provided for @favoritesDishesTitle.
   ///
-  /// In en, this message translates to:
-  /// **'Favorite Dishes'**
+  /// In pt, this message translates to:
+  /// **'Pratos Favoritos'**
   String get favoritesDishesTitle;
 
   /// No description provided for @errorLoading.
   ///
-  /// In en, this message translates to:
-  /// **'Failed to load data'**
+  /// In pt, this message translates to:
+  /// **'Falha ao carregar dados'**
   String get errorLoading;
 
   /// No description provided for @errorRetry.
   ///
-  /// In en, this message translates to:
-  /// **'Try Again'**
+  /// In pt, this message translates to:
+  /// **'Tentar Novamente'**
   String get errorRetry;
+
+  /// No description provided for @searchDishes.
+  ///
+  /// In pt, this message translates to:
+  /// **'Buscar no cardápio...'**
+  String get searchDishes;
+
+  /// No description provided for @filterVeganDishes.
+  ///
+  /// In pt, this message translates to:
+  /// **'Filtrar pratos veganos'**
+  String get filterVeganDishes;
+
+  /// No description provided for @dishesLoadingError.
+  ///
+  /// In pt, this message translates to:
+  /// **'Erro ao carregar pratos'**
+  String get dishesLoadingError;
+
+  /// No description provided for @noDishesOnRestaurant.
+  ///
+  /// In pt, this message translates to:
+  /// **'Este restaurante não possui pratos cadastrados.'**
+  String get noDishesOnRestaurant;
+
+  /// No description provided for @emptyFavoriteRestaurants.
+  ///
+  /// In pt, this message translates to:
+  /// **'Você ainda não favoritou restaurantes.'**
+  String get emptyFavoriteRestaurants;
+
+  /// No description provided for @emptyFavoriteDishes.
+  ///
+  /// In pt, this message translates to:
+  /// **'Você ainda não favoritou pratos.'**
+  String get emptyFavoriteDishes;
+
+  /// No description provided for @onboardingUpperQuote.
+  ///
+  /// In pt, this message translates to:
+  /// **'Uma experiência culinária'**
+  String get onboardingUpperQuote;
+
+  /// No description provided for @onboardingLowerQuote.
+  ///
+  /// In pt, this message translates to:
+  /// **'para quem está \'ready to go\'!'**
+  String get onboardingLowerQuote;
+
+  /// No description provided for @onboardingCTA.
+  ///
+  /// In pt, this message translates to:
+  /// **'Bora!'**
+  String get onboardingCTA;
+
+  /// No description provided for @homeWelcome.
+  ///
+  /// In pt, this message translates to:
+  /// **'Boas vindas!'**
+  String get homeWelcome;
+
+  /// No description provided for @homeCategoryCTA.
+  ///
+  /// In pt, this message translates to:
+  /// **'Fome de quê?'**
+  String get homeCategoryCTA;
+
+  /// No description provided for @homeRestaurants.
+  ///
+  /// In pt, this message translates to:
+  /// **'Restaurantes para você'**
+  String get homeRestaurants;
+
+  /// No description provided for @homeSearchLabel.
+  ///
+  /// In pt, this message translates to:
+  /// **'O que você quer comer?'**
+  String get homeSearchLabel;
 }
 
 class _AppLocalizationsDelegate

@@ -65,10 +65,10 @@ class _FavoriteScreenState extends State<FavoriteScreen>
   }
 
   Widget _buildRestaurantList() {
+    final i18n = AppLocalizations.of(context)!;
+
     if (store.favoriteRestaurants.isEmpty) {
-      return const Center(
-        child: Text("Você ainda não favoritou restaurantes."),
-      );
+      return Center(child: Text(i18n.emptyFavoriteRestaurants));
     }
     return ListView.separated(
       padding: const EdgeInsets.all(16),
@@ -82,8 +82,10 @@ class _FavoriteScreenState extends State<FavoriteScreen>
   }
 
   Widget _buildDishList() {
+    final i18n = AppLocalizations.of(context)!;
+
     if (store.favoriteDishes.isEmpty) {
-      return const Center(child: Text("Você ainda não favoritou pratos."));
+      return Center(child: Text(i18n.emptyFavoriteDishes));
     }
     return GridView.builder(
       padding: const EdgeInsets.all(16),

@@ -4,6 +4,7 @@ import 'package:flutter_mobx/flutter_mobx.dart';
 
 import '../../../../core/injection/injection_container.dart';
 import '../../../../core/theme/app_colors.dart';
+import '../../../../l10n/app_localizations.dart';
 import '../widgets/dish_widget.dart';
 import '../../../favorite/presentation/stores/favorites_store.dart';
 import '../../../restaurant/domain/entities/restaurant_dto.dart';
@@ -32,6 +33,8 @@ class _DishesScreenState extends State<DishesScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final i18n = AppLocalizations.of(context)!;
+
     return Scaffold(
       body: SafeArea(
         child: CustomScrollView(
@@ -105,7 +108,7 @@ class _DishesScreenState extends State<DishesScreen> {
                           child: TextFormField(
                             controller: _searchController,
                             decoration: InputDecoration(
-                              labelText: "Buscar no cardápio...",
+                              labelText: i18n.searchDishes,
                               prefixIcon: Icon(Icons.search),
                               border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(12),
@@ -131,7 +134,7 @@ class _DishesScreenState extends State<DishesScreen> {
                                 : Colors.grey,
                           ),
                           iconSize: 32,
-                          tooltip: "Filtrar pratos veganos",
+                          tooltip: i18n.filterVeganDishes,
 
                           onPressed: () {
                             store.toggleVeganFilter(!store.filterVegan);
@@ -155,14 +158,14 @@ class _DishesScreenState extends State<DishesScreen> {
 
                   if (store.hasError) {
                     return AppErrorWidget(
-                      message: store.errorMessage ?? "Erro ao carregar pratos",
+                      message: store.errorMessage ?? i18n.dishesLoadingError,
                       onPressed: () {
                         store.loadDishes(widget.restaurant.id);
                       },
                     );
                   }
 
-                  return _buildDishList(store.dishes);
+                  return _buildDishList(store.dishes, i18n);
                 },
               ),
             ),
@@ -172,12 +175,9 @@ class _DishesScreenState extends State<DishesScreen> {
     );
   }
 
-  Widget _buildDishList(List<DishDto> dishes) {
+  Widget _buildDishList(List<DishDto> dishes, AppLocalizations i18n) {
     if (dishes.isEmpty) {
-      return const Center(
-        heightFactor: 5,
-        child: Text("Este restaurante não possui pratos cadastrados."),
-      );
+      return Center(heightFactor: 5, child: Text(i18n.noDishesOnRestaurant));
     }
     return ListView.separated(
       itemCount: dishes.length,

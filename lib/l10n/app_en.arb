@@ -13,5 +13,18 @@
     "favoritesRestaurantsTitle": "Favorite Restaurants",
     "favoritesDishesTitle": "Favorite Dishes",
     "errorLoading": "Failed to load data",
-    "errorRetry": "Try Again"
+    "errorRetry": "Try Again",
+    "searchDishes": "Search the menu...",
+    "filterVeganDishes": "Filter vegan dishes",
+    "dishesLoadingError": "Error loading dishes",
+    "noDishesOnRestaurant": "This restaurant has no dishes yet.",
+    "emptyFavoriteRestaurants": "You haven't favorited any restaurants yet.",
+    "emptyFavoriteDishes": "You haven't favorited any dishes yet.",
+    "onboardingUpperQuote": "A culinary experience",
+    "onboardingLowerQuote": "for those who are 'ready to go'!",
+    "onboardingCTA": "Let's go!",
+    "homeWelcome": "Welcome!",
+    "homeCategoryCTA": "What are you craving?",
+    "homeRestaurants": "Restaurants for you",
+    "homeSearchLabel": "What do you want to eat?"
 }

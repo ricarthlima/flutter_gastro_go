@@ -13,5 +13,18 @@
     "favoritesRestaurantsTitle": "Restaurantes Favoritos",
     "favoritesDishesTitle": "Pratos Favoritos",
     "errorLoading": "Falha ao carregar dados",
-    "errorRetry": "Tentar Novamente"
+    "errorRetry": "Tentar Novamente",
+    "searchDishes": "Buscar no cardápio...",
+    "filterVeganDishes": "Filtrar pratos veganos",
+    "dishesLoadingError": "Erro ao carregar pratos",
+    "noDishesOnRestaurant": "Este restaurante não possui pratos cadastrados.",
+    "emptyFavoriteRestaurants": "Você ainda não favoritou restaurantes.",
+    "emptyFavoriteDishes": "Você ainda não favoritou pratos.",
+    "onboardingUpperQuote": "Uma experiência culinária",
+    "onboardingLowerQuote": "para quem está 'ready to go'!",
+    "onboardingCTA": "Bora!",
+    "homeWelcome": "Boas vindas!",
+    "homeCategoryCTA": "Fome de quê?",
+    "homeRestaurants": "Restaurantes para você",
+    "homeSearchLabel": "O que você quer comer?"
 }
