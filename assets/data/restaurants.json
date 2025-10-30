@@ -9,7 +9,7 @@
         "Principais",
         "Petiscos"
       ],
-      "rating": 4.3,
+      "rating": 1.5,
       "imageUrl": "restaurants/monstro-burguer.png"
     },
     {
@@ -21,7 +21,7 @@
         "Petiscos",
         "Bebidas"
       ],
-      "rating": 4.7,
+      "rating": 2.1,
       "imageUrl": "restaurants/cabron-mexicano.png"
     },
     {
@@ -33,7 +33,7 @@
         "Principais",
         "Bebidas"
       ],
-      "rating": 5,
+      "rating": 4.8,
       "imageUrl": "restaurants/foodcourt-natural.png"
     },
     {
@@ -45,7 +45,7 @@
         "Sobremesas",
         "Massas"
       ],
-      "rating": 4.8,
+      "rating": 4.4,
       "imageUrl": "restaurants/donutz.png"
     },
     {
@@ -58,15 +58,15 @@
         "Petiscos",
         "Bebidas"
       ],
-      "rating": 4.9,
+      "rating": 1.6,
       "imageUrl": "restaurants/panda-sushi.png"
     },
     {
       "id": "87f6d657-90d9-48fc-aefb-62dfe8745df3",
-      "imageUrl": null,
+      "imageUrl": "restaurants/poke-da-praia.png",
       "name": "Poke da Praia",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 4.4,
+      "rating": 1.7,
       "distance": 6,
       "categories": [
         "Principais",
@@ -75,10 +75,10 @@
     },
     {
       "id": "7b19bc85-bb96-4222-8d19-99240872b996",
-      "imageUrl": null,
+      "imageUrl": "restaurants/tailandes-de-rua.png",
       "name": "Tailandês de Rua",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 3.6,
+      "rating": 1.6,
       "distance": 2,
       "categories": [
         "Principais"
@@ -86,10 +86,10 @@
     },
     {
       "id": "cd9cc1cc-63d6-44d6-a821-f29378281faa",
-      "imageUrl": null,
+      "imageUrl": "restaurants/parrilla-do-sul.png",
       "name": "Parrilla do Sul",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 3.1,
+      "rating": 1.0,
       "distance": 6,
       "categories": [
         "Principais"
@@ -97,10 +97,10 @@
     },
     {
       "id": "a896409b-0391-480b-b4f0-113b17da05ee",
-      "imageUrl": null,
+      "imageUrl": "restaurants/risotteria-central.png",
       "name": "Risotteria Central",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 3.5,
+      "rating": 4.0,
       "distance": 6,
       "categories": [
         "Principais"
@@ -108,10 +108,10 @@
     },
     {
       "id": "f9e8f801-0264-493f-b6f8-b6b581077027",
-      "imageUrl": null,
+      "imageUrl": "restaurants/creperia-urbana.png",
       "name": "Creperia Urbana",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 3.4,
+      "rating": 3.9,
       "distance": 5,
       "categories": [
         "Sobremesas",
@@ -120,10 +120,10 @@
     },
     {
       "id": "ca3f7525-f13f-4f6b-bc76-1a483ece6059",
-      "imageUrl": null,
+      "imageUrl": "restaurants/doces-do-bairro.png",
       "name": "Doces do Bairro",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 3.5,
+      "rating": 4.4,
       "distance": 2,
       "categories": [
         "Sobremesas"
@@ -131,10 +131,10 @@
     },
     {
       "id": "57461acd-b396-4ef1-bf5e-a459df223cb3",
-      "imageUrl": null,
+      "imageUrl": "restaurants/padoca-do-bairro.png",
       "name": "Padoca do Bairro",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 4.9,
+      "rating": 3.4,
       "distance": 1,
       "categories": [
         "Sobremesas"
@@ -142,10 +142,10 @@
     },
     {
       "id": "3685fb92-8151-4ba0-8eed-6253dba6dcd3",
-      "imageUrl": null,
+      "imageUrl": "restaurants/esquina-do-aipim.png",
       "name": "Esquina do Aipim",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 3.9,
+      "rating": 1.2,
       "distance": 8,
       "categories": [
         "Petiscos"
@@ -153,10 +153,10 @@
     },
     {
       "id": "f13c88a4-4e09-44ee-8ff1-253eeae7beb8",
-      "imageUrl": null,
+      "imageUrl": "restaurants/tapioquinha-da-vo.png",
       "name": "Tapioquinha da Vó",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 4.8,
+      "rating": 1.9,
       "distance": 3,
       "categories": [
         "Petiscos",
@@ -165,10 +165,10 @@
     },
     {
       "id": "304ec0df-0fe3-4e59-9855-8be68d4ecf24",
-      "imageUrl": null,
+      "imageUrl": "restaurants/wraps-factory.png",
       "name": "Wraps Factory",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 3.8,
+      "rating": 2.8,
       "distance": 1,
       "categories": [
         "Principais"
@@ -176,10 +176,10 @@
     },
     {
       "id": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93",
-      "imageUrl": null,
+      "imageUrl": "restaurants/cheesecake-lab.png",
       "name": "Cheesecake Lab",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 3.8,
+      "rating": 3.2,
       "distance": 1,
       "categories": [
         "Sobremesas"
@@ -187,10 +187,10 @@
     },
     {
       "id": "e9a797eb-92da-40fe-9a88-18e9b687b777",
-      "imageUrl": null,
+      "imageUrl": "restaurants/grelhados-fit.png",
       "name": "Grelhados Fit",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 3.1,
+      "rating": 1.5,
       "distance": 4,
       "categories": [
         "Principais"
@@ -198,10 +198,10 @@
     },
     {
       "id": "1b48e7e3-4a80-485a-a869-20407db9d136",
-      "imageUrl": null,
+      "imageUrl": "restaurants/cantina-da-praca.png",
       "name": "Cantina da Praça",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 4.7,
+      "rating": 4.1,
       "distance": 7,
       "categories": [
         "Massas",
@@ -210,10 +210,10 @@
     },
     {
       "id": "e99357e1-b0fb-4ea1-812f-54b272829b89",
-      "imageUrl": null,
+      "imageUrl": "restaurants/cafe-e-pao.png",
       "name": "Café & Pão",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 4.8,
+      "rating": 2.7,
       "distance": 5,
       "categories": [
         "Bebidas",
@@ -222,10 +222,10 @@
     },
     {
       "id": "2d555fc8-bba5-4331-bb4f-7ce4f6011bb8",
-      "imageUrl": null,
+      "imageUrl": "restaurants/vegvida.png",
       "name": "VegVida",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 4.2,
+      "rating": 3.1,
       "distance": 5,
       "categories": [
         "Principais",
@@ -234,10 +234,10 @@
     },
     {
       "id": "cf04fe87-cd25-43ff-bf25-c6af30b77d20",
-      "imageUrl": null,
+      "imageUrl": "restaurants/tacaria-da-cidade.png",
       "name": "Tacaria da Cidade",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 4.6,
+      "rating": 4.8,
       "distance": 7,
       "categories": [
         "Principais",
@@ -246,10 +246,10 @@
     },
     {
       "id": "a1b51de0-bd5e-4d9b-80ec-a08c02b2367f",
-      "imageUrl": null,
+      "imageUrl": "restaurants/pizzaria-da-laje.png",
       "name": "Pizzaria da Laje",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 3.6,
+      "rating": 2.7,
       "distance": 1,
       "categories": [
         "Massas",
@@ -258,10 +258,10 @@
     },
     {
       "id": "3176820e-52e9-44f1-b245-8bb893fd4b00",
-      "imageUrl": null,
+      "imageUrl": "restaurants/acai-do-porto.png",
       "name": "Açaí do Porto",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 3.9,
+      "rating": 2.0,
       "distance": 6,
       "categories": [
         "Bebidas",
@@ -270,10 +270,10 @@
     },
     {
       "id": "012fda9d-3d2c-422c-bf28-1d59b7fce5b0",
-      "imageUrl": null,
+      "imageUrl": "restaurants/kebab-do-centro.png",
       "name": "Kebab do Centro",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 4.3,
+      "rating": 3.1,
       "distance": 3,
       "categories": [
         "Principais",
@@ -282,10 +282,10 @@
     },
     {
       "id": "83938835-9010-4fc6-90ef-4f258368e66d",
-      "imageUrl": null,
+      "imageUrl": "restaurants/sushi-do-mercado.png",
       "name": "Sushi do Mercado",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 3.6,
+      "rating": 4.2,
       "distance": 3,
       "categories": [
         "Principais",
@@ -294,10 +294,10 @@
     },
     {
       "id": "d4fef1f6-c061-44a9-90f7-177dce690fa1",
-      "imageUrl": null,
+      "imageUrl": "restaurants/sanduba-24h.png",
       "name": "Sanduba 24h",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 3.4,
+      "rating": 4.4,
       "distance": 8,
       "categories": [
         "Petiscos",
@@ -306,10 +306,10 @@
     },
     {
       "id": "668f1833-3044-4b7d-a7e5-88a32e9f3a41",
-      "imageUrl": null,
+      "imageUrl": "restaurants/esfiharia-express.png",
       "name": "Esfiharia Express",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 4.4,
+      "rating": 1.4,
       "distance": 2,
       "categories": [
         "Petiscos",
@@ -318,10 +318,10 @@
     },
     {
       "id": "3b2d04d9-bc2e-488d-86c2-688960d65ead",
-      "imageUrl": null,
+      "imageUrl": "restaurants/bistro-da-rua.png",
       "name": "Bistrô da Rua",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 4.2,
+      "rating": 4.0,
       "distance": 8,
       "categories": [
         "Principais",
@@ -330,10 +330,10 @@
     },
     {
       "id": "70c5cc24-26a4-4d2a-81b2-76669922d46b",
-      "imageUrl": null,
+      "imageUrl": "restaurants/falafel-e-cia.png",
       "name": "Falafel & Cia",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 3.3,
+      "rating": 4.7,
       "distance": 4,
       "categories": [
         "Petiscos",
@@ -342,10 +342,10 @@
     },
     {
       "id": "5b7136c1-ebae-4f47-9a28-61620f9cb10e",
-      "imageUrl": null,
+      "imageUrl": "restaurants/caldos-e-cremes.png",
       "name": "Caldos & Cremes",
       "description": "Cozinha com personalidade e pratos frescos.",
-      "rating": 3.5,
+      "rating": 3.6,
       "distance": 5,
       "categories": [
         "Principais"

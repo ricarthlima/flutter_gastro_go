@@ -682,7 +682,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 43.08,
       "isVegan": false,
-      "restaurantId": "90e3b787-b962-4349-b4b4-97c0a04eaeea"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "39c089ed-3770-4e7a-9862-08228a1e5b9e",
@@ -691,7 +691,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 51.17,
       "isVegan": false,
-      "restaurantId": "90e3b787-b962-4349-b4b4-97c0a04eaeea"
+      "restaurantId": "b2d171d3-a225-4ee9-8f23-058ed691ef7c"
     },
     {
       "id": "73071f22-ec9e-4a5d-866e-bef3d229ce3c",
@@ -700,7 +700,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 62.2,
       "isVegan": false,
-      "restaurantId": "90e3b787-b962-4349-b4b4-97c0a04eaeea"
+      "restaurantId": "304ec0df-0fe3-4e59-9855-8be68d4ecf24"
     },
     {
       "id": "2c874a4e-3bb5-401f-9cb9-6c4473495b46",
@@ -709,7 +709,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 37.86,
       "isVegan": false,
-      "restaurantId": "90e3b787-b962-4349-b4b4-97c0a04eaeea"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "bdbb9123-1d64-4a57-aafc-da24eb5c3789",
@@ -718,7 +718,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 63.19,
       "isVegan": false,
-      "restaurantId": "90e3b787-b962-4349-b4b4-97c0a04eaeea"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "03a60719-e614-428e-a1fc-2169a8285c86",
@@ -727,7 +727,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 53.01,
       "isVegan": false,
-      "restaurantId": "90e3b787-b962-4349-b4b4-97c0a04eaeea"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "b008a883-517a-4998-b7d3-9ce64edbbc18",
@@ -736,7 +736,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 55.03,
       "isVegan": true,
-      "restaurantId": "90e3b787-b962-4349-b4b4-97c0a04eaeea"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "98153b14-f125-4098-89c2-b55ad244d9ab",
@@ -745,7 +745,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 65.54,
       "isVegan": false,
-      "restaurantId": "90e3b787-b962-4349-b4b4-97c0a04eaeea"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "c99404b6-4cf6-480a-b017-816b3f44e5da",
@@ -754,7 +754,7 @@
       "description": "Grelhada com limão e ervas.",
       "price": 56.68,
       "isVegan": false,
-      "restaurantId": "90e3b787-b962-4349-b4b4-97c0a04eaeea"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "060c70ec-4479-404b-951f-c208ffcd4a39",
@@ -763,7 +763,7 @@
       "description": "Massa quebradiça, recheio cremoso.",
       "price": 34.29,
       "isVegan": true,
-      "restaurantId": "90e3b787-b962-4349-b4b4-97c0a04eaeea"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "f081d7dd-b495-47f9-90a8-605f13113e5a",
@@ -772,7 +772,7 @@
       "description": "Grelhada com limão e ervas.",
       "price": 31.41,
       "isVegan": false,
-      "restaurantId": "90e3b787-b962-4349-b4b4-97c0a04eaeea"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "d942601d-43cd-4cc0-b830-2091ad97764a",
@@ -781,7 +781,7 @@
       "description": "Conforto em colheradas generosas.",
       "price": 31.57,
       "isVegan": true,
-      "restaurantId": "90e3b787-b962-4349-b4b4-97c0a04eaeea"
+      "restaurantId": "702e5a20-938c-4aba-91e1-73103aec471e"
     },
     {
       "id": "504ac506-c70c-468f-a0a0-45de01c3a926",
@@ -790,7 +790,7 @@
       "description": "Conforto em colheradas generosas.",
       "price": 24.65,
       "isVegan": true,
-      "restaurantId": "90e3b787-b962-4349-b4b4-97c0a04eaeea"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "27cb879f-2889-4c98-bd1e-3a4c741d3f7d",
@@ -799,7 +799,7 @@
       "description": "Conforto em colheradas generosas.",
       "price": 80.89,
       "isVegan": false,
-      "restaurantId": "90e3b787-b962-4349-b4b4-97c0a04eaeea"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "c74ae202-855b-437b-9a72-fc20eef5fd09",
@@ -808,7 +808,7 @@
       "description": "Conforto em colheradas generosas.",
       "price": 74.91,
       "isVegan": false,
-      "restaurantId": "90e3b787-b962-4349-b4b4-97c0a04eaeea"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "9b86438d-5599-4f80-922f-6db0816fd323",
@@ -817,7 +817,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 32.16,
       "isVegan": false,
-      "restaurantId": "a72113a8-dcf1-44bb-9800-2e3e6ac29412"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "e518fba6-0eb7-4aeb-a9a1-68cbe124200f",
@@ -826,7 +826,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 64.47,
       "isVegan": false,
-      "restaurantId": "a72113a8-dcf1-44bb-9800-2e3e6ac29412"
+      "restaurantId": "cd9cc1cc-63d6-44d6-a821-f29378281faa"
     },
     {
       "id": "b6173824-1cdf-4938-9d42-74123802386b",
@@ -835,7 +835,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 73.6,
       "isVegan": false,
-      "restaurantId": "a72113a8-dcf1-44bb-9800-2e3e6ac29412"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "7726aa5d-a953-497b-bce4-a428e65f6f06",
@@ -844,7 +844,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 49.66,
       "isVegan": true,
-      "restaurantId": "a72113a8-dcf1-44bb-9800-2e3e6ac29412"
+      "restaurantId": "f9e8f801-0264-493f-b6f8-b6b581077027"
     },
     {
       "id": "7649b1b7-66cc-45bc-8b82-2e15c25e9d94",
@@ -853,7 +853,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 67.47,
       "isVegan": false,
-      "restaurantId": "a72113a8-dcf1-44bb-9800-2e3e6ac29412"
+      "restaurantId": "ca3f7525-f13f-4f6b-bc76-1a483ece6059"
     },
     {
       "id": "8f63c4f0-9b8e-4b24-b7c5-6f245e61e5c6",
@@ -862,7 +862,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 19.83,
       "isVegan": true,
-      "restaurantId": "a72113a8-dcf1-44bb-9800-2e3e6ac29412"
+      "restaurantId": "57461acd-b396-4ef1-bf5e-a459df223cb3"
     },
     {
       "id": "f6d857af-d0c6-4b4e-8a05-b14ab5940c91",
@@ -871,7 +871,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 45.57,
       "isVegan": false,
-      "restaurantId": "a72113a8-dcf1-44bb-9800-2e3e6ac29412"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "116a5b19-d21d-4d4c-a7eb-9a7531dd7687",
@@ -880,7 +880,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 54.62,
       "isVegan": true,
-      "restaurantId": "a72113a8-dcf1-44bb-9800-2e3e6ac29412"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "5dde1ed2-3914-4865-a8c7-205ac11e64b2",
@@ -889,7 +889,7 @@
       "description": "Grãos, folhas e banana-da-terra, leve e nutritivo.",
       "price": 52.63,
       "isVegan": false,
-      "restaurantId": "a72113a8-dcf1-44bb-9800-2e3e6ac29412"
+      "restaurantId": "3685fb92-8151-4ba0-8eed-6253dba6dcd3"
     },
     {
       "id": "db7f6f54-649c-497b-8901-8a3f6d2e55e8",
@@ -898,7 +898,7 @@
       "description": "Leite de coco, especiarias e shimeji.",
       "price": 58.96,
       "isVegan": true,
-      "restaurantId": "a72113a8-dcf1-44bb-9800-2e3e6ac29412"
+      "restaurantId": "f13c88a4-4e09-44ee-8ff1-253eeae7beb8"
     },
     {
       "id": "ae87f88f-2fef-410c-bce1-c2b832bc5569",
@@ -907,7 +907,7 @@
       "description": "Grãos, folhas e banana-da-terra, leve e nutritivo.",
       "price": 91.72,
       "isVegan": false,
-      "restaurantId": "a72113a8-dcf1-44bb-9800-2e3e6ac29412"
+      "restaurantId": "304ec0df-0fe3-4e59-9855-8be68d4ecf24"
     },
     {
       "id": "d4012a72-1e83-4e54-a287-94fcd712b19a",
@@ -916,7 +916,7 @@
       "description": "Leite de coco, especiarias e frango grelhado.",
       "price": 49.45,
       "isVegan": true,
-      "restaurantId": "a72113a8-dcf1-44bb-9800-2e3e6ac29412"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "874dbe2c-8d4a-4b83-ac06-ba38a3b59092",
@@ -925,7 +925,7 @@
       "description": "Grãos, folhas e cogumelos frescos, leve e nutritivo.",
       "price": 80.26,
       "isVegan": false,
-      "restaurantId": "a72113a8-dcf1-44bb-9800-2e3e6ac29412"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "67e79a70-96c0-490d-9746-a6dfcd55e862",
@@ -934,7 +934,7 @@
       "description": "Grãos, folhas e tofu crocante, leve e nutritivo.",
       "price": 34.42,
       "isVegan": true,
-      "restaurantId": "a72113a8-dcf1-44bb-9800-2e3e6ac29412"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "9ec832a4-7a67-49fd-8fee-aa263afd83cd",
@@ -943,7 +943,7 @@
       "description": "Folhas frescas com crocância e com ervas.",
       "price": 13.76,
       "isVegan": true,
-      "restaurantId": "a72113a8-dcf1-44bb-9800-2e3e6ac29412"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "a17f0fee-ed31-4ad9-b0a8-fb190f960fe5",
@@ -952,7 +952,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 70.86,
       "isVegan": false,
-      "restaurantId": "d0008350-b42c-4c93-a9f7-b3e550b2d7d5"
+      "restaurantId": "1b48e7e3-4a80-485a-a869-20407db9d136"
     },
     {
       "id": "9a2220c1-5d90-4eea-b172-9716b7e4700f",
@@ -961,7 +961,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 82.83,
       "isVegan": false,
-      "restaurantId": "d0008350-b42c-4c93-a9f7-b3e550b2d7d5"
+      "restaurantId": "e99357e1-b0fb-4ea1-812f-54b272829b89"
     },
     {
       "id": "f28beceb-e05c-4c98-8096-98d2886bccf0",
@@ -970,7 +970,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 36.3,
       "isVegan": true,
-      "restaurantId": "d0008350-b42c-4c93-a9f7-b3e550b2d7d5"
+      "restaurantId": "2d555fc8-bba5-4331-bb4f-7ce4f6011bb8"
     },
     {
       "id": "7e91f1a1-ae55-4b54-a818-a17475266bb8",
@@ -979,7 +979,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 39.56,
       "isVegan": false,
-      "restaurantId": "d0008350-b42c-4c93-a9f7-b3e550b2d7d5"
+      "restaurantId": "3176820e-52e9-44f1-b245-8bb893fd4b00"
     },
     {
       "id": "16fc1cad-fb34-49e1-8aab-66b7a7a1f058",
@@ -988,7 +988,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 47.94,
       "isVegan": false,
-      "restaurantId": "d0008350-b42c-4c93-a9f7-b3e550b2d7d5"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "827b9d3b-2fb6-4225-bc5f-f90dc04574e1",
@@ -997,7 +997,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 51.41,
       "isVegan": true,
-      "restaurantId": "d0008350-b42c-4c93-a9f7-b3e550b2d7d5"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "c27b2e0d-ddfd-48b8-bc8c-6805c3842b85",
@@ -1006,7 +1006,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 17.71,
       "isVegan": false,
-      "restaurantId": "d0008350-b42c-4c93-a9f7-b3e550b2d7d5"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "920b0dac-fb02-4368-9026-2a202bf06a7a",
@@ -1015,7 +1015,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 69.02,
       "isVegan": false,
-      "restaurantId": "d0008350-b42c-4c93-a9f7-b3e550b2d7d5"
+      "restaurantId": "cf04fe87-cd25-43ff-bf25-c6af30b77d20"
     },
     {
       "id": "8abad647-b8ab-49fa-a835-ce4018c8fd82",
@@ -1024,7 +1024,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 18.34,
       "isVegan": true,
-      "restaurantId": "d0008350-b42c-4c93-a9f7-b3e550b2d7d5"
+      "restaurantId": "a1b51de0-bd5e-4d9b-80ec-a08c02b2367f"
     },
     {
       "id": "62ade9f6-c72a-4c2e-9b59-83be749f66e3",
@@ -1033,7 +1033,7 @@
       "description": "Conforto em colheradas generosas.",
       "price": 44.51,
       "isVegan": false,
-      "restaurantId": "d0008350-b42c-4c93-a9f7-b3e550b2d7d5"
+      "restaurantId": "3176820e-52e9-44f1-b245-8bb893fd4b00"
     },
     {
       "id": "ba1b09c8-5793-4c7d-9b0a-c8926f80059a",
@@ -1042,7 +1042,7 @@
       "description": "Conforto em colheradas generosas.",
       "price": 21.76,
       "isVegan": false,
-      "restaurantId": "d0008350-b42c-4c93-a9f7-b3e550b2d7d5"
+      "restaurantId": "012fda9d-3d2c-422c-bf28-1d59b7fce5b0"
     },
     {
       "id": "43798269-4457-498e-9db3-39df28d2174e",
@@ -1051,7 +1051,7 @@
       "description": "Molho cremoso ao alho, arroz e batata palha.",
       "price": 31.7,
       "isVegan": false,
-      "restaurantId": "d0008350-b42c-4c93-a9f7-b3e550b2d7d5"
+      "restaurantId": "83938835-9010-4fc6-90ef-4f258368e66d"
     },
     {
       "id": "1b6c99f1-ee77-44fb-8dfd-973427106343",
@@ -1060,7 +1060,7 @@
       "description": "Molho cremoso com ervas, arroz e batata palha.",
       "price": 17.88,
       "isVegan": false,
-      "restaurantId": "d0008350-b42c-4c93-a9f7-b3e550b2d7d5"
+      "restaurantId": "d4fef1f6-c061-44a9-90f7-177dce690fa1"
     },
     {
       "id": "a6bafacd-70c4-4c58-9f3b-fee41e74e005",
@@ -1069,7 +1069,7 @@
       "description": "Grelhada com limão e ervas.",
       "price": 57.32,
       "isVegan": false,
-      "restaurantId": "d0008350-b42c-4c93-a9f7-b3e550b2d7d5"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "a9b01056-44dd-41cf-9379-3940eaca4905",
@@ -1078,7 +1078,7 @@
       "description": "Massa quebradiça, recheio cremoso.",
       "price": 87.99,
       "isVegan": false,
-      "restaurantId": "d0008350-b42c-4c93-a9f7-b3e550b2d7d5"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "f6d5e403-d093-4419-86aa-1b02b0a13db9",
@@ -1087,7 +1087,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 26.76,
       "isVegan": false,
-      "restaurantId": "cc1c8b44-9ec4-42b2-a4ec-b979563db162"
+      "restaurantId": "3b2d04d9-bc2e-488d-86c2-688960d65ead"
     },
     {
       "id": "dc8af270-5a2e-4e65-a72c-d40e49eae49b",
@@ -1096,7 +1096,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 64.18,
       "isVegan": false,
-      "restaurantId": "cc1c8b44-9ec4-42b2-a4ec-b979563db162"
+      "restaurantId": "70c5cc24-26a4-4d2a-81b2-76669922d46b"
     },
     {
       "id": "ed62476c-752a-4817-b053-18d186d177f3",
@@ -1105,7 +1105,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 40.06,
       "isVegan": true,
-      "restaurantId": "cc1c8b44-9ec4-42b2-a4ec-b979563db162"
+      "restaurantId": "5b7136c1-ebae-4f47-9a28-61620f9cb10e"
     },
     {
       "id": "8c2d3881-61d2-45e4-a4df-d2bf7730dc74",
@@ -1114,7 +1114,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 45.72,
       "isVegan": true,
-      "restaurantId": "cc1c8b44-9ec4-42b2-a4ec-b979563db162"
+      "restaurantId": "b2d171d3-a225-4ee9-8f23-058ed691ef7c"
     },
     {
       "id": "9177592b-6270-4cbf-accc-72dbea4d69bd",
@@ -1123,7 +1123,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 62.72,
       "isVegan": false,
-      "restaurantId": "cc1c8b44-9ec4-42b2-a4ec-b979563db162"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "1a868585-b85e-43f9-808f-6fd8347c6e5a",
@@ -1132,7 +1132,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 79.68,
       "isVegan": false,
-      "restaurantId": "cc1c8b44-9ec4-42b2-a4ec-b979563db162"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "1d977482-437d-4398-b022-7015da1d7eef",
@@ -1141,7 +1141,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 69.68,
       "isVegan": false,
-      "restaurantId": "cc1c8b44-9ec4-42b2-a4ec-b979563db162"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "3cc4c9b5-d5c1-469d-be1c-1fc554f7dfde",
@@ -1150,7 +1150,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 28.77,
       "isVegan": false,
-      "restaurantId": "cc1c8b44-9ec4-42b2-a4ec-b979563db162"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "a9e821af-15f2-4c42-bb60-07f132ce7473",
@@ -1159,7 +1159,7 @@
       "description": "Bolinhos de grão-de-bico, crocantes e agridoce.",
       "price": 25.06,
       "isVegan": false,
-      "restaurantId": "cc1c8b44-9ec4-42b2-a4ec-b979563db162"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "b9fd76dd-f3d5-4b31-ac35-6c6fb4f50d8f",
@@ -1168,7 +1168,7 @@
       "description": "Salada refrescante com trigo e hortelã.",
       "price": 66.65,
       "isVegan": true,
-      "restaurantId": "cc1c8b44-9ec4-42b2-a4ec-b979563db162"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "95409a24-6948-467a-ae33-b80576a592ba",
@@ -1177,7 +1177,7 @@
       "description": "Massa assada com recheio crocante.",
       "price": 22.95,
       "isVegan": false,
-      "restaurantId": "cc1c8b44-9ec4-42b2-a4ec-b979563db162"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "31a6b191-23c9-49ea-8303-6fa8e9b36908",
@@ -1186,7 +1186,7 @@
       "description": "Creme de grão-de-bico com tahine cremoso.",
       "price": 26.97,
       "isVegan": false,
-      "restaurantId": "cc1c8b44-9ec4-42b2-a4ec-b979563db162"
+      "restaurantId": "702e5a20-938c-4aba-91e1-73103aec471e"
     },
     {
       "id": "215af6f7-c635-492c-ae5c-94f1d74fa942",
@@ -1195,7 +1195,7 @@
       "description": "Massa assada com recheio ao limão.",
       "price": 70.61,
       "isVegan": true,
-      "restaurantId": "cc1c8b44-9ec4-42b2-a4ec-b979563db162"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "708ee108-4fd1-4174-a98e-6cca61e03a5a",
@@ -1204,7 +1204,7 @@
       "description": "Bolinhos de grão-de-bico, crocantes e cremoso.",
       "price": 94.87,
       "isVegan": true,
-      "restaurantId": "cc1c8b44-9ec4-42b2-a4ec-b979563db162"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "f1ab7609-a131-4bb1-ba73-c39f49962c87",
@@ -1213,7 +1213,7 @@
       "description": "Espeto grelhado, ervas e especiarias.",
       "price": 33.38,
       "isVegan": true,
-      "restaurantId": "cc1c8b44-9ec4-42b2-a4ec-b979563db162"
+      "restaurantId": "012fda9d-3d2c-422c-bf28-1d59b7fce5b0"
     },
     {
       "id": "e98deb31-080e-4f67-85cc-48167adfc158",
@@ -1222,7 +1222,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 46.39,
       "isVegan": false,
-      "restaurantId": "338dd1cb-450b-4bbd-94ac-6b950e6713f7"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "6a8abaaa-0ab5-4217-9067-2629b9335fa4",
@@ -1231,7 +1231,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 51.38,
       "isVegan": false,
-      "restaurantId": "338dd1cb-450b-4bbd-94ac-6b950e6713f7"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "d690d915-dd21-4bea-ba8c-36928e53f7ed",
@@ -1240,7 +1240,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 59.59,
       "isVegan": false,
-      "restaurantId": "338dd1cb-450b-4bbd-94ac-6b950e6713f7"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "9dbc3ba2-d2a1-4fe6-bf00-a52fe2b78023",
@@ -1249,7 +1249,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 38.95,
       "isVegan": false,
-      "restaurantId": "338dd1cb-450b-4bbd-94ac-6b950e6713f7"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "1d60a987-64bc-4d48-9926-4045b8557ed2",
@@ -1258,7 +1258,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 33.81,
       "isVegan": false,
-      "restaurantId": "338dd1cb-450b-4bbd-94ac-6b950e6713f7"
+      "restaurantId": "3176820e-52e9-44f1-b245-8bb893fd4b00"
     },
     {
       "id": "ff8901fe-8576-479f-8d94-f54a6d13fbf7",
@@ -1267,7 +1267,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 59.23,
       "isVegan": true,
-      "restaurantId": "338dd1cb-450b-4bbd-94ac-6b950e6713f7"
+      "restaurantId": "cd9cc1cc-63d6-44d6-a821-f29378281faa"
     },
     {
       "id": "58bde812-4796-4c0a-881b-99410206adbe",
@@ -1276,7 +1276,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 82.94,
       "isVegan": false,
-      "restaurantId": "338dd1cb-450b-4bbd-94ac-6b950e6713f7"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "842a8c7d-c0f4-44af-8e29-2a8a2128d4a3",
@@ -1285,7 +1285,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 79.57,
       "isVegan": false,
-      "restaurantId": "338dd1cb-450b-4bbd-94ac-6b950e6713f7"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "b4d13773-3573-460e-b0eb-f56a0920b3b1",
@@ -1294,7 +1294,7 @@
       "description": "Textura cremosa, base de biscoito.",
       "price": 43.99,
       "isVegan": false,
-      "restaurantId": "338dd1cb-450b-4bbd-94ac-6b950e6713f7"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "3d394953-04d6-4ef6-84f3-a56ddfb0e9bd",
@@ -1303,7 +1303,7 @@
       "description": "Massa amanteigada e recheio ao limão.",
       "price": 83.29,
       "isVegan": false,
-      "restaurantId": "338dd1cb-450b-4bbd-94ac-6b950e6713f7"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "7eab3fd7-106c-4b3c-9955-aefce18cf22f",
@@ -1312,7 +1312,7 @@
       "description": "Textura cremosa, base de biscoito.",
       "price": 89.49,
       "isVegan": false,
-      "restaurantId": "338dd1cb-450b-4bbd-94ac-6b950e6713f7"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "6579b22e-54f5-47ab-ae64-f9ebff8233a5",
@@ -1321,7 +1321,7 @@
       "description": "Na tigela com granola e banana.",
       "price": 23.29,
       "isVegan": false,
-      "restaurantId": "338dd1cb-450b-4bbd-94ac-6b950e6713f7"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "7f7e6adc-b77f-4dcd-b543-2f17b875252d",
@@ -1330,7 +1330,7 @@
       "description": "Massa amanteigada e recheio picante.",
       "price": 80.17,
       "isVegan": true,
-      "restaurantId": "338dd1cb-450b-4bbd-94ac-6b950e6713f7"
+      "restaurantId": "f9e8f801-0264-493f-b6f8-b6b581077027"
     },
     {
       "id": "4305466c-eed3-4ffe-abb5-af7522aa5be3",
@@ -1339,7 +1339,7 @@
       "description": "Na tigela com granola e banana.",
       "price": 52.42,
       "isVegan": false,
-      "restaurantId": "338dd1cb-450b-4bbd-94ac-6b950e6713f7"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "c94b631f-6bfd-454b-bc28-be265e9cadc5",
@@ -1348,7 +1348,7 @@
       "description": "Textura cremosa, base de biscoito.",
       "price": 25.22,
       "isVegan": false,
-      "restaurantId": "338dd1cb-450b-4bbd-94ac-6b950e6713f7"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "bcd1a7c8-72a9-4259-b37e-3cc1ddadc988",
@@ -1357,7 +1357,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 15.95,
       "isVegan": true,
-      "restaurantId": "2bd5e3f9-04c6-4730-9c47-0306173c8744"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "408858c3-ae2b-4887-b66d-f2721c507f2a",
@@ -1366,7 +1366,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 40.62,
       "isVegan": false,
-      "restaurantId": "2bd5e3f9-04c6-4730-9c47-0306173c8744"
+      "restaurantId": "ca3f7525-f13f-4f6b-bc76-1a483ece6059"
     },
     {
       "id": "b95939d7-0963-4ac9-a523-4fe31f448b6a",
@@ -1375,7 +1375,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 29.11,
       "isVegan": false,
-      "restaurantId": "2bd5e3f9-04c6-4730-9c47-0306173c8744"
+      "restaurantId": "57461acd-b396-4ef1-bf5e-a459df223cb3"
     },
     {
       "id": "abf4bb8c-0161-471d-9d39-15d9d89e5c19",
@@ -1384,7 +1384,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 75.89,
       "isVegan": true,
-      "restaurantId": "2bd5e3f9-04c6-4730-9c47-0306173c8744"
+      "restaurantId": "3685fb92-8151-4ba0-8eed-6253dba6dcd3"
     },
     {
       "id": "3eb826fb-a671-46bb-921f-d5727a7b1409",
@@ -1393,7 +1393,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 36.34,
       "isVegan": false,
-      "restaurantId": "2bd5e3f9-04c6-4730-9c47-0306173c8744"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "4a398dc7-c4f6-4637-b213-5edd6d006b41",
@@ -1402,7 +1402,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 58.06,
       "isVegan": false,
-      "restaurantId": "2bd5e3f9-04c6-4730-9c47-0306173c8744"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "e53865a1-6246-42ef-aeee-8eae911fd139",
@@ -1411,7 +1411,7 @@
       "description": "Extração caseiro, aroma marcante.",
       "price": 69.4,
       "isVegan": false,
-      "restaurantId": "2bd5e3f9-04c6-4730-9c47-0306173c8744"
+      "restaurantId": "f13c88a4-4e09-44ee-8ff1-253eeae7beb8"
     },
     {
       "id": "716ae4d3-f325-4677-8834-690c18ee7c32",
@@ -1420,7 +1420,7 @@
       "description": "Massa amanteigada e recheio picante.",
       "price": 73.17,
       "isVegan": false,
-      "restaurantId": "2bd5e3f9-04c6-4730-9c47-0306173c8744"
+      "restaurantId": "304ec0df-0fe3-4e59-9855-8be68d4ecf24"
     },
     {
       "id": "38f3fdb1-80df-4794-b806-ee3b95f37e9a",
@@ -1429,7 +1429,7 @@
       "description": "Na tigela com granola e banana.",
       "price": 69.77,
       "isVegan": false,
-      "restaurantId": "2bd5e3f9-04c6-4730-9c47-0306173c8744"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "72d773af-866a-47f0-9163-10a34bceea26",
@@ -1438,7 +1438,7 @@
       "description": "Chocolate intenso, casquinha crocante.",
       "price": 61.98,
       "isVegan": false,
-      "restaurantId": "2bd5e3f9-04c6-4730-9c47-0306173c8744"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "3c9f353a-ce37-4262-8090-b2ce92ea0291",
@@ -1447,7 +1447,7 @@
       "description": "Na tigela com granola e banana.",
       "price": 30.78,
       "isVegan": false,
-      "restaurantId": "2bd5e3f9-04c6-4730-9c47-0306173c8744"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "23f2c6c9-6d08-4f3c-874a-20785566061e",
@@ -1456,7 +1456,7 @@
       "description": "Textura cremosa, base de biscoito.",
       "price": 84.46,
       "isVegan": false,
-      "restaurantId": "2bd5e3f9-04c6-4730-9c47-0306173c8744"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "bbaef941-7796-4b88-b6b4-34c2ace7f17c",
@@ -1465,7 +1465,7 @@
       "description": "Extração artesanal, aroma marcante.",
       "price": 19.48,
       "isVegan": true,
-      "restaurantId": "2bd5e3f9-04c6-4730-9c47-0306173c8744"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "e81c1e5b-a7ea-424a-91ad-0a236a06e3cb",
@@ -1474,7 +1474,7 @@
       "description": "Na tigela com granola e banana.",
       "price": 65.91,
       "isVegan": false,
-      "restaurantId": "2bd5e3f9-04c6-4730-9c47-0306173c8744"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "7766dc36-dbcf-4024-880c-c903e085592d",
@@ -1483,7 +1483,7 @@
       "description": "Massa amanteigada e recheio crocante.",
       "price": 18.45,
       "isVegan": false,
-      "restaurantId": "2bd5e3f9-04c6-4730-9c47-0306173c8744"
+      "restaurantId": "1b48e7e3-4a80-485a-a869-20407db9d136"
     },
     {
       "id": "aa81f1ee-525e-4027-8504-4177de7694f2",
@@ -1492,7 +1492,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 78.18,
       "isVegan": true,
-      "restaurantId": "df3d36d7-cc5e-4b62-87d0-75b97786932a"
+      "restaurantId": "e99357e1-b0fb-4ea1-812f-54b272829b89"
     },
     {
       "id": "244d4402-bf29-475a-9237-cc7fe9ed8843",
@@ -1501,7 +1501,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 30.09,
       "isVegan": false,
-      "restaurantId": "df3d36d7-cc5e-4b62-87d0-75b97786932a"
+      "restaurantId": "2d555fc8-bba5-4331-bb4f-7ce4f6011bb8"
     },
     {
       "id": "dd63effb-a224-4eed-be7e-5aa858d91ba9",
@@ -1510,7 +1510,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 81.32,
       "isVegan": true,
-      "restaurantId": "df3d36d7-cc5e-4b62-87d0-75b97786932a"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "75dc678a-ad74-421e-a603-3eeb44e207b7",
@@ -1519,7 +1519,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 74.39,
       "isVegan": false,
-      "restaurantId": "df3d36d7-cc5e-4b62-87d0-75b97786932a"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "795beca4-cba5-47fe-bde7-18e0d541d9bf",
@@ -1528,7 +1528,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 44.79,
       "isVegan": false,
-      "restaurantId": "df3d36d7-cc5e-4b62-87d0-75b97786932a"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "0adf855f-add3-49cf-94ca-f0d802d53a24",
@@ -1537,7 +1537,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 59.6,
       "isVegan": false,
-      "restaurantId": "df3d36d7-cc5e-4b62-87d0-75b97786932a"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "20b18cd1-f966-4b4a-873f-5adf9d4c75a5",
@@ -1546,7 +1546,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 81.22,
       "isVegan": false,
-      "restaurantId": "df3d36d7-cc5e-4b62-87d0-75b97786932a"
+      "restaurantId": "cf04fe87-cd25-43ff-bf25-c6af30b77d20"
     },
     {
       "id": "6aa5e1ee-9582-414e-b045-105a27b7447f",
@@ -1555,7 +1555,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 37.51,
       "isVegan": false,
-      "restaurantId": "df3d36d7-cc5e-4b62-87d0-75b97786932a"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "53e46f4b-0c0d-4be4-af6b-6f74b6aaa46b",
@@ -1564,7 +1564,7 @@
       "description": "Leite de coco, especiarias e queijo coalho.",
       "price": 83.0,
       "isVegan": true,
-      "restaurantId": "df3d36d7-cc5e-4b62-87d0-75b97786932a"
+      "restaurantId": "a1b51de0-bd5e-4d9b-80ec-a08c02b2367f"
     },
     {
       "id": "9b561bc7-28e2-420a-9d5c-56952e4576a7",
@@ -1573,7 +1573,7 @@
       "description": "Grãos, folhas e frango grelhado, leve e nutritivo.",
       "price": 60.77,
       "isVegan": false,
-      "restaurantId": "df3d36d7-cc5e-4b62-87d0-75b97786932a"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "908fae0c-41ad-454e-be66-0981a5cad2ea",
@@ -1582,7 +1582,7 @@
       "description": "Folhas frescas com crocância e crocante.",
       "price": 32.77,
       "isVegan": true,
-      "restaurantId": "df3d36d7-cc5e-4b62-87d0-75b97786932a"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "0cdad7cc-7b98-4a67-9fd1-c3ede573da5b",
@@ -1591,7 +1591,7 @@
       "description": "Folhas frescas com crocância e picante.",
       "price": 15.36,
       "isVegan": false,
-      "restaurantId": "df3d36d7-cc5e-4b62-87d0-75b97786932a"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "aed1104e-f63b-4171-a11a-d627e4ed52b1",
@@ -1600,7 +1600,7 @@
       "description": "Dourado na chapa, molho ao alho.",
       "price": 36.19,
       "isVegan": false,
-      "restaurantId": "df3d36d7-cc5e-4b62-87d0-75b97786932a"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "e6c5156b-a193-415c-92ac-88b420cb8096",
@@ -1609,7 +1609,7 @@
       "description": "Tortilha integral com agridoce.",
       "price": 43.38,
       "isVegan": true,
-      "restaurantId": "df3d36d7-cc5e-4b62-87d0-75b97786932a"
+      "restaurantId": "304ec0df-0fe3-4e59-9855-8be68d4ecf24"
     },
     {
       "id": "ea2d430f-4668-48f6-9499-4359249c880b",
@@ -1618,7 +1618,7 @@
       "description": "Dourado na chapa, molho ao limão.",
       "price": 13.79,
       "isVegan": false,
-      "restaurantId": "df3d36d7-cc5e-4b62-87d0-75b97786932a"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "a11b4b68-0e81-4405-9527-a942a1773aea",
@@ -1627,7 +1627,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 43.19,
       "isVegan": true,
-      "restaurantId": "1c0aa5e8-278a-47a4-86ed-33f89dcc3132"
+      "restaurantId": "3176820e-52e9-44f1-b245-8bb893fd4b00"
     },
     {
       "id": "d549c7a2-5718-4e27-a91f-a69ca8a339b2",
@@ -1636,7 +1636,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 78.59,
       "isVegan": false,
-      "restaurantId": "1c0aa5e8-278a-47a4-86ed-33f89dcc3132"
+      "restaurantId": "012fda9d-3d2c-422c-bf28-1d59b7fce5b0"
     },
     {
       "id": "5bb16eb5-d906-432e-8ce9-f6105950636f",
@@ -1645,7 +1645,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 61.34,
       "isVegan": false,
-      "restaurantId": "1c0aa5e8-278a-47a4-86ed-33f89dcc3132"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "01d0f5c8-60f4-40e4-a989-cc783a6c7078",
@@ -1654,7 +1654,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 74.43,
       "isVegan": true,
-      "restaurantId": "1c0aa5e8-278a-47a4-86ed-33f89dcc3132"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "81d0db86-c662-41c8-9f08-6620113aa72a",
@@ -1663,7 +1663,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 55.88,
       "isVegan": false,
-      "restaurantId": "1c0aa5e8-278a-47a4-86ed-33f89dcc3132"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "f799b938-1fc0-461d-a257-dd47793280f2",
@@ -1672,7 +1672,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 17.13,
       "isVegan": true,
-      "restaurantId": "1c0aa5e8-278a-47a4-86ed-33f89dcc3132"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "5ee563c6-64f9-4dfa-9ace-5a6690aded7d",
@@ -1681,7 +1681,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 76.38,
       "isVegan": true,
-      "restaurantId": "1c0aa5e8-278a-47a4-86ed-33f89dcc3132"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "2947fbbe-b8cb-44bb-a26e-57eaef86eb90",
@@ -1690,7 +1690,7 @@
       "description": "Molho cremoso ao limão, arroz e batata palha.",
       "price": 91.05,
       "isVegan": true,
-      "restaurantId": "1c0aa5e8-278a-47a4-86ed-33f89dcc3132"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "80f6efc6-de2e-4414-8baa-2519da2b9166",
@@ -1699,7 +1699,7 @@
       "description": "Molho cremoso clássico, arroz e batata palha.",
       "price": 35.63,
       "isVegan": false,
-      "restaurantId": "1c0aa5e8-278a-47a4-86ed-33f89dcc3132"
+      "restaurantId": "83938835-9010-4fc6-90ef-4f258368e66d"
     },
     {
       "id": "b17258fc-cb01-4974-9c6f-f89cd30b5c8e",
@@ -1708,7 +1708,7 @@
       "description": "Grelhada com limão e ervas.",
       "price": 40.97,
       "isVegan": true,
-      "restaurantId": "1c0aa5e8-278a-47a4-86ed-33f89dcc3132"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "e4b8b815-c942-4d33-943d-5a96ff61f220",
@@ -1717,7 +1717,7 @@
       "description": "Conforto em colheradas generosas.",
       "price": 63.67,
       "isVegan": false,
-      "restaurantId": "1c0aa5e8-278a-47a4-86ed-33f89dcc3132"
+      "restaurantId": "d4fef1f6-c061-44a9-90f7-177dce690fa1"
     },
     {
       "id": "64d2eae7-a636-4429-9aa1-18c0d701cc33",
@@ -1726,7 +1726,7 @@
       "description": "Grelhada com limão e ervas.",
       "price": 74.27,
       "isVegan": false,
-      "restaurantId": "1c0aa5e8-278a-47a4-86ed-33f89dcc3132"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "68ffd163-879a-45dd-8452-3837d6731890",
@@ -1735,7 +1735,7 @@
       "description": "Conforto em colheradas generosas.",
       "price": 41.66,
       "isVegan": false,
-      "restaurantId": "1c0aa5e8-278a-47a4-86ed-33f89dcc3132"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "7d3d6cb5-d4d9-4a6d-9167-e9e093f2d990",
@@ -1744,7 +1744,7 @@
       "description": "Massa leve, recheio ao limão.",
       "price": 53.91,
       "isVegan": true,
-      "restaurantId": "1c0aa5e8-278a-47a4-86ed-33f89dcc3132"
+      "restaurantId": "3b2d04d9-bc2e-488d-86c2-688960d65ead"
     },
     {
       "id": "840d41b9-1c9a-44f9-92b1-bff8c17ce595",
@@ -1753,7 +1753,7 @@
       "description": "Massa quebradiça, recheio cremoso.",
       "price": 54.83,
       "isVegan": false,
-      "restaurantId": "1c0aa5e8-278a-47a4-86ed-33f89dcc3132"
+      "restaurantId": "70c5cc24-26a4-4d2a-81b2-76669922d46b"
     },
     {
       "id": "7b899e17-84e4-4179-b3a5-6c8bced627d3",
@@ -1762,7 +1762,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 30.47,
       "isVegan": false,
-      "restaurantId": "38867fd8-3e67-443f-b933-3b262784d534"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "8203aa43-10ac-4838-a95c-11bb6ea5d402",
@@ -1771,7 +1771,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 59.47,
       "isVegan": false,
-      "restaurantId": "38867fd8-3e67-443f-b933-3b262784d534"
+      "restaurantId": "5b7136c1-ebae-4f47-9a28-61620f9cb10e"
     },
     {
       "id": "080c9268-91b3-4c34-8992-abcb9ea31276",
@@ -1780,7 +1780,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 51.55,
       "isVegan": false,
-      "restaurantId": "38867fd8-3e67-443f-b933-3b262784d534"
+      "restaurantId": "3176820e-52e9-44f1-b245-8bb893fd4b00"
     },
     {
       "id": "2b626432-9064-437a-a8f9-5cfa6f0cc940",
@@ -1789,7 +1789,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 43.25,
       "isVegan": false,
-      "restaurantId": "38867fd8-3e67-443f-b933-3b262784d534"
+      "restaurantId": "b2d171d3-a225-4ee9-8f23-058ed691ef7c"
     },
     {
       "id": "ca18a9c1-1833-4405-80c1-dfbf5c65a8e3",
@@ -1798,7 +1798,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 60.0,
       "isVegan": true,
-      "restaurantId": "38867fd8-3e67-443f-b933-3b262784d534"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "4d1bc029-3b90-49c5-b45a-97f86198908c",
@@ -1807,7 +1807,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 46.75,
       "isVegan": false,
-      "restaurantId": "38867fd8-3e67-443f-b933-3b262784d534"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "52fba78d-b31b-48ba-8061-302fbf036013",
@@ -1816,7 +1816,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 69.06,
       "isVegan": false,
-      "restaurantId": "38867fd8-3e67-443f-b933-3b262784d534"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "20bbdbd6-b68a-4067-b5f8-242b7e8f1ce6",
@@ -1825,7 +1825,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 55.87,
       "isVegan": false,
-      "restaurantId": "38867fd8-3e67-443f-b933-3b262784d534"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "bfda93dd-5a22-43ab-bf1f-97ad6bae96cf",
@@ -1834,7 +1834,7 @@
       "description": "Chocolate intenso, casquinha crocante.",
       "price": 62.73,
       "isVegan": false,
-      "restaurantId": "38867fd8-3e67-443f-b933-3b262784d534"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "273159e7-d9db-4484-9677-098455d264f8",
@@ -1843,7 +1843,7 @@
       "description": "Na tigela com granola e banana.",
       "price": 53.08,
       "isVegan": false,
-      "restaurantId": "38867fd8-3e67-443f-b933-3b262784d534"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "2154d768-d5bf-490f-ab8d-ece3d0da90b6",
@@ -1852,7 +1852,7 @@
       "description": "Extração especial, aroma marcante.",
       "price": 43.41,
       "isVegan": false,
-      "restaurantId": "38867fd8-3e67-443f-b933-3b262784d534"
+      "restaurantId": "702e5a20-938c-4aba-91e1-73103aec471e"
     },
     {
       "id": "e2565ff5-0303-4682-a640-5f8e2adf46ec",
@@ -1861,7 +1861,7 @@
       "description": "Chocolate intenso, casquinha crocante.",
       "price": 37.95,
       "isVegan": true,
-      "restaurantId": "38867fd8-3e67-443f-b933-3b262784d534"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "45303490-4b9f-461d-b323-f31475e1bce0",
@@ -1870,7 +1870,7 @@
       "description": "Na tigela com granola e banana.",
       "price": 43.74,
       "isVegan": true,
-      "restaurantId": "38867fd8-3e67-443f-b933-3b262784d534"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "494de49b-b7b4-4aee-95f3-1c78ea578642",
@@ -1879,7 +1879,7 @@
       "description": "Chocolate intenso, casquinha crocante.",
       "price": 79.96,
       "isVegan": false,
-      "restaurantId": "38867fd8-3e67-443f-b933-3b262784d534"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "45a31798-0f87-40f4-b91d-23866926b343",
@@ -1888,7 +1888,7 @@
       "description": "Extração artesanal, aroma marcante.",
       "price": 54.17,
       "isVegan": true,
-      "restaurantId": "38867fd8-3e67-443f-b933-3b262784d534"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "9299a12a-97c0-4c52-9fda-afd488bbf7e2",
@@ -1897,7 +1897,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 22.71,
       "isVegan": true,
-      "restaurantId": "da64727d-e5a5-4373-bcfd-64623765d04b"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "03d11067-080f-4547-83bb-747aa9e004c7",
@@ -1906,7 +1906,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 17.5,
       "isVegan": false,
-      "restaurantId": "da64727d-e5a5-4373-bcfd-64623765d04b"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "aa8cfe03-f57e-41bc-9137-e615bde35907",
@@ -1915,7 +1915,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 44.77,
       "isVegan": true,
-      "restaurantId": "da64727d-e5a5-4373-bcfd-64623765d04b"
+      "restaurantId": "cd9cc1cc-63d6-44d6-a821-f29378281faa"
     },
     {
       "id": "112c48a0-3a12-4cdd-a1ca-0cd7511c7001",
@@ -1924,7 +1924,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 59.74,
       "isVegan": true,
-      "restaurantId": "da64727d-e5a5-4373-bcfd-64623765d04b"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "d465a20b-eb9c-4048-80ad-2014ac8d1950",
@@ -1933,7 +1933,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 78.08,
       "isVegan": false,
-      "restaurantId": "da64727d-e5a5-4373-bcfd-64623765d04b"
+      "restaurantId": "f9e8f801-0264-493f-b6f8-b6b581077027"
     },
     {
       "id": "d47a3e27-64b6-40fb-88e3-bc82cd3df53c",
@@ -1942,7 +1942,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 28.56,
       "isVegan": true,
-      "restaurantId": "da64727d-e5a5-4373-bcfd-64623765d04b"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "3222f497-1c0f-47d5-aa61-098cd94c9316",
@@ -1951,7 +1951,7 @@
       "description": "Marinado e grelhado, pele crocante.",
       "price": 61.46,
       "isVegan": false,
-      "restaurantId": "da64727d-e5a5-4373-bcfd-64623765d04b"
+      "restaurantId": "ca3f7525-f13f-4f6b-bc76-1a483ece6059"
     },
     {
       "id": "4df6b9c7-c45b-4180-96f4-f3dc1e882c3a",
@@ -1960,7 +1960,7 @@
       "description": "Seleção de legumes ao azeite e com ervas.",
       "price": 70.05,
       "isVegan": false,
-      "restaurantId": "da64727d-e5a5-4373-bcfd-64623765d04b"
+      "restaurantId": "57461acd-b396-4ef1-bf5e-a459df223cb3"
     },
     {
       "id": "da578c16-d7de-45f8-88db-becf5cb30075",
@@ -1969,7 +1969,7 @@
       "description": "Cozida lentamente, toque com ervas.",
       "price": 68.87,
       "isVegan": false,
-      "restaurantId": "da64727d-e5a5-4373-bcfd-64623765d04b"
+      "restaurantId": "3685fb92-8151-4ba0-8eed-6253dba6dcd3"
     },
     {
       "id": "779d4b4e-156a-406f-abac-f177f6c3e4ab",
@@ -1978,7 +1978,7 @@
       "description": "Grelhada, suculenta, servida com farofa.",
       "price": 44.64,
       "isVegan": false,
-      "restaurantId": "da64727d-e5a5-4373-bcfd-64623765d04b"
+      "restaurantId": "f13c88a4-4e09-44ee-8ff1-253eeae7beb8"
     },
     {
       "id": "5ea81e6b-3b7f-4d52-80c5-ddf90c4b3387",
@@ -1987,7 +1987,7 @@
       "description": "Hambúrguer de carne ao molho, pão macio.",
       "price": 14.27,
       "isVegan": false,
-      "restaurantId": "da64727d-e5a5-4373-bcfd-64623765d04b"
+      "restaurantId": "304ec0df-0fe3-4e59-9855-8be68d4ecf24"
     },
     {
       "id": "c846ca24-ebbf-4b69-98ab-389eb7f59532",
@@ -1996,7 +1996,7 @@
       "description": "Carne grelhada no ponto com sal de parrilla.",
       "price": 77.49,
       "isVegan": false,
-      "restaurantId": "da64727d-e5a5-4373-bcfd-64623765d04b"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "dcd2477a-ddad-4ed0-8512-7fa4b6afc07b",
@@ -2005,7 +2005,7 @@
       "description": "Hambúrguer de carne ao molho, pão macio.",
       "price": 70.96,
       "isVegan": false,
-      "restaurantId": "da64727d-e5a5-4373-bcfd-64623765d04b"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "06995d98-e329-4c15-aa33-d2698d8d5704",
@@ -2014,7 +2014,7 @@
       "description": "Grelhada, suculenta, servida com farofa.",
       "price": 50.89,
       "isVegan": false,
-      "restaurantId": "da64727d-e5a5-4373-bcfd-64623765d04b"
+      "restaurantId": "1b48e7e3-4a80-485a-a869-20407db9d136"
     },
     {
       "id": "6bd14041-7568-4499-9655-6819bf2be62b",
@@ -2023,7 +2023,7 @@
       "description": "Cozida lentamente, toque cremoso.",
       "price": 78.21,
       "isVegan": false,
-      "restaurantId": "da64727d-e5a5-4373-bcfd-64623765d04b"
+      "restaurantId": "e99357e1-b0fb-4ea1-812f-54b272829b89"
     },
     {
       "id": "b683473d-8624-4695-bf8a-6daafd1d471a",
@@ -2032,7 +2032,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 70.39,
       "isVegan": true,
-      "restaurantId": "0811b7ac-2b68-4f02-b390-8c4386ce4314"
+      "restaurantId": "2d555fc8-bba5-4331-bb4f-7ce4f6011bb8"
     },
     {
       "id": "a88c696f-af5e-46ca-ae07-78ed512344e3",
@@ -2041,7 +2041,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 16.34,
       "isVegan": false,
-      "restaurantId": "0811b7ac-2b68-4f02-b390-8c4386ce4314"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "050f1246-338c-45e7-867a-3e70191af46e",
@@ -2050,7 +2050,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 51.8,
       "isVegan": true,
-      "restaurantId": "0811b7ac-2b68-4f02-b390-8c4386ce4314"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "6febb2a0-b13e-4196-80fc-82522f390df8",
@@ -2059,7 +2059,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 68.98,
       "isVegan": false,
-      "restaurantId": "0811b7ac-2b68-4f02-b390-8c4386ce4314"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "334ebf59-df74-47d8-aba7-9ced010c146d",
@@ -2068,7 +2068,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 45.73,
       "isVegan": false,
-      "restaurantId": "0811b7ac-2b68-4f02-b390-8c4386ce4314"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "62b2d291-24fa-4110-a221-b02da439b4f4",
@@ -2077,7 +2077,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 61.93,
       "isVegan": true,
-      "restaurantId": "0811b7ac-2b68-4f02-b390-8c4386ce4314"
+      "restaurantId": "cf04fe87-cd25-43ff-bf25-c6af30b77d20"
     },
     {
       "id": "a90274ab-6afa-4273-93cf-0c449e573a03",
@@ -2086,7 +2086,7 @@
       "description": "Arroz arbóreo cremoso com rúcula e tomate seco.",
       "price": 89.89,
       "isVegan": false,
-      "restaurantId": "0811b7ac-2b68-4f02-b390-8c4386ce4314"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "57b8df16-3319-4cf3-aa9b-00da7057d475",
@@ -2095,7 +2095,7 @@
       "description": "Camadas de massa, molho e queijo com ervas.",
       "price": 24.4,
       "isVegan": false,
-      "restaurantId": "0811b7ac-2b68-4f02-b390-8c4386ce4314"
+      "restaurantId": "a1b51de0-bd5e-4d9b-80ec-a08c02b2367f"
     },
     {
       "id": "10884cea-225d-4074-a69f-865593644497",
@@ -2104,7 +2104,7 @@
       "description": "Camadas de massa, molho e queijo clássico.",
       "price": 71.97,
       "isVegan": false,
-      "restaurantId": "0811b7ac-2b68-4f02-b390-8c4386ce4314"
+      "restaurantId": "3176820e-52e9-44f1-b245-8bb893fd4b00"
     },
     {
       "id": "5d9b63a6-c919-4490-9c6c-70ef8817be22",
@@ -2113,7 +2113,7 @@
       "description": "Massa longa ao molho cremoso.",
       "price": 77.19,
       "isVegan": true,
-      "restaurantId": "0811b7ac-2b68-4f02-b390-8c4386ce4314"
+      "restaurantId": "012fda9d-3d2c-422c-bf28-1d59b7fce5b0"
     },
     {
       "id": "db0f0fa9-1a64-4da6-9f82-e51db76f8f51",
@@ -2122,7 +2122,7 @@
       "description": "Massa recheada com tofu crocante ao molho defumado.",
       "price": 61.42,
       "isVegan": false,
-      "restaurantId": "0811b7ac-2b68-4f02-b390-8c4386ce4314"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "e4a02a5c-9038-47ab-b75f-3c2821e4ac80",
@@ -2131,7 +2131,7 @@
       "description": "Pão crocante com tomates e crocante.",
       "price": 23.67,
       "isVegan": true,
-      "restaurantId": "0811b7ac-2b68-4f02-b390-8c4386ce4314"
+      "restaurantId": "83938835-9010-4fc6-90ef-4f258368e66d"
     },
     {
       "id": "80326d8e-276c-440d-9a86-116a1be50f09",
@@ -2140,7 +2140,7 @@
       "description": "Massa recheada com banana-da-terra ao molho clássico.",
       "price": 85.42,
       "isVegan": true,
-      "restaurantId": "0811b7ac-2b68-4f02-b390-8c4386ce4314"
+      "restaurantId": "d4fef1f6-c061-44a9-90f7-177dce690fa1"
     },
     {
       "id": "2d16d081-f6ab-4841-9048-890239478362",
@@ -2149,7 +2149,7 @@
       "description": "Camadas de massa, molho e queijo crocante.",
       "price": 92.0,
       "isVegan": false,
-      "restaurantId": "0811b7ac-2b68-4f02-b390-8c4386ce4314"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "6272788d-e1d7-46e6-9637-163c21e39a7d",
@@ -2158,7 +2158,7 @@
       "description": "Massa longa ao molho ao alho.",
       "price": 90.13,
       "isVegan": false,
-      "restaurantId": "0811b7ac-2b68-4f02-b390-8c4386ce4314"
+      "restaurantId": "3b2d04d9-bc2e-488d-86c2-688960d65ead"
     },
     {
       "id": "8e16028a-a4ad-4f93-afcd-641ca6e547cb",
@@ -2167,7 +2167,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 31.8,
       "isVegan": true,
-      "restaurantId": "801c3b6c-0ae5-4bf4-8314-aa0e5fe6ef03"
+      "restaurantId": "3176820e-52e9-44f1-b245-8bb893fd4b00"
     },
     {
       "id": "f65df446-7d87-40b8-807f-90020a8f9a8e",
@@ -2176,7 +2176,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 84.28,
       "isVegan": false,
-      "restaurantId": "801c3b6c-0ae5-4bf4-8314-aa0e5fe6ef03"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "c1c09329-e823-4f3d-94c7-862ad2246702",
@@ -2185,7 +2185,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 57.73,
       "isVegan": false,
-      "restaurantId": "801c3b6c-0ae5-4bf4-8314-aa0e5fe6ef03"
+      "restaurantId": "304ec0df-0fe3-4e59-9855-8be68d4ecf24"
     },
     {
       "id": "b05859b0-7856-4a45-b91c-baa02504b3ef",
@@ -2194,7 +2194,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 50.58,
       "isVegan": false,
-      "restaurantId": "801c3b6c-0ae5-4bf4-8314-aa0e5fe6ef03"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "b4de0aa8-9cbf-4d8f-bf8a-d94a1595eb3f",
@@ -2203,7 +2203,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 35.4,
       "isVegan": false,
-      "restaurantId": "801c3b6c-0ae5-4bf4-8314-aa0e5fe6ef03"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "30309073-c8e8-44b1-b583-1f2c164fd658",
@@ -2212,7 +2212,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 45.36,
       "isVegan": false,
-      "restaurantId": "801c3b6c-0ae5-4bf4-8314-aa0e5fe6ef03"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "271bda5d-6800-49fc-854a-f658609eb77a",
@@ -2221,7 +2221,7 @@
       "description": "Massa longa ao molho defumado.",
       "price": 15.11,
       "isVegan": false,
-      "restaurantId": "801c3b6c-0ae5-4bf4-8314-aa0e5fe6ef03"
+      "restaurantId": "70c5cc24-26a4-4d2a-81b2-76669922d46b"
     },
     {
       "id": "dac3b171-c9b2-4980-9a8f-104bfd83f19d",
@@ -2230,7 +2230,7 @@
       "description": "Massa longa ao molho ao alho.",
       "price": 78.11,
       "isVegan": false,
-      "restaurantId": "801c3b6c-0ae5-4bf4-8314-aa0e5fe6ef03"
+      "restaurantId": "5b7136c1-ebae-4f47-9a28-61620f9cb10e"
     },
     {
       "id": "6cfb491c-31a1-40c6-bc5b-30ca72f4d9d0",
@@ -2239,7 +2239,7 @@
       "description": "Camadas de massa, molho e queijo cremoso.",
       "price": 30.38,
       "isVegan": false,
-      "restaurantId": "801c3b6c-0ae5-4bf4-8314-aa0e5fe6ef03"
+      "restaurantId": "b2d171d3-a225-4ee9-8f23-058ed691ef7c"
     },
     {
       "id": "75b204bf-1d3a-4cca-84af-6db7116d77f8",
@@ -2248,7 +2248,7 @@
       "description": "Nhoque macio com molho picante.",
       "price": 29.78,
       "isVegan": false,
-      "restaurantId": "801c3b6c-0ae5-4bf4-8314-aa0e5fe6ef03"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "5c72b67d-ef76-4344-904c-ba40982b7f16",
@@ -2257,7 +2257,7 @@
       "description": "Massa recheada com rúcula e tomate seco ao molho picante.",
       "price": 88.57,
       "isVegan": false,
-      "restaurantId": "801c3b6c-0ae5-4bf4-8314-aa0e5fe6ef03"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "20208f17-e8d6-4f7c-a88e-69a3fa8b7f03",
@@ -2266,7 +2266,7 @@
       "description": "Massa recheada com carne ao molho ao molho ao limão.",
       "price": 65.61,
       "isVegan": false,
-      "restaurantId": "801c3b6c-0ae5-4bf4-8314-aa0e5fe6ef03"
+      "restaurantId": "702e5a20-938c-4aba-91e1-73103aec471e"
     },
     {
       "id": "7e8e3ded-e6bb-47c5-bb61-cd43e2fc84e8",
@@ -2275,7 +2275,7 @@
       "description": "Massa fina com cobertura carne ao molho.",
       "price": 60.96,
       "isVegan": true,
-      "restaurantId": "801c3b6c-0ae5-4bf4-8314-aa0e5fe6ef03"
+      "restaurantId": "a1b51de0-bd5e-4d9b-80ec-a08c02b2367f"
     },
     {
       "id": "b0c70c45-3c93-461e-99a4-0ad8e6e6963b",
@@ -2284,7 +2284,7 @@
       "description": "Massa fina com cobertura shimeji.",
       "price": 39.33,
       "isVegan": false,
-      "restaurantId": "801c3b6c-0ae5-4bf4-8314-aa0e5fe6ef03"
+      "restaurantId": "a1b51de0-bd5e-4d9b-80ec-a08c02b2367f"
     },
     {
       "id": "03162e41-47e4-44fe-827b-aabf460aa2ed",
@@ -2293,7 +2293,7 @@
       "description": "Massa longa ao molho picante.",
       "price": 88.48,
       "isVegan": false,
-      "restaurantId": "801c3b6c-0ae5-4bf4-8314-aa0e5fe6ef03"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "24df74d4-7530-4ce9-be3a-64e07058d333",
@@ -2302,7 +2302,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 73.8,
       "isVegan": true,
-      "restaurantId": "61924fe5-08e4-4035-b984-dafc569a6518"
+      "restaurantId": "304ec0df-0fe3-4e59-9855-8be68d4ecf24"
     },
     {
       "id": "630e8b91-2249-4b7e-bb61-3c6ea699c8ee",
@@ -2311,7 +2311,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 18.06,
       "isVegan": false,
-      "restaurantId": "61924fe5-08e4-4035-b984-dafc569a6518"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "bddaeb11-49e5-4573-afc3-14387032bd27",
@@ -2320,7 +2320,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 19.72,
       "isVegan": false,
-      "restaurantId": "61924fe5-08e4-4035-b984-dafc569a6518"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "93c24ff7-f899-4601-b537-11f37ffaf69c",
@@ -2329,7 +2329,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 49.83,
       "isVegan": false,
-      "restaurantId": "61924fe5-08e4-4035-b984-dafc569a6518"
+      "restaurantId": "3176820e-52e9-44f1-b245-8bb893fd4b00"
     },
     {
       "id": "404572ac-b99a-4946-8c71-4815da0e5fd4",
@@ -2338,7 +2338,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 33.74,
       "isVegan": false,
-      "restaurantId": "61924fe5-08e4-4035-b984-dafc569a6518"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "3507e928-6d48-4ff7-9dd9-7ce2febddaf7",
@@ -2347,7 +2347,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 25.06,
       "isVegan": false,
-      "restaurantId": "61924fe5-08e4-4035-b984-dafc569a6518"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "29a4c226-6e4b-43f0-9ed3-93d38185060c",
@@ -2356,7 +2356,7 @@
       "description": "Massa fina com cobertura rúcula e tomate seco.",
       "price": 91.77,
       "isVegan": false,
-      "restaurantId": "61924fe5-08e4-4035-b984-dafc569a6518"
+      "restaurantId": "a1b51de0-bd5e-4d9b-80ec-a08c02b2367f"
     },
     {
       "id": "19f80c37-2a3a-4792-86da-b0c4c75a0af8",
@@ -2365,7 +2365,7 @@
       "description": "Arroz arbóreo cremoso com shimeji.",
       "price": 16.24,
       "isVegan": false,
-      "restaurantId": "61924fe5-08e4-4035-b984-dafc569a6518"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "4cf1d0b0-0acd-4e7a-aaec-9066fe2dda96",
@@ -2374,7 +2374,7 @@
       "description": "Camadas de massa, molho e queijo com ervas.",
       "price": 16.14,
       "isVegan": false,
-      "restaurantId": "61924fe5-08e4-4035-b984-dafc569a6518"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "79161f9c-0120-4c86-9346-cfddeaf6c05e",
@@ -2383,7 +2383,7 @@
       "description": "Massa fina com cobertura banana-da-terra.",
       "price": 24.82,
       "isVegan": false,
-      "restaurantId": "61924fe5-08e4-4035-b984-dafc569a6518"
+      "restaurantId": "a1b51de0-bd5e-4d9b-80ec-a08c02b2367f"
     },
     {
       "id": "fbee588d-dec3-49a7-942d-6108fc61dd6d",
@@ -2392,7 +2392,7 @@
       "description": "Nhoque macio com molho defumado.",
       "price": 24.55,
       "isVegan": false,
-      "restaurantId": "61924fe5-08e4-4035-b984-dafc569a6518"
+      "restaurantId": "cd9cc1cc-63d6-44d6-a821-f29378281faa"
     },
     {
       "id": "c8f89d86-fe01-4e42-b2f6-fde91429eddf",
@@ -2401,7 +2401,7 @@
       "description": "Massa longa ao molho cremoso.",
       "price": 37.68,
       "isVegan": false,
-      "restaurantId": "61924fe5-08e4-4035-b984-dafc569a6518"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "06061479-db86-426b-93b1-8fc870d14c88",
@@ -2410,7 +2410,7 @@
       "description": "Nhoque macio com molho cremoso.",
       "price": 48.67,
       "isVegan": false,
-      "restaurantId": "61924fe5-08e4-4035-b984-dafc569a6518"
+      "restaurantId": "f9e8f801-0264-493f-b6f8-b6b581077027"
     },
     {
       "id": "6ebe3a08-1016-42c8-95c9-7e63891d0513",
@@ -2419,7 +2419,7 @@
       "description": "Nhoque macio com molho agridoce.",
       "price": 71.85,
       "isVegan": false,
-      "restaurantId": "61924fe5-08e4-4035-b984-dafc569a6518"
+      "restaurantId": "ca3f7525-f13f-4f6b-bc76-1a483ece6059"
     },
     {
       "id": "5bf28f44-40d0-425f-8f80-0bc96e6c706c",
@@ -2428,7 +2428,7 @@
       "description": "Pão crocante com tomates e ao alho.",
       "price": 40.85,
       "isVegan": false,
-      "restaurantId": "61924fe5-08e4-4035-b984-dafc569a6518"
+      "restaurantId": "57461acd-b396-4ef1-bf5e-a459df223cb3"
     },
     {
       "id": "5110bf5a-2cd5-4910-ad8e-0bfa471bd1cc",
@@ -2437,7 +2437,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 64.59,
       "isVegan": true,
-      "restaurantId": "8128e8e3-92fb-4e83-a02c-8005fd3a8b2b"
+      "restaurantId": "3685fb92-8151-4ba0-8eed-6253dba6dcd3"
     },
     {
       "id": "b686f6a6-a05e-48ca-9f8a-bdb0a691d318",
@@ -2446,7 +2446,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 62.36,
       "isVegan": true,
-      "restaurantId": "8128e8e3-92fb-4e83-a02c-8005fd3a8b2b"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "ecce873c-a2f7-481b-9fe4-a54643572c7d",
@@ -2455,7 +2455,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 39.62,
       "isVegan": false,
-      "restaurantId": "8128e8e3-92fb-4e83-a02c-8005fd3a8b2b"
+      "restaurantId": "f13c88a4-4e09-44ee-8ff1-253eeae7beb8"
     },
     {
       "id": "ba309abf-c2d3-47a4-bb3f-73dbc27de35f",
@@ -2464,7 +2464,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 32.93,
       "isVegan": false,
-      "restaurantId": "8128e8e3-92fb-4e83-a02c-8005fd3a8b2b"
+      "restaurantId": "304ec0df-0fe3-4e59-9855-8be68d4ecf24"
     },
     {
       "id": "d88baf52-1e3d-4732-a764-8f544ae8dbcd",
@@ -2473,7 +2473,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 26.18,
       "isVegan": false,
-      "restaurantId": "8128e8e3-92fb-4e83-a02c-8005fd3a8b2b"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "2d589cf0-d644-4658-8b52-d02468ff3faa",
@@ -2482,7 +2482,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 83.8,
       "isVegan": false,
-      "restaurantId": "8128e8e3-92fb-4e83-a02c-8005fd3a8b2b"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "63fc5b2c-32ed-4ef6-815f-8c6cc9d79094",
@@ -2491,7 +2491,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 55.83,
       "isVegan": false,
-      "restaurantId": "8128e8e3-92fb-4e83-a02c-8005fd3a8b2b"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "cacf4659-5ab5-4fc6-b3d1-f7e3932142d4",
@@ -2500,7 +2500,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 21.85,
       "isVegan": true,
-      "restaurantId": "8128e8e3-92fb-4e83-a02c-8005fd3a8b2b"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "885e3f36-ee7f-46c5-a96f-efe340e8cbd3",
@@ -2509,7 +2509,7 @@
       "description": "Massa recheada com shimeji ao molho cremoso.",
       "price": 29.01,
       "isVegan": true,
-      "restaurantId": "8128e8e3-92fb-4e83-a02c-8005fd3a8b2b"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "4090c43b-6dab-4ae5-a55f-8a1e1d001a22",
@@ -2518,7 +2518,7 @@
       "description": "Massa recheada com tofu crocante ao molho defumado.",
       "price": 29.28,
       "isVegan": false,
-      "restaurantId": "8128e8e3-92fb-4e83-a02c-8005fd3a8b2b"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "e3df7f50-70f7-46ce-89dc-46f73a73fe6a",
@@ -2527,7 +2527,7 @@
       "description": "Nhoque macio com molho cremoso.",
       "price": 75.66,
       "isVegan": false,
-      "restaurantId": "8128e8e3-92fb-4e83-a02c-8005fd3a8b2b"
+      "restaurantId": "1b48e7e3-4a80-485a-a869-20407db9d136"
     },
     {
       "id": "173ffab5-6802-44b4-87c5-aae1f70f69ef",
@@ -2536,7 +2536,7 @@
       "description": "Camadas de massa, molho e queijo ao alho.",
       "price": 30.59,
       "isVegan": false,
-      "restaurantId": "8128e8e3-92fb-4e83-a02c-8005fd3a8b2b"
+      "restaurantId": "e99357e1-b0fb-4ea1-812f-54b272829b89"
     },
     {
       "id": "c1dad54b-7063-465d-9982-2d23fba6912f",
@@ -2545,7 +2545,7 @@
       "description": "Arroz arbóreo cremoso com shimeji.",
       "price": 29.18,
       "isVegan": false,
-      "restaurantId": "8128e8e3-92fb-4e83-a02c-8005fd3a8b2b"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "dbac5fdc-c3b7-4250-bd78-5913ddeb4a06",
@@ -2554,7 +2554,7 @@
       "description": "Nhoque macio com molho com ervas.",
       "price": 45.77,
       "isVegan": false,
-      "restaurantId": "8128e8e3-92fb-4e83-a02c-8005fd3a8b2b"
+      "restaurantId": "2d555fc8-bba5-4331-bb4f-7ce4f6011bb8"
     },
     {
       "id": "8ce940f6-7556-4222-a9fc-50010902bab0",
@@ -2563,7 +2563,7 @@
       "description": "Massa longa ao molho ao alho.",
       "price": 52.57,
       "isVegan": true,
-      "restaurantId": "8128e8e3-92fb-4e83-a02c-8005fd3a8b2b"
+      "restaurantId": "cf04fe87-cd25-43ff-bf25-c6af30b77d20"
     },
     {
       "id": "c9ca7a98-f36e-4e7b-9590-7803e841415e",
@@ -2572,7 +2572,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 36.01,
       "isVegan": false,
-      "restaurantId": "b55776dc-1693-4d10-bdfb-7646fb81fe15"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "51de1f74-7068-497e-a1d3-57376e138908",
@@ -2581,7 +2581,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 75.26,
       "isVegan": false,
-      "restaurantId": "b55776dc-1693-4d10-bdfb-7646fb81fe15"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "8b8574e2-b76f-4b62-8c54-2276de2b903e",
@@ -2590,7 +2590,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 51.09,
       "isVegan": false,
-      "restaurantId": "b55776dc-1693-4d10-bdfb-7646fb81fe15"
+      "restaurantId": "a1b51de0-bd5e-4d9b-80ec-a08c02b2367f"
     },
     {
       "id": "467124f5-21f0-4e67-99de-a2e9b80e4e16",
@@ -2599,7 +2599,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 22.57,
       "isVegan": false,
-      "restaurantId": "b55776dc-1693-4d10-bdfb-7646fb81fe15"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "e76e0e35-3f53-4fed-ad6b-461ede552429",
@@ -2608,7 +2608,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 31.21,
       "isVegan": true,
-      "restaurantId": "b55776dc-1693-4d10-bdfb-7646fb81fe15"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "59dafcdd-63b6-4f36-89d2-edd295e22d8a",
@@ -2617,7 +2617,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 62.18,
       "isVegan": false,
-      "restaurantId": "b55776dc-1693-4d10-bdfb-7646fb81fe15"
+      "restaurantId": "3176820e-52e9-44f1-b245-8bb893fd4b00"
     },
     {
       "id": "15570ccd-c5ea-41c8-b61d-e98e05ec71cb",
@@ -2626,7 +2626,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 46.78,
       "isVegan": false,
-      "restaurantId": "b55776dc-1693-4d10-bdfb-7646fb81fe15"
+      "restaurantId": "012fda9d-3d2c-422c-bf28-1d59b7fce5b0"
     },
     {
       "id": "a8201db1-ed64-4047-9e7f-58dac664b483",
@@ -2635,7 +2635,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 83.16,
       "isVegan": false,
-      "restaurantId": "b55776dc-1693-4d10-bdfb-7646fb81fe15"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "80cde76a-c438-41b0-8491-db5aee08ed7f",
@@ -2644,7 +2644,7 @@
       "description": "Molho cremoso defumado, arroz e batata palha.",
       "price": 46.61,
       "isVegan": true,
-      "restaurantId": "b55776dc-1693-4d10-bdfb-7646fb81fe15"
+      "restaurantId": "83938835-9010-4fc6-90ef-4f258368e66d"
     },
     {
       "id": "71a22051-a588-42e1-be88-14c17dfd7b25",
@@ -2653,7 +2653,7 @@
       "description": "Massa quebradiça, recheio cremoso.",
       "price": 54.87,
       "isVegan": true,
-      "restaurantId": "b55776dc-1693-4d10-bdfb-7646fb81fe15"
+      "restaurantId": "d4fef1f6-c061-44a9-90f7-177dce690fa1"
     },
     {
       "id": "7c8b261e-886e-4430-9d10-f300d8821b9a",
@@ -2662,7 +2662,7 @@
       "description": "Grelhada com limão e ervas.",
       "price": 39.11,
       "isVegan": false,
-      "restaurantId": "b55776dc-1693-4d10-bdfb-7646fb81fe15"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "234c9361-7946-4e35-822e-d65a5de2ef3e",
@@ -2671,7 +2671,7 @@
       "description": "Molho cremoso crocante, arroz e batata palha.",
       "price": 15.4,
       "isVegan": false,
-      "restaurantId": "b55776dc-1693-4d10-bdfb-7646fb81fe15"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "41eaaab6-eca3-481e-9b8a-548a34bc5ef5",
@@ -2680,7 +2680,7 @@
       "description": "Massa leve, recheio cremoso.",
       "price": 51.8,
       "isVegan": false,
-      "restaurantId": "b55776dc-1693-4d10-bdfb-7646fb81fe15"
+      "restaurantId": "3b2d04d9-bc2e-488d-86c2-688960d65ead"
     },
     {
       "id": "31a1c5e2-e040-491d-a28f-448838ced4cc",
@@ -2689,7 +2689,7 @@
       "description": "Grelhada com limão e ervas.",
       "price": 91.46,
       "isVegan": true,
-      "restaurantId": "b55776dc-1693-4d10-bdfb-7646fb81fe15"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "48d46942-bfe3-4ea0-8376-c56df4d2c216",
@@ -2698,7 +2698,7 @@
       "description": "Grelhada com limão e ervas.",
       "price": 33.0,
       "isVegan": true,
-      "restaurantId": "b55776dc-1693-4d10-bdfb-7646fb81fe15"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "8e3d4528-c606-4511-b7a8-f2f959f0a10c",
@@ -2707,7 +2707,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 63.62,
       "isVegan": false,
-      "restaurantId": "3fd631b2-d0aa-4d6a-a708-3ddb0503c08c"
+      "restaurantId": "3176820e-52e9-44f1-b245-8bb893fd4b00"
     },
     {
       "id": "952d6d96-581d-48ad-a360-5ef386e619b0",
@@ -2716,7 +2716,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 52.28,
       "isVegan": false,
-      "restaurantId": "3fd631b2-d0aa-4d6a-a708-3ddb0503c08c"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "cb6f5590-cac5-47ec-9c63-33c30f2ff6bf",
@@ -2725,7 +2725,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 70.72,
       "isVegan": false,
-      "restaurantId": "3fd631b2-d0aa-4d6a-a708-3ddb0503c08c"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "87b7e108-02c3-40f9-8c4d-59a4352d8bb2",
@@ -2734,7 +2734,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 23.57,
       "isVegan": false,
-      "restaurantId": "3fd631b2-d0aa-4d6a-a708-3ddb0503c08c"
+      "restaurantId": "70c5cc24-26a4-4d2a-81b2-76669922d46b"
     },
     {
       "id": "baf288d0-779b-40db-800f-4a8d276c84b8",
@@ -2743,7 +2743,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 49.6,
       "isVegan": false,
-      "restaurantId": "3fd631b2-d0aa-4d6a-a708-3ddb0503c08c"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "a2a46db2-32f0-4bd2-950d-258c0ae91d32",
@@ -2752,7 +2752,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 38.29,
       "isVegan": false,
-      "restaurantId": "3fd631b2-d0aa-4d6a-a708-3ddb0503c08c"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "cd694498-5b10-48da-8e91-85d57234a094",
@@ -2761,7 +2761,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 78.58,
       "isVegan": false,
-      "restaurantId": "3fd631b2-d0aa-4d6a-a708-3ddb0503c08c"
+      "restaurantId": "304ec0df-0fe3-4e59-9855-8be68d4ecf24"
     },
     {
       "id": "ee8f3fac-c299-4fa1-95e2-fe945f269fbf",
@@ -2770,7 +2770,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 67.21,
       "isVegan": true,
-      "restaurantId": "3fd631b2-d0aa-4d6a-a708-3ddb0503c08c"
+      "restaurantId": "5b7136c1-ebae-4f47-9a28-61620f9cb10e"
     },
     {
       "id": "097e70cc-97aa-45c8-bfa0-3f6f906584cc",
@@ -2779,7 +2779,7 @@
       "description": "Textura cremosa, base de biscoito.",
       "price": 17.89,
       "isVegan": false,
-      "restaurantId": "3fd631b2-d0aa-4d6a-a708-3ddb0503c08c"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "79eae863-dbc2-4531-9737-2fab20d99548",
@@ -2788,7 +2788,7 @@
       "description": "Textura cremosa, base de biscoito.",
       "price": 61.64,
       "isVegan": false,
-      "restaurantId": "3fd631b2-d0aa-4d6a-a708-3ddb0503c08c"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "adec0a85-ffbb-449d-80dc-67909de3c40c",
@@ -2797,7 +2797,7 @@
       "description": "Textura cremosa, base de biscoito.",
       "price": 25.66,
       "isVegan": false,
-      "restaurantId": "3fd631b2-d0aa-4d6a-a708-3ddb0503c08c"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "f6f7a383-7ca9-4187-a5fa-9a626c78f1cf",
@@ -2806,7 +2806,7 @@
       "description": "Textura cremosa, base de biscoito.",
       "price": 39.95,
       "isVegan": false,
-      "restaurantId": "3fd631b2-d0aa-4d6a-a708-3ddb0503c08c"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "f301eeee-f11d-4d0d-830a-da70854ee970",
@@ -2815,7 +2815,7 @@
       "description": "Chocolate intenso, casquinha crocante.",
       "price": 26.04,
       "isVegan": false,
-      "restaurantId": "3fd631b2-d0aa-4d6a-a708-3ddb0503c08c"
+      "restaurantId": "b2d171d3-a225-4ee9-8f23-058ed691ef7c"
     },
     {
       "id": "7523d3da-64c4-42fa-a81c-8be546a88ada",
@@ -2824,7 +2824,7 @@
       "description": "Extração na chapa, aroma marcante.",
       "price": 43.72,
       "isVegan": true,
-      "restaurantId": "3fd631b2-d0aa-4d6a-a708-3ddb0503c08c"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "7123122c-b335-47b2-ae7b-df5368a2e74d",
@@ -2833,7 +2833,7 @@
       "description": "Na tigela com granola e banana.",
       "price": 59.49,
       "isVegan": false,
-      "restaurantId": "3fd631b2-d0aa-4d6a-a708-3ddb0503c08c"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "20046934-d8f3-4a1a-8b24-fe9ecac84806",
@@ -2842,7 +2842,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 44.17,
       "isVegan": false,
-      "restaurantId": "0c73de9b-a19e-43f2-900e-9acbf0a25e93"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "389efdf0-7cc2-4d0e-8426-3db54f7c5fd9",
@@ -2851,7 +2851,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 31.14,
       "isVegan": true,
-      "restaurantId": "0c73de9b-a19e-43f2-900e-9acbf0a25e93"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "94975b43-5a7c-40c5-bcb3-b466c0b88d40",
@@ -2860,7 +2860,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 36.48,
       "isVegan": false,
-      "restaurantId": "0c73de9b-a19e-43f2-900e-9acbf0a25e93"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "72ec3929-a547-4c01-8d75-fce3f17fdf89",
@@ -2869,7 +2869,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 20.22,
       "isVegan": true,
-      "restaurantId": "0c73de9b-a19e-43f2-900e-9acbf0a25e93"
+      "restaurantId": "702e5a20-938c-4aba-91e1-73103aec471e"
     },
     {
       "id": "961b4edc-6030-414f-9d0e-2f8a301770bc",
@@ -2878,7 +2878,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 30.94,
       "isVegan": false,
-      "restaurantId": "0c73de9b-a19e-43f2-900e-9acbf0a25e93"
+      "restaurantId": "3176820e-52e9-44f1-b245-8bb893fd4b00"
     },
     {
       "id": "31700b16-1236-40f8-b169-66025a53ef09",
@@ -2887,7 +2887,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 64.64,
       "isVegan": false,
-      "restaurantId": "0c73de9b-a19e-43f2-900e-9acbf0a25e93"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "19731ab9-6866-416d-b77b-105302716052",
@@ -2896,7 +2896,7 @@
       "description": "Seleção de legumes ao azeite e com ervas.",
       "price": 62.8,
       "isVegan": false,
-      "restaurantId": "0c73de9b-a19e-43f2-900e-9acbf0a25e93"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "88eff19b-180d-4a7f-89dc-20ef2b6c091c",
@@ -2905,7 +2905,7 @@
       "description": "Seleção de legumes ao azeite e defumado.",
       "price": 14.74,
       "isVegan": false,
-      "restaurantId": "0c73de9b-a19e-43f2-900e-9acbf0a25e93"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "a04a5e30-402f-47cf-9347-90627544af02",
@@ -2914,7 +2914,7 @@
       "description": "Carne grelhada no ponto com sal de parrilla.",
       "price": 28.55,
       "isVegan": false,
-      "restaurantId": "0c73de9b-a19e-43f2-900e-9acbf0a25e93"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "fb27207f-4d31-41e4-96f6-49c2f70e6c2f",
@@ -2923,7 +2923,7 @@
       "description": "Cozida lentamente, toque ao alho.",
       "price": 66.28,
       "isVegan": false,
-      "restaurantId": "0c73de9b-a19e-43f2-900e-9acbf0a25e93"
+      "restaurantId": "cd9cc1cc-63d6-44d6-a821-f29378281faa"
     },
     {
       "id": "275b159f-e0c7-4d99-bd7a-232be47c15e7",
@@ -2932,7 +2932,7 @@
       "description": "Grelhada, suculenta, servida com farofa.",
       "price": 50.17,
       "isVegan": false,
-      "restaurantId": "0c73de9b-a19e-43f2-900e-9acbf0a25e93"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "24fb87e6-ccc9-494e-85bc-a57c4045343d",
@@ -2941,7 +2941,7 @@
       "description": "Hambúrguer de queijo coalho, pão macio.",
       "price": 55.93,
       "isVegan": false,
-      "restaurantId": "0c73de9b-a19e-43f2-900e-9acbf0a25e93"
+      "restaurantId": "f9e8f801-0264-493f-b6f8-b6b581077027"
     },
     {
       "id": "0f930ab0-5215-4279-b217-0394b53ee5b1",
@@ -2950,7 +2950,7 @@
       "description": "Carne grelhada no ponto com sal de parrilla.",
       "price": 12.39,
       "isVegan": true,
-      "restaurantId": "0c73de9b-a19e-43f2-900e-9acbf0a25e93"
+      "restaurantId": "ca3f7525-f13f-4f6b-bc76-1a483ece6059"
     },
     {
       "id": "d5d6fdc7-ca93-48d5-9ebb-0b9a8e35e930",
@@ -2959,7 +2959,7 @@
       "description": "Hambúrguer de legumes salteados, pão macio.",
       "price": 36.2,
       "isVegan": false,
-      "restaurantId": "0c73de9b-a19e-43f2-900e-9acbf0a25e93"
+      "restaurantId": "57461acd-b396-4ef1-bf5e-a459df223cb3"
     },
     {
       "id": "9fb679cb-16ec-4c74-b28a-6be6e0e012a9",
@@ -2968,7 +2968,7 @@
       "description": "Grelhada, suculenta, servida com farofa.",
       "price": 59.98,
       "isVegan": false,
-      "restaurantId": "0c73de9b-a19e-43f2-900e-9acbf0a25e93"
+      "restaurantId": "3685fb92-8151-4ba0-8eed-6253dba6dcd3"
     },
     {
       "id": "7e9d9be7-2cb6-47f4-a5c1-467ffb99673d",
@@ -2977,7 +2977,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 31.68,
       "isVegan": false,
-      "restaurantId": "1466af6b-3631-456b-9398-bfa71f27e1bf"
+      "restaurantId": "f13c88a4-4e09-44ee-8ff1-253eeae7beb8"
     },
     {
       "id": "4468699a-8bfc-4a38-9dbd-a064927fb5cc",
@@ -2986,7 +2986,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 39.78,
       "isVegan": true,
-      "restaurantId": "1466af6b-3631-456b-9398-bfa71f27e1bf"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "e2d9423a-28fa-4adb-bac6-48f1744fd27c",
@@ -2995,7 +2995,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 63.66,
       "isVegan": true,
-      "restaurantId": "1466af6b-3631-456b-9398-bfa71f27e1bf"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "aa5954fe-81a4-47d5-bdb8-d14698daf9cd",
@@ -3004,7 +3004,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 30.42,
       "isVegan": false,
-      "restaurantId": "1466af6b-3631-456b-9398-bfa71f27e1bf"
+      "restaurantId": "304ec0df-0fe3-4e59-9855-8be68d4ecf24"
     },
     {
       "id": "8e8dac3f-809f-4fad-a92e-be0d1c80d320",
@@ -3013,7 +3013,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 68.09,
       "isVegan": false,
-      "restaurantId": "1466af6b-3631-456b-9398-bfa71f27e1bf"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "890e37a3-5713-4123-a622-e1a753a08fc3",
@@ -3022,7 +3022,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 27.81,
       "isVegan": false,
-      "restaurantId": "1466af6b-3631-456b-9398-bfa71f27e1bf"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "22d363e9-d875-45a3-97e3-9ae538d3e087",
@@ -3031,7 +3031,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 27.73,
       "isVegan": false,
-      "restaurantId": "1466af6b-3631-456b-9398-bfa71f27e1bf"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "78b172c8-1d69-42cb-8040-f0a6730d0220",
@@ -3040,7 +3040,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 82.47,
       "isVegan": false,
-      "restaurantId": "1466af6b-3631-456b-9398-bfa71f27e1bf"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "f0c2135f-09f4-4e92-8a25-7ed8b2702501",
@@ -3049,7 +3049,7 @@
       "description": "Massa quebradiça, recheio cremoso.",
       "price": 65.51,
       "isVegan": false,
-      "restaurantId": "1466af6b-3631-456b-9398-bfa71f27e1bf"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "fe822040-ca45-47b1-a1d0-6fb22e62c982",
@@ -3058,7 +3058,7 @@
       "description": "Molho cremoso agridoce, arroz e batata palha.",
       "price": 94.12,
       "isVegan": false,
-      "restaurantId": "1466af6b-3631-456b-9398-bfa71f27e1bf"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "5302262f-606c-41cf-b146-4de0be4cc544",
@@ -3067,7 +3067,7 @@
       "description": "Grelhada com limão e ervas.",
       "price": 66.16,
       "isVegan": false,
-      "restaurantId": "1466af6b-3631-456b-9398-bfa71f27e1bf"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "7a104548-8a8a-4564-b5f3-e9d8d08b34cf",
@@ -3076,7 +3076,7 @@
       "description": "Conforto em colheradas generosas.",
       "price": 22.55,
       "isVegan": true,
-      "restaurantId": "1466af6b-3631-456b-9398-bfa71f27e1bf"
+      "restaurantId": "1b48e7e3-4a80-485a-a869-20407db9d136"
     },
     {
       "id": "dd44ddae-e53e-4930-92b9-0cb242880777",
@@ -3085,7 +3085,7 @@
       "description": "Conforto em colheradas generosas.",
       "price": 38.27,
       "isVegan": false,
-      "restaurantId": "1466af6b-3631-456b-9398-bfa71f27e1bf"
+      "restaurantId": "e99357e1-b0fb-4ea1-812f-54b272829b89"
     },
     {
       "id": "ed9f5054-946c-49ad-b729-2eba4c384613",
@@ -3094,7 +3094,7 @@
       "description": "Massa quebradiça, recheio cremoso.",
       "price": 50.1,
       "isVegan": false,
-      "restaurantId": "1466af6b-3631-456b-9398-bfa71f27e1bf"
+      "restaurantId": "2d555fc8-bba5-4331-bb4f-7ce4f6011bb8"
     },
     {
       "id": "2bded8f0-98f0-429e-b077-326898872902",
@@ -3103,7 +3103,7 @@
       "description": "Conforto em colheradas generosas.",
       "price": 32.46,
       "isVegan": false,
-      "restaurantId": "1466af6b-3631-456b-9398-bfa71f27e1bf"
+      "restaurantId": "cf04fe87-cd25-43ff-bf25-c6af30b77d20"
     },
     {
       "id": "198b3d48-29be-4943-8f11-638409fa07ae",
@@ -3112,7 +3112,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 41.37,
       "isVegan": false,
-      "restaurantId": "3d6ecdfe-baeb-43a4-bd56-9239817128ba"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "c512236b-319b-4aad-a770-abc52022dbcd",
@@ -3121,7 +3121,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 48.8,
       "isVegan": true,
-      "restaurantId": "3d6ecdfe-baeb-43a4-bd56-9239817128ba"
+      "restaurantId": "a1b51de0-bd5e-4d9b-80ec-a08c02b2367f"
     },
     {
       "id": "05e7ec9b-9ad0-4809-aeca-698d38893dd0",
@@ -3130,7 +3130,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 48.09,
       "isVegan": false,
-      "restaurantId": "3d6ecdfe-baeb-43a4-bd56-9239817128ba"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "55a0af3f-8ff5-4ea4-aef7-9b6c8467cac3",
@@ -3139,7 +3139,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 77.56,
       "isVegan": false,
-      "restaurantId": "3d6ecdfe-baeb-43a4-bd56-9239817128ba"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "f28523c0-513e-450a-90f0-2d485ee1fcd6",
@@ -3148,7 +3148,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 32.35,
       "isVegan": false,
-      "restaurantId": "3d6ecdfe-baeb-43a4-bd56-9239817128ba"
+      "restaurantId": "3176820e-52e9-44f1-b245-8bb893fd4b00"
     },
     {
       "id": "aebef11c-1b24-4158-b263-d0187b15d4c1",
@@ -3157,7 +3157,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 20.8,
       "isVegan": true,
-      "restaurantId": "3d6ecdfe-baeb-43a4-bd56-9239817128ba"
+      "restaurantId": "012fda9d-3d2c-422c-bf28-1d59b7fce5b0"
     },
     {
       "id": "416d2dcd-67c7-48a2-89a4-ef65449d7987",
@@ -3166,7 +3166,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 43.64,
       "isVegan": false,
-      "restaurantId": "3d6ecdfe-baeb-43a4-bd56-9239817128ba"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "bd326e7e-6d30-465e-86be-dae80f16a425",
@@ -3175,7 +3175,7 @@
       "description": "Massa recheada com rúcula e tomate seco ao molho ao limão.",
       "price": 37.53,
       "isVegan": false,
-      "restaurantId": "3d6ecdfe-baeb-43a4-bd56-9239817128ba"
+      "restaurantId": "83938835-9010-4fc6-90ef-4f258368e66d"
     },
     {
       "id": "13d9ca66-090f-4def-8ae3-7762feba5bcf",
@@ -3184,7 +3184,7 @@
       "description": "Pão crocante com tomates e defumado.",
       "price": 18.9,
       "isVegan": false,
-      "restaurantId": "3d6ecdfe-baeb-43a4-bd56-9239817128ba"
+      "restaurantId": "d4fef1f6-c061-44a9-90f7-177dce690fa1"
     },
     {
       "id": "5ac6951a-72a2-42a9-ae12-020502735caa",
@@ -3193,7 +3193,7 @@
       "description": "Massa fina com cobertura shimeji.",
       "price": 30.52,
       "isVegan": true,
-      "restaurantId": "3d6ecdfe-baeb-43a4-bd56-9239817128ba"
+      "restaurantId": "a1b51de0-bd5e-4d9b-80ec-a08c02b2367f"
     },
     {
       "id": "921b74cd-0aff-43af-9064-8b4272a1e38f",
@@ -3202,7 +3202,7 @@
       "description": "Arroz arbóreo cremoso com rúcula e tomate seco.",
       "price": 58.11,
       "isVegan": true,
-      "restaurantId": "3d6ecdfe-baeb-43a4-bd56-9239817128ba"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "cc9d56f8-5504-4475-ba56-991792dcd825",
@@ -3211,7 +3211,7 @@
       "description": "Nhoque macio com molho picante.",
       "price": 66.59,
       "isVegan": true,
-      "restaurantId": "3d6ecdfe-baeb-43a4-bd56-9239817128ba"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "71e78a8b-b5b0-4ce2-8289-77dc84bf7407",
@@ -3220,7 +3220,7 @@
       "description": "Pão crocante com tomates e agridoce.",
       "price": 34.12,
       "isVegan": false,
-      "restaurantId": "3d6ecdfe-baeb-43a4-bd56-9239817128ba"
+      "restaurantId": "3b2d04d9-bc2e-488d-86c2-688960d65ead"
     },
     {
       "id": "9a153e1b-4a83-4f75-88e8-6bb182901045",
@@ -3229,7 +3229,7 @@
       "description": "Massa longa ao molho crocante.",
       "price": 46.0,
       "isVegan": false,
-      "restaurantId": "3d6ecdfe-baeb-43a4-bd56-9239817128ba"
+      "restaurantId": "70c5cc24-26a4-4d2a-81b2-76669922d46b"
     },
     {
       "id": "1aac0668-73ef-49f9-a47a-59020b2ea808",
@@ -3238,7 +3238,7 @@
       "description": "Pão crocante com tomates e cremoso.",
       "price": 17.24,
       "isVegan": false,
-      "restaurantId": "3d6ecdfe-baeb-43a4-bd56-9239817128ba"
+      "restaurantId": "5b7136c1-ebae-4f47-9a28-61620f9cb10e"
     },
     {
       "id": "6f11aa3f-bc27-4a6c-b123-11d3d908af43",
@@ -3247,7 +3247,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 37.28,
       "isVegan": false,
-      "restaurantId": "20308b7f-4000-434a-a494-7df07adedbaf"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "2cf9a864-e82a-4eb0-be06-453076ad2800",
@@ -3256,7 +3256,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 60.71,
       "isVegan": false,
-      "restaurantId": "20308b7f-4000-434a-a494-7df07adedbaf"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "df2908f9-0bf4-469a-817e-85d167c35e8c",
@@ -3265,7 +3265,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 57.04,
       "isVegan": false,
-      "restaurantId": "20308b7f-4000-434a-a494-7df07adedbaf"
+      "restaurantId": "b2d171d3-a225-4ee9-8f23-058ed691ef7c"
     },
     {
       "id": "1abd3eb1-953a-4e62-913e-1db7a6a538da",
@@ -3274,7 +3274,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 74.91,
       "isVegan": false,
-      "restaurantId": "20308b7f-4000-434a-a494-7df07adedbaf"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "7e339867-ba89-4856-830b-a434d984e93a",
@@ -3283,7 +3283,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 18.77,
       "isVegan": true,
-      "restaurantId": "20308b7f-4000-434a-a494-7df07adedbaf"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "804c1727-7af7-45f2-ab56-97749ccbac07",
@@ -3292,7 +3292,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 23.09,
       "isVegan": false,
-      "restaurantId": "20308b7f-4000-434a-a494-7df07adedbaf"
+      "restaurantId": "304ec0df-0fe3-4e59-9855-8be68d4ecf24"
     },
     {
       "id": "1f6295d1-8d3f-41e5-b072-ed3a5a7bfdce",
@@ -3301,7 +3301,7 @@
       "description": "Cozida no dendê com carne ao molho.",
       "price": 92.15,
       "isVegan": true,
-      "restaurantId": "20308b7f-4000-434a-a494-7df07adedbaf"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "28449422-1647-4ee7-b96d-80a49149a48d",
@@ -3310,7 +3310,7 @@
       "description": "Porção crocante para compartilhar.",
       "price": 56.29,
       "isVegan": false,
-      "restaurantId": "20308b7f-4000-434a-a494-7df07adedbaf"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "d8ce9404-7d81-4071-93f9-3f34034b6ba0",
@@ -3319,7 +3319,7 @@
       "description": "Clássica da casa, recheio picante.",
       "price": 70.2,
       "isVegan": true,
-      "restaurantId": "20308b7f-4000-434a-a494-7df07adedbaf"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "1b602a8c-cf9d-47a5-8462-6801944892eb",
@@ -3328,7 +3328,7 @@
       "description": "Arroz, feijão, queijo coalho crocante.",
       "price": 68.01,
       "isVegan": false,
-      "restaurantId": "20308b7f-4000-434a-a494-7df07adedbaf"
+      "restaurantId": "702e5a20-938c-4aba-91e1-73103aec471e"
     },
     {
       "id": "b1df4f27-3dcc-457f-a00e-6f6805a5963e",
@@ -3337,7 +3337,7 @@
       "description": "Clássica da casa, recheio defumado.",
       "price": 93.73,
       "isVegan": true,
-      "restaurantId": "20308b7f-4000-434a-a494-7df07adedbaf"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "a01817bb-00ff-4e58-88bf-76285ff04361",
@@ -3346,7 +3346,7 @@
       "description": "Cozida no dendê com banana-da-terra.",
       "price": 51.94,
       "isVegan": true,
-      "restaurantId": "20308b7f-4000-434a-a494-7df07adedbaf"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "9c446a83-90c8-4870-ba52-720d6792201d",
@@ -3355,7 +3355,7 @@
       "description": "Purê cremoso com recheio com ervas.",
       "price": 72.02,
       "isVegan": true,
-      "restaurantId": "20308b7f-4000-434a-a494-7df07adedbaf"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "c78c0ff6-e422-466a-9883-a713f2985ac4",
@@ -3364,7 +3364,7 @@
       "description": "Arroz, feijão, queijo coalho defumado.",
       "price": 20.19,
       "isVegan": false,
-      "restaurantId": "20308b7f-4000-434a-a494-7df07adedbaf"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "54a4c154-3bda-4707-86f9-6e7e715daa9c",
@@ -3373,7 +3373,7 @@
       "description": "Porção crocante para compartilhar.",
       "price": 77.54,
       "isVegan": false,
-      "restaurantId": "20308b7f-4000-434a-a494-7df07adedbaf"
+      "restaurantId": "cd9cc1cc-63d6-44d6-a821-f29378281faa"
     },
     {
       "id": "867fe816-6cde-4fdf-a8a8-44b952bdbbc1",
@@ -3382,7 +3382,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 18.05,
       "isVegan": true,
-      "restaurantId": "5af0d6b0-f624-4591-b74d-708cf83655cc"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "92a4bbe6-1f62-4f8c-91e4-e9120fb17a04",
@@ -3391,7 +3391,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 43.27,
       "isVegan": false,
-      "restaurantId": "5af0d6b0-f624-4591-b74d-708cf83655cc"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "5808f22d-f833-4a0d-9744-0180cd1b7672",
@@ -3400,7 +3400,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 36.75,
       "isVegan": true,
-      "restaurantId": "5af0d6b0-f624-4591-b74d-708cf83655cc"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "5e5eb389-621f-41ac-a610-25201debb1f6",
@@ -3409,7 +3409,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 29.58,
       "isVegan": false,
-      "restaurantId": "5af0d6b0-f624-4591-b74d-708cf83655cc"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "87da7113-385d-46cc-b804-f7cc2567b426",
@@ -3418,7 +3418,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 27.17,
       "isVegan": false,
-      "restaurantId": "5af0d6b0-f624-4591-b74d-708cf83655cc"
+      "restaurantId": "3176820e-52e9-44f1-b245-8bb893fd4b00"
     },
     {
       "id": "895b2761-182f-452c-9285-b86ca9f7f263",
@@ -3427,7 +3427,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 56.37,
       "isVegan": false,
-      "restaurantId": "5af0d6b0-f624-4591-b74d-708cf83655cc"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "1f61f31f-9bd8-4aa4-8081-4699937601bf",
@@ -3436,7 +3436,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 49.09,
       "isVegan": false,
-      "restaurantId": "5af0d6b0-f624-4591-b74d-708cf83655cc"
+      "restaurantId": "a896409b-0391-480b-b4f0-113b17da05ee"
     },
     {
       "id": "aa08108d-1aa8-4d1d-9fd2-1a6e6f6fe5e5",
@@ -3445,7 +3445,7 @@
       "description": "Hambúrguer de tofu crocante, pão macio.",
       "price": 50.73,
       "isVegan": false,
-      "restaurantId": "5af0d6b0-f624-4591-b74d-708cf83655cc"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "eedba87d-53fd-4036-9ad1-dea3222a991a",
@@ -3454,7 +3454,7 @@
       "description": "Carne grelhada no ponto com sal de parrilla.",
       "price": 47.26,
       "isVegan": false,
-      "restaurantId": "5af0d6b0-f624-4591-b74d-708cf83655cc"
+      "restaurantId": "f9e8f801-0264-493f-b6f8-b6b581077027"
     },
     {
       "id": "d07cd7be-5ed5-4aa3-adb0-d82e7bd7c92d",
@@ -3463,7 +3463,7 @@
       "description": "Carne grelhada no ponto com sal de parrilla.",
       "price": 82.13,
       "isVegan": false,
-      "restaurantId": "5af0d6b0-f624-4591-b74d-708cf83655cc"
+      "restaurantId": "ca3f7525-f13f-4f6b-bc76-1a483ece6059"
     },
     {
       "id": "4bd7e716-da73-484f-854e-974a361314b6",
@@ -3472,7 +3472,7 @@
       "description": "Seleção de legumes ao azeite e defumado.",
       "price": 61.42,
       "isVegan": false,
-      "restaurantId": "5af0d6b0-f624-4591-b74d-708cf83655cc"
+      "restaurantId": "57461acd-b396-4ef1-bf5e-a459df223cb3"
     },
     {
       "id": "88ca75a6-1722-494c-b854-5a431825e416",
@@ -3481,7 +3481,7 @@
       "description": "Seleção de legumes ao azeite e defumado.",
       "price": 76.84,
       "isVegan": false,
-      "restaurantId": "5af0d6b0-f624-4591-b74d-708cf83655cc"
+      "restaurantId": "3685fb92-8151-4ba0-8eed-6253dba6dcd3"
     },
     {
       "id": "f98a939b-d626-4121-9829-2a655043f4dd",
@@ -3490,7 +3490,7 @@
       "description": "Grelhada, suculenta, servida com farofa.",
       "price": 22.35,
       "isVegan": false,
-      "restaurantId": "5af0d6b0-f624-4591-b74d-708cf83655cc"
+      "restaurantId": "f13c88a4-4e09-44ee-8ff1-253eeae7beb8"
     },
     {
       "id": "4c0e308f-48b7-4e05-a98b-20068b9e05e1",
@@ -3499,7 +3499,7 @@
       "description": "Marinado e grelhado, pele crocante.",
       "price": 88.32,
       "isVegan": true,
-      "restaurantId": "5af0d6b0-f624-4591-b74d-708cf83655cc"
+      "restaurantId": "304ec0df-0fe3-4e59-9855-8be68d4ecf24"
     },
     {
       "id": "139a12c8-22f1-43ce-bb1b-8b36ae0157ba",
@@ -3508,7 +3508,7 @@
       "description": "Carne grelhada no ponto com sal de parrilla.",
       "price": 70.94,
       "isVegan": false,
-      "restaurantId": "5af0d6b0-f624-4591-b74d-708cf83655cc"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "5dc1d60e-8ec4-49d5-8d22-6d36caa4332b",
@@ -3517,7 +3517,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 79.9,
       "isVegan": true,
-      "restaurantId": "311ca937-62af-4423-8665-14a47b517c62"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "1c8687d3-d541-47d6-a49b-1b6b8303adb7",
@@ -3526,7 +3526,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 40.39,
       "isVegan": true,
-      "restaurantId": "311ca937-62af-4423-8665-14a47b517c62"
+      "restaurantId": "e9a797eb-92da-40fe-9a88-18e9b687b777"
     },
     {
       "id": "28e17964-35d4-4220-9055-051f3873130a",
@@ -3535,7 +3535,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 81.34,
       "isVegan": false,
-      "restaurantId": "311ca937-62af-4423-8665-14a47b517c62"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "77fc4826-4274-49a7-8759-c8fee636e284",
@@ -3544,7 +3544,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 63.49,
       "isVegan": true,
-      "restaurantId": "311ca937-62af-4423-8665-14a47b517c62"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "6f7ab775-68cb-4e65-b98e-486c7b718386",
@@ -3553,7 +3553,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 71.59,
       "isVegan": false,
-      "restaurantId": "311ca937-62af-4423-8665-14a47b517c62"
+      "restaurantId": "304ec0df-0fe3-4e59-9855-8be68d4ecf24"
     },
     {
       "id": "c59c3e57-4bcd-4ada-a320-552fdd8a0185",
@@ -3562,7 +3562,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 41.52,
       "isVegan": false,
-      "restaurantId": "311ca937-62af-4423-8665-14a47b517c62"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "e84c36be-24ca-4587-950d-2892eb7286ba",
@@ -3571,7 +3571,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 41.69,
       "isVegan": true,
-      "restaurantId": "311ca937-62af-4423-8665-14a47b517c62"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "9eb862ad-bc7c-4028-b6fc-1a1640542ba3",
@@ -3580,7 +3580,7 @@
       "description": "Legumes salteados com molho clássico.",
       "price": 69.23,
       "isVegan": false,
-      "restaurantId": "311ca937-62af-4423-8665-14a47b517c62"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "18d5ba9f-3320-4f09-8e93-040111a736c0",
@@ -3589,7 +3589,7 @@
       "description": "Tigela de arroz com pimentões e gergelim.",
       "price": 54.52,
       "isVegan": true,
-      "restaurantId": "311ca937-62af-4423-8665-14a47b517c62"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "5fc41876-2e20-43d5-9909-98672584568f",
@@ -3598,7 +3598,7 @@
       "description": "Arroz noodles, amendoim e molho clássico.",
       "price": 57.33,
       "isVegan": false,
-      "restaurantId": "311ca937-62af-4423-8665-14a47b517c62"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "7ce352f4-7b03-43d0-8d77-2a308f522512",
@@ -3607,7 +3607,7 @@
       "description": "Tigela de arroz com rúcula e tomate seco e gergelim.",
       "price": 66.61,
       "isVegan": true,
-      "restaurantId": "311ca937-62af-4423-8665-14a47b517c62"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "97058fba-fb4d-4a2c-bac7-f4811ab2624d",
@@ -3616,7 +3616,7 @@
       "description": "Cone de alga com arroz e tofu crocante.",
       "price": 63.07,
       "isVegan": false,
-      "restaurantId": "311ca937-62af-4423-8665-14a47b517c62"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "8003c5c9-6d5b-49d0-880c-b95179a87730",
@@ -3625,7 +3625,7 @@
       "description": "Pãozinho no vapor recheado, textura macia.",
       "price": 32.25,
       "isVegan": false,
-      "restaurantId": "311ca937-62af-4423-8665-14a47b517c62"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "624195c0-3547-4e22-82ff-f0d34952a2f5",
@@ -3634,7 +3634,7 @@
       "description": "Pãozinho no vapor recheado, textura macia.",
       "price": 84.04,
       "isVegan": false,
-      "restaurantId": "311ca937-62af-4423-8665-14a47b517c62"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "5d23f4d3-333c-460d-9f3d-5c38da13fb65",
@@ -3643,7 +3643,7 @@
       "description": "Tigela de arroz com rúcula e tomate seco e gergelim.",
       "price": 62.01,
       "isVegan": true,
-      "restaurantId": "311ca937-62af-4423-8665-14a47b517c62"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "8d234ef5-5f37-4518-a62a-b96a0dfd268e",
@@ -3652,7 +3652,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 69.99,
       "isVegan": false,
-      "restaurantId": "e3f86026-58c6-49f1-9a95-ecd9321b39a1"
+      "restaurantId": "1b48e7e3-4a80-485a-a869-20407db9d136"
     },
     {
       "id": "e7b72758-4db4-45fd-b905-8d723a2ec8c9",
@@ -3661,7 +3661,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 75.11,
       "isVegan": false,
-      "restaurantId": "e3f86026-58c6-49f1-9a95-ecd9321b39a1"
+      "restaurantId": "e99357e1-b0fb-4ea1-812f-54b272829b89"
     },
     {
       "id": "500ca0e9-079b-47d5-9084-dd1b797412c0",
@@ -3670,7 +3670,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 80.82,
       "isVegan": false,
-      "restaurantId": "e3f86026-58c6-49f1-9a95-ecd9321b39a1"
+      "restaurantId": "2d555fc8-bba5-4331-bb4f-7ce4f6011bb8"
     },
     {
       "id": "15d63f64-bf9c-4522-81cf-c8abe4b855ef",
@@ -3679,7 +3679,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 35.3,
       "isVegan": false,
-      "restaurantId": "e3f86026-58c6-49f1-9a95-ecd9321b39a1"
+      "restaurantId": "3176820e-52e9-44f1-b245-8bb893fd4b00"
     },
     {
       "id": "88234915-bf0e-4f95-8707-b2f9958d725b",
@@ -3688,7 +3688,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 44.67,
       "isVegan": false,
-      "restaurantId": "e3f86026-58c6-49f1-9a95-ecd9321b39a1"
+      "restaurantId": "cf04fe87-cd25-43ff-bf25-c6af30b77d20"
     },
     {
       "id": "582a5b16-6fd1-46da-9d4d-717dfb6daac1",
@@ -3697,7 +3697,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 39.93,
       "isVegan": true,
-      "restaurantId": "e3f86026-58c6-49f1-9a95-ecd9321b39a1"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "3db446a3-113f-465f-b02e-6bd75d37480d",
@@ -3706,7 +3706,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 36.1,
       "isVegan": false,
-      "restaurantId": "e3f86026-58c6-49f1-9a95-ecd9321b39a1"
+      "restaurantId": "a1b51de0-bd5e-4d9b-80ec-a08c02b2367f"
     },
     {
       "id": "b83b9349-58ad-464e-8706-27186e821088",
@@ -3715,7 +3715,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 16.49,
       "isVegan": false,
-      "restaurantId": "e3f86026-58c6-49f1-9a95-ecd9321b39a1"
+      "restaurantId": "3176820e-52e9-44f1-b245-8bb893fd4b00"
     },
     {
       "id": "7231f3a4-5ef1-43ed-b684-09d8467c8e21",
@@ -3724,7 +3724,7 @@
       "description": "Cone de alga com arroz e shimeji.",
       "price": 73.55,
       "isVegan": false,
-      "restaurantId": "e3f86026-58c6-49f1-9a95-ecd9321b39a1"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "6811a8aa-375f-449b-986f-eab7d0293756",
@@ -3733,7 +3733,7 @@
       "description": "Pãozinho no vapor recheado, textura macia.",
       "price": 58.23,
       "isVegan": false,
-      "restaurantId": "e3f86026-58c6-49f1-9a95-ecd9321b39a1"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "2f4fae29-2b6d-47fe-a84b-54b00b363235",
@@ -3742,7 +3742,7 @@
       "description": "Cone de alga com arroz e tofu crocante.",
       "price": 25.43,
       "isVegan": false,
-      "restaurantId": "e3f86026-58c6-49f1-9a95-ecd9321b39a1"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "37932e22-62be-45f7-bcb2-492b67387d10",
@@ -3751,7 +3751,7 @@
       "description": "Dumplings grelhados com molho cremoso.",
       "price": 47.66,
       "isVegan": false,
-      "restaurantId": "e3f86026-58c6-49f1-9a95-ecd9321b39a1"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "8ebaea2a-47c5-4cf1-b768-956a7682cdc4",
@@ -3760,7 +3760,7 @@
       "description": "Legumes salteados com molho cremoso.",
       "price": 12.94,
       "isVegan": false,
-      "restaurantId": "e3f86026-58c6-49f1-9a95-ecd9321b39a1"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "e1a3d576-f9fc-4780-b5f4-b404789addc7",
@@ -3769,7 +3769,7 @@
       "description": "Legumes salteados com molho clássico.",
       "price": 37.14,
       "isVegan": true,
-      "restaurantId": "e3f86026-58c6-49f1-9a95-ecd9321b39a1"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "b6becf07-f33f-4c01-b99e-a648439d4a62",
@@ -3778,7 +3778,7 @@
       "description": "Arroz noodles, amendoim e molho picante.",
       "price": 65.5,
       "isVegan": false,
-      "restaurantId": "e3f86026-58c6-49f1-9a95-ecd9321b39a1"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "71e21acc-2857-4e3b-a675-0a1581069cf6",
@@ -3787,7 +3787,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 20.44,
       "isVegan": true,
-      "restaurantId": "8839f74a-a5f3-4cf3-b351-121437f4105d"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "4742a9cd-83ed-43d7-882a-4b3f4fb5d29e",
@@ -3796,7 +3796,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 16.05,
       "isVegan": false,
-      "restaurantId": "8839f74a-a5f3-4cf3-b351-121437f4105d"
+      "restaurantId": "012fda9d-3d2c-422c-bf28-1d59b7fce5b0"
     },
     {
       "id": "70c76a6a-dc55-42f2-9388-dc6ecc0251f9",
@@ -3805,7 +3805,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 75.14,
       "isVegan": false,
-      "restaurantId": "8839f74a-a5f3-4cf3-b351-121437f4105d"
+      "restaurantId": "83938835-9010-4fc6-90ef-4f258368e66d"
     },
     {
       "id": "74c5ac96-dfc1-43b5-8878-82c5d681042a",
@@ -3814,7 +3814,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 71.34,
       "isVegan": false,
-      "restaurantId": "8839f74a-a5f3-4cf3-b351-121437f4105d"
+      "restaurantId": "dbb9ea04-469f-4213-ae6f-c35b1ffeac93"
     },
     {
       "id": "915c1ca5-3f8b-438d-b28f-e0533231e029",
@@ -3823,7 +3823,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 67.12,
       "isVegan": false,
-      "restaurantId": "8839f74a-a5f3-4cf3-b351-121437f4105d"
+      "restaurantId": "d4fef1f6-c061-44a9-90f7-177dce690fa1"
     },
     {
       "id": "95e6d54e-fae8-40fd-a6d2-b30e86967171",
@@ -3832,7 +3832,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 69.87,
       "isVegan": false,
-      "restaurantId": "8839f74a-a5f3-4cf3-b351-121437f4105d"
+      "restaurantId": "304ec0df-0fe3-4e59-9855-8be68d4ecf24"
     },
     {
       "id": "479df24b-61f7-4818-a585-222a5a6d1cbb",
@@ -3841,7 +3841,7 @@
       "description": "Bolinhos de grão-de-bico, crocantes e defumado.",
       "price": 61.41,
       "isVegan": false,
-      "restaurantId": "8839f74a-a5f3-4cf3-b351-121437f4105d"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "763a51fa-6c17-4428-b15f-fc96eb1aafec",
@@ -3850,7 +3850,7 @@
       "description": "Creme de grão-de-bico com tahine com ervas.",
       "price": 25.79,
       "isVegan": true,
-      "restaurantId": "8839f74a-a5f3-4cf3-b351-121437f4105d"
+      "restaurantId": "3b2d04d9-bc2e-488d-86c2-688960d65ead"
     },
     {
       "id": "05feabb1-bba3-480a-bd64-146be414b633",
@@ -3859,7 +3859,7 @@
       "description": "Espeto grelhado, ervas e especiarias.",
       "price": 65.78,
       "isVegan": false,
-      "restaurantId": "8839f74a-a5f3-4cf3-b351-121437f4105d"
+      "restaurantId": "012fda9d-3d2c-422c-bf28-1d59b7fce5b0"
     },
     {
       "id": "814b0771-6e28-4f47-9ad9-06ef5d52708f",
@@ -3868,7 +3868,7 @@
       "description": "Salada refrescante com trigo e hortelã.",
       "price": 58.73,
       "isVegan": false,
-      "restaurantId": "8839f74a-a5f3-4cf3-b351-121437f4105d"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "e4b4fe15-8bf5-450e-af39-e1909e0dfb53",
@@ -3877,7 +3877,7 @@
       "description": "Massa assada com recheio com ervas.",
       "price": 93.83,
       "isVegan": false,
-      "restaurantId": "8839f74a-a5f3-4cf3-b351-121437f4105d"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "f1cc484e-562b-4669-9411-402929e60e38",
@@ -3886,7 +3886,7 @@
       "description": "Salada refrescante com trigo e hortelã.",
       "price": 44.31,
       "isVegan": false,
-      "restaurantId": "8839f74a-a5f3-4cf3-b351-121437f4105d"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "33910789-a8d0-41ae-9139-7c1c7bd4d8c3",
@@ -3895,7 +3895,7 @@
       "description": "Massa assada com recheio ao alho.",
       "price": 75.71,
       "isVegan": true,
-      "restaurantId": "8839f74a-a5f3-4cf3-b351-121437f4105d"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "4ec12b04-de68-4054-a8ed-b509ca8da2d2",
@@ -3904,7 +3904,7 @@
       "description": "Massa assada com recheio cremoso.",
       "price": 27.81,
       "isVegan": false,
-      "restaurantId": "8839f74a-a5f3-4cf3-b351-121437f4105d"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "3d54d387-dae8-465b-8ad3-b88a18a7c0d1",
@@ -3913,7 +3913,7 @@
       "description": "Creme de grão-de-bico com tahine picante.",
       "price": 86.06,
       "isVegan": true,
-      "restaurantId": "8839f74a-a5f3-4cf3-b351-121437f4105d"
+      "restaurantId": "70c5cc24-26a4-4d2a-81b2-76669922d46b"
     },
     {
       "id": "ecef37c8-0711-49af-933e-5665640cc965",
@@ -3922,7 +3922,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 27.31,
       "isVegan": false,
-      "restaurantId": "8b045e2b-1e70-4a70-8116-c74c64ac2696"
+      "restaurantId": "5b7136c1-ebae-4f47-9a28-61620f9cb10e"
     },
     {
       "id": "02617477-5e4b-4da2-a6ca-168a51c95dd7",
@@ -3931,7 +3931,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 35.43,
       "isVegan": true,
-      "restaurantId": "8b045e2b-1e70-4a70-8116-c74c64ac2696"
+      "restaurantId": "304ec0df-0fe3-4e59-9855-8be68d4ecf24"
     },
     {
       "id": "de4fa322-7b20-484a-87c8-cc7e71d933b0",
@@ -3940,7 +3940,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 71.84,
       "isVegan": false,
-      "restaurantId": "8b045e2b-1e70-4a70-8116-c74c64ac2696"
+      "restaurantId": "668f1833-3044-4b7d-a7e5-88a32e9f3a41"
     },
     {
       "id": "2c38e468-a8b7-46b8-8058-d36d0a45a930",
@@ -3949,7 +3949,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 60.13,
       "isVegan": false,
-      "restaurantId": "8b045e2b-1e70-4a70-8116-c74c64ac2696"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "cbf91dda-be39-42ba-a772-ffbe629557d2",
@@ -3958,7 +3958,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 80.05,
       "isVegan": false,
-      "restaurantId": "8b045e2b-1e70-4a70-8116-c74c64ac2696"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "e8dc6c56-ecf6-4dcd-b547-f57a493a55ba",
@@ -3967,7 +3967,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 70.59,
       "isVegan": false,
-      "restaurantId": "8b045e2b-1e70-4a70-8116-c74c64ac2696"
+      "restaurantId": "b2d171d3-a225-4ee9-8f23-058ed691ef7c"
     },
     {
       "id": "72e5054d-7e1c-4e5b-90da-d548381467b8",
@@ -3976,7 +3976,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 41.38,
       "isVegan": false,
-      "restaurantId": "8b045e2b-1e70-4a70-8116-c74c64ac2696"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "d4db75f0-4b36-4f37-99a7-9d1ec448ea3e",
@@ -3985,7 +3985,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 46.16,
       "isVegan": false,
-      "restaurantId": "8b045e2b-1e70-4a70-8116-c74c64ac2696"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "ac4e887e-0d21-44c1-ae50-e63776b13e65",
@@ -3994,7 +3994,7 @@
       "description": "Prato preparado com ingredientes selecionados.",
       "price": 48.59,
       "isVegan": true,
-      "restaurantId": "8b045e2b-1e70-4a70-8116-c74c64ac2696"
+      "restaurantId": "eba2d597-a35d-4a84-bcb1-75881330c488"
     },
     {
       "id": "8eb8f689-1856-4cb1-9ab2-8dc982812264",
@@ -4003,7 +4003,7 @@
       "description": "Na manteiga da terra, alho ao limão.",
       "price": 35.37,
       "isVegan": false,
-      "restaurantId": "8b045e2b-1e70-4a70-8116-c74c64ac2696"
+      "restaurantId": "ddd8936a-6324-4071-a3f0-228e5971648f"
     },
     {
       "id": "9f68c609-8318-4ab1-9ac7-0c2e00d4557c",
@@ -4012,7 +4012,7 @@
       "description": "Clássica da casa, recheio picante.",
       "price": 49.95,
       "isVegan": false,
-      "restaurantId": "8b045e2b-1e70-4a70-8116-c74c64ac2696"
+      "restaurantId": "702e5a20-938c-4aba-91e1-73103aec471e"
     },
     {
       "id": "c97333d8-3abb-4f18-8550-710a8273b4e9",
@@ -4021,7 +4021,7 @@
       "description": "Na manteiga da terra, alho picante.",
       "price": 83.28,
       "isVegan": true,
-      "restaurantId": "8b045e2b-1e70-4a70-8116-c74c64ac2696"
+      "restaurantId": "3be1dbe4-39d2-4388-a325-5c23eec85822"
     },
     {
       "id": "6ed67605-4c58-4a74-b2b3-6bd6a7bad4a3",
@@ -4030,7 +4030,7 @@
       "description": "Clássica da casa, recheio crocante.",
       "price": 54.16,
       "isVegan": false,
-      "restaurantId": "8b045e2b-1e70-4a70-8116-c74c64ac2696"
+      "restaurantId": "87f6d657-90d9-48fc-aefb-62dfe8745df3"
     },
     {
       "id": "89644074-73c9-4f04-9c47-b25c35dd855e",
@@ -4039,7 +4039,7 @@
       "description": "Na manteiga da terra, alho defumado.",
       "price": 83.48,
       "isVegan": true,
-      "restaurantId": "8b045e2b-1e70-4a70-8116-c74c64ac2696"
+      "restaurantId": "7b19bc85-bb96-4222-8d19-99240872b996"
     },
     {
       "id": "51e8c59a-479b-4a6a-8334-0262d08c0d16",
@@ -4048,7 +4048,7 @@
       "description": "Porção crocante para compartilhar.",
       "price": 93.66,
       "isVegan": false,
-      "restaurantId": "8b045e2b-1e70-4a70-8116-c74c64ac2696"
+      "restaurantId": "cd9cc1cc-63d6-44d6-a821-f29378281faa"
     }
   ]
 }
