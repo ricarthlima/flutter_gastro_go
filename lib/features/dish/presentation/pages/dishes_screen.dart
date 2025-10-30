@@ -75,16 +75,28 @@ class _DishesScreenState extends State<DishesScreen> {
                             begin: Alignment.topCenter,
                             end: Alignment.bottomCenter,
                             colors: [
-                              Theme.of(
-                                context,
-                              ).scaffoldBackgroundColor.withAlpha(225),
+                              AppColors.backgroundAccent,
+                              AppColors.backgroundAccent.withAlpha(150),
                               Colors.transparent,
                             ],
-                            stops: const [0.0, 1],
+                            stops: const [0.0, 0.75, 1],
                           ),
                         ),
                       ),
-                      Center(child: Text(widget.restaurant.description)),
+                      Center(
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                          child: Text(
+                            widget.restaurant.description,
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: AppColors.backgroundAccentLight,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                      ),
                     ],
                   ),
                 ),
