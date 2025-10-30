@@ -58,92 +58,94 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
 
             return Padding(
               padding: const EdgeInsets.symmetric(horizontal: 24.0),
-              child: SingleChildScrollView(
-                controller: _scrollController,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  spacing: 16,
-                  children: [
-                    Text(
-                      i18n.homeWelcome,
-                      style: Theme.of(context).textTheme.titleMedium!.copyWith(
-                        fontWeight: FontWeight.w700,
+              child: RefreshIndicator(
+                onRefresh: store.loadRestaurants,
+                child: SingleChildScrollView(
+                  controller: _scrollController,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    spacing: 16,
+                    children: [
+                      Text(
+                        i18n.homeWelcome,
+                        style: Theme.of(context).textTheme.titleMedium!
+                            .copyWith(fontWeight: FontWeight.w700),
                       ),
-                    ),
-                    Image.asset("assets/images/banners/banner_promo.png"),
-                    Text(
-                      i18n.homeCategoryCTA,
-                      style: Theme.of(context).textTheme.titleMedium,
-                    ),
-                    SingleChildScrollView(
-                      scrollDirection: Axis.horizontal,
-                      child: Row(
-                        spacing: 16,
-                        children: List.generate(
-                          CategoriesData.listCategories.length,
-                          (index) {
-                            CategoryModel category =
-                                CategoriesData.listCategories[index];
-                            return InkWell(
-                              onTap: () {
-                                onCategoryTap(category.name);
-                              },
-                              child: CategoryWidget(
-                                category: category,
-                                isSelected:
-                                    store.selectedCategory == category.name,
-                              ),
-                            );
-                          },
-                        ),
+                      Image.asset("assets/images/banners/banner_promo.png"),
+                      Text(
+                        i18n.homeCategoryCTA,
+                        style: Theme.of(context).textTheme.titleMedium,
                       ),
-                    ),
-                    Text(
-                      i18n.homeRestaurants,
-                      style: Theme.of(context).textTheme.titleMedium,
-                    ),
-
-                    Row(
-                      children: [
-                        Flexible(
-                          child: TextFormField(
-                            controller: _searchController,
-                            decoration: InputDecoration(
-                              prefixIcon: Icon(Icons.search),
-                              labelText: i18n.homeSearchLabel,
-                              suffixIcon: store.nameQuery.isEmpty
-                                  ? null
-                                  : IconButton(
-                                      icon: Icon(Icons.clear),
-                                      onPressed: () {
-                                        _searchController.clear();
-                                        onSearchChanged(
-                                          '',
-                                        ); // Limpa o filtro na store
-                                      },
-                                    ),
-                            ),
-                            onChanged: onSearchChanged,
-                            onFieldSubmitted: (value) => _animateToEnd(),
+                      SingleChildScrollView(
+                        scrollDirection: Axis.horizontal,
+                        child: Row(
+                          spacing: 16,
+                          children: List.generate(
+                            CategoriesData.listCategories.length,
+                            (index) {
+                              CategoryModel category =
+                                  CategoriesData.listCategories[index];
+                              return InkWell(
+                                onTap: () {
+                                  onCategoryTap(category.name);
+                                },
+                                child: CategoryWidget(
+                                  category: category,
+                                  isSelected:
+                                      store.selectedCategory == category.name,
+                                ),
+                              );
+                            },
                           ),
                         ),
-                        IconButton(
-                          icon: Icon(Icons.filter_list),
-                          onPressed: _showFilterModal,
-                        ),
-                      ],
-                    ),
-                    Column(
-                      spacing: 16,
-                      children: List.generate(store.restaurants.length, (
-                        index,
-                      ) {
-                        RestaurantDto restaurant = store.restaurants[index];
-                        return RestaurantWidget(restaurant: restaurant);
-                      }),
-                    ),
-                    SizedBox(height: 64),
-                  ],
+                      ),
+                      Text(
+                        i18n.homeRestaurants,
+                        style: Theme.of(context).textTheme.titleMedium,
+                      ),
+
+                      Row(
+                        children: [
+                          Flexible(
+                            child: TextFormField(
+                              controller: _searchController,
+                              decoration: InputDecoration(
+                                prefixIcon: Icon(Icons.search),
+                                labelText: i18n.homeSearchLabel,
+                                suffixIcon: store.nameQuery.isEmpty
+                                    ? null
+                                    : IconButton(
+                                        icon: Icon(Icons.clear),
+                                        onPressed: () {
+                                          _searchController.clear();
+                                          onSearchChanged(
+                                            '',
+                                          ); // Limpa o filtro na store
+                                        },
+                                      ),
+                              ),
+                              onChanged: onSearchChanged,
+                              onFieldSubmitted: (value) => _animateToEnd(),
+                            ),
+                          ),
+                          IconButton(
+                            icon: Icon(Icons.filter_list),
+                            onPressed: _showFilterModal,
+                          ),
+                        ],
+                      ),
+                      Column(
+                        spacing: 16,
+                        children: List.generate(store.restaurants.length, (
+                          index,
+                        ) {
+                          RestaurantDto restaurant = store.restaurants[index];
+                          return RestaurantWidget(restaurant: restaurant);
+                        }),
+                      ),
+                      SizedBox(height: 64),
+                    ],
+                  ),
                 ),
               ),
             );

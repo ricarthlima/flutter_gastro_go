@@ -71,14 +71,17 @@ class _FavoriteScreenState extends State<FavoriteScreen>
     if (store.favoriteRestaurants.isEmpty) {
       return Center(child: Text(i18n.emptyFavoriteRestaurants));
     }
-    return ListView.separated(
-      padding: const EdgeInsets.all(16),
-      itemCount: store.favoriteRestaurants.length,
-      itemBuilder: (context, index) {
-        final restaurant = store.favoriteRestaurants[index];
-        return RestaurantWidget(restaurant: restaurant);
-      },
-      separatorBuilder: (context, index) => const SizedBox(height: 16),
+    return RefreshIndicator(
+      onRefresh: store.loadFavoritesScreenData,
+      child: ListView.separated(
+        padding: const EdgeInsets.all(16),
+        itemCount: store.favoriteRestaurants.length,
+        itemBuilder: (context, index) {
+          final restaurant = store.favoriteRestaurants[index];
+          return RestaurantWidget(restaurant: restaurant);
+        },
+        separatorBuilder: (context, index) => const SizedBox(height: 16),
+      ),
     );
   }
 
@@ -88,22 +91,25 @@ class _FavoriteScreenState extends State<FavoriteScreen>
     if (store.favoriteDishes.isEmpty) {
       return Center(child: Text(i18n.emptyFavoriteDishes));
     }
-    return GridView.builder(
-      padding: const EdgeInsets.all(16),
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
-        crossAxisSpacing: 8,
-        mainAxisSpacing: 8,
-        childAspectRatio: 0.9,
+    return RefreshIndicator(
+      onRefresh: store.loadFavoritesScreenData,
+      child: GridView.builder(
+        padding: const EdgeInsets.all(16),
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: 2,
+          crossAxisSpacing: 8,
+          mainAxisSpacing: 8,
+          childAspectRatio: 0.9,
+        ),
+        itemCount: store.favoriteDishes.length,
+        itemBuilder: (context, index) {
+          final dish = store.favoriteDishes[index];
+          final restaurant = store.allRestaurants.firstWhere(
+            (r) => r.id == dish.restaurantId,
+          );
+          return FavoriteDishWidget(dish: dish, restaurant: restaurant);
+        },
       ),
-      itemCount: store.favoriteDishes.length,
-      itemBuilder: (context, index) {
-        final dish = store.favoriteDishes[index];
-        final restaurant = store.allRestaurants.firstWhere(
-          (r) => r.id == dish.restaurantId,
-        );
-        return FavoriteDishWidget(dish: dish, restaurant: restaurant);
-      },
     );
   }
 }

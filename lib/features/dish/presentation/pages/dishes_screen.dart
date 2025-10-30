@@ -46,139 +46,145 @@ class _DishesScreenState extends State<DishesScreen> {
 
     return Scaffold(
       body: SafeArea(
-        child: CustomScrollView(
-          slivers: [
-            SliverAppBar(
-              expandedHeight: 256,
-              pinned: true,
-              title: Text(widget.restaurant.name),
-              flexibleSpace: FlexibleSpaceBar(
-                background: Stack(
-                  fit: StackFit.expand,
-                  children: [
-                    Hero(
-                      tag: 'restaurant_image_${widget.restaurant.id}',
-                      child: CachedNetworkImage(
-                        imageUrl: imageUrl,
-                        fit: BoxFit.cover,
-                        placeholder: (context, url) => ImagePlaceholderWidget(),
-                        errorWidget: (context, url, error) =>
-                            RestaurantFallbackImageWidget(),
-                      ),
-                    ),
-                    Container(
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          begin: Alignment.topCenter,
-                          end: Alignment.bottomCenter,
-                          colors: [
-                            Theme.of(
-                              context,
-                            ).scaffoldBackgroundColor.withAlpha(225),
-                            Colors.transparent,
-                          ],
-                          stops: const [0.0, 1],
+        child: RefreshIndicator(
+          onRefresh: () => store.loadDishes(widget.restaurant.id),
+          child: CustomScrollView(
+            slivers: [
+              SliverAppBar(
+                expandedHeight: 256,
+                pinned: true,
+                title: Text(widget.restaurant.name),
+                flexibleSpace: FlexibleSpaceBar(
+                  background: Stack(
+                    fit: StackFit.expand,
+                    children: [
+                      Hero(
+                        tag: 'restaurant_image_${widget.restaurant.id}',
+                        child: CachedNetworkImage(
+                          imageUrl: imageUrl,
+                          fit: BoxFit.cover,
+                          placeholder: (context, url) =>
+                              ImagePlaceholderWidget(),
+                          errorWidget: (context, url, error) =>
+                              RestaurantFallbackImageWidget(),
                         ),
                       ),
-                    ),
-                    Center(child: Text(widget.restaurant.description)),
-                  ],
+                      Container(
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                            begin: Alignment.topCenter,
+                            end: Alignment.bottomCenter,
+                            colors: [
+                              Theme.of(
+                                context,
+                              ).scaffoldBackgroundColor.withAlpha(225),
+                              Colors.transparent,
+                            ],
+                            stops: const [0.0, 1],
+                          ),
+                        ),
+                      ),
+                      Center(child: Text(widget.restaurant.description)),
+                    ],
+                  ),
+                ),
+                actions: [
+                  Observer(
+                    builder: (context) {
+                      final isFavorite = favoritesStore.isRestaurantFavorite(
+                        widget.restaurant.id,
+                      );
+
+                      return IconButton(
+                        onPressed: () {
+                          favoritesStore.toggleRestaurantFavorite(
+                            widget.restaurant.id,
+                          );
+                        },
+                        icon: Icon(
+                          isFavorite
+                              ? Icons.favorite
+                              : Icons.favorite_border_outlined,
+                          color: isFavorite ? AppColors.main : null,
+                        ),
+                      );
+                    },
+                  ),
+                ],
+              ),
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
+                  child: Observer(
+                    builder: (_) {
+                      return Row(
+                        children: [
+                          Flexible(
+                            child: TextFormField(
+                              controller: _searchController,
+                              decoration: InputDecoration(
+                                labelText: i18n.searchDishes,
+                                prefixIcon: Icon(Icons.search),
+                                border: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(12),
+                                ),
+                                suffixIcon: store.searchQuery.isEmpty
+                                    ? null
+                                    : IconButton(
+                                        icon: Icon(Icons.clear),
+                                        onPressed: () {
+                                          _searchController.clear();
+                                          store.setSearchQuery('');
+                                        },
+                                      ),
+                              ),
+                              onChanged: store.setSearchQuery,
+                            ),
+                          ),
+                          IconButton(
+                            icon: Icon(
+                              store.filterVegan
+                                  ? Icons.eco
+                                  : Icons.eco_outlined,
+                              color: store.filterVegan
+                                  ? Colors.green
+                                  : Colors.grey,
+                            ),
+                            iconSize: 32,
+                            tooltip: i18n.filterVeganDishes,
+
+                            onPressed: () {
+                              store.toggleVeganFilter(!store.filterVegan);
+                            },
+                          ),
+                        ],
+                      );
+                    },
+                  ),
                 ),
               ),
-              actions: [
-                Observer(
-                  builder: (context) {
-                    final isFavorite = favoritesStore.isRestaurantFavorite(
-                      widget.restaurant.id,
-                    );
-
-                    return IconButton(
-                      onPressed: () {
-                        favoritesStore.toggleRestaurantFavorite(
-                          widget.restaurant.id,
-                        );
-                      },
-                      icon: Icon(
-                        isFavorite
-                            ? Icons.favorite
-                            : Icons.favorite_border_outlined,
-                        color: isFavorite ? AppColors.main : null,
-                      ),
-                    );
-                  },
-                ),
-              ],
-            ),
-            SliverToBoxAdapter(
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
+              SliverToBoxAdapter(
                 child: Observer(
                   builder: (_) {
-                    return Row(
-                      children: [
-                        Flexible(
-                          child: TextFormField(
-                            controller: _searchController,
-                            decoration: InputDecoration(
-                              labelText: i18n.searchDishes,
-                              prefixIcon: Icon(Icons.search),
-                              border: OutlineInputBorder(
-                                borderRadius: BorderRadius.circular(12),
-                              ),
-                              suffixIcon: store.searchQuery.isEmpty
-                                  ? null
-                                  : IconButton(
-                                      icon: Icon(Icons.clear),
-                                      onPressed: () {
-                                        _searchController.clear();
-                                        store.setSearchQuery('');
-                                      },
-                                    ),
-                            ),
-                            onChanged: store.setSearchQuery,
-                          ),
-                        ),
-                        IconButton(
-                          icon: Icon(
-                            store.filterVegan ? Icons.eco : Icons.eco_outlined,
-                            color: store.filterVegan
-                                ? Colors.green
-                                : Colors.grey,
-                          ),
-                          iconSize: 32,
-                          tooltip: i18n.filterVeganDishes,
+                    if (store.isLoading) {
+                      return LoadingWidget();
+                    }
 
-                          onPressed: () {
-                            store.toggleVeganFilter(!store.filterVegan);
-                          },
-                        ),
-                      ],
-                    );
+                    if (store.hasError) {
+                      return AppErrorWidget(
+                        message: store.errorMessage ?? i18n.dishesLoadingError,
+                        onPressed: () {
+                          store.loadDishes(widget.restaurant.id);
+                        },
+                      );
+                    }
+
+                    return _buildDishList(store.dishes, i18n);
                   },
                 ),
               ),
-            ),
-            SliverToBoxAdapter(
-              child: Observer(
-                builder: (_) {
-                  if (store.isLoading) {
-                    return LoadingWidget();
-                  }
-
-                  if (store.hasError) {
-                    return AppErrorWidget(
-                      message: store.errorMessage ?? i18n.dishesLoadingError,
-                      onPressed: () {
-                        store.loadDishes(widget.restaurant.id);
-                      },
-                    );
-                  }
-
-                  return _buildDishList(store.dishes, i18n);
-                },
-              ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
