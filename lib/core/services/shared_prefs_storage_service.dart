@@ -11,7 +11,7 @@ class SharedPrefsStorageService implements IPrefsStorageService {
 
   @override
   Future<bool> getIsDarkMode() async {
-    return _prefs.getBool(_Keys.darkMode) ?? false;
+    return _prefs.getBool(_Keys.darkMode) ?? true;
   }
 
   @override

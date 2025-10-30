@@ -26,6 +26,8 @@ dependencies:
   lottie: ^3.3.2
   cached_network_image: ^3.4.1
   shimmer: ^3.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.7
 
 dev_dependencies:
   flutter_test:
@@ -55,3 +57,17 @@ flutter:
     - assets/images/restaurants/
     - assets/images/icons/
     - assets/images/lotties/
+
+flutter_native_splash:
+  color: "#3f3a30"
+  image: assets/images/logo-square.png
+  android_12:
+    color: "#3f3a30"
+    icon_background_color: "#3f3a30"
+    image: assets/images/logo-square.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo-icon.png"
+  min_sdk_android: 21
