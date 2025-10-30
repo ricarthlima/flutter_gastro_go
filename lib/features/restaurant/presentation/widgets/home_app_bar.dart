@@ -3,6 +3,10 @@ import 'package:flutter_gastro_go/core/injection/injection_container.dart';
 import 'package:flutter_gastro_go/core/theme/app_colors.dart';
 import 'package:flutter_gastro_go/features/settings/domain/stores/theme_store.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
+import 'package:go_router/go_router.dart';
+
+import '../../../../core/navigation/app_router.dart';
+import '../../../../l10n/app_localizations.dart';
 
 class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String? title;
@@ -20,7 +24,13 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
       centerTitle: title != null,
       toolbarHeight: 72,
       actions: [
-        IconButton(icon: Icon(Icons.favorite), onPressed: () {}),
+        IconButton(
+          icon: Icon(Icons.favorite),
+          tooltip: AppLocalizations.of(context)!.navFavorites,
+          onPressed: () {
+            context.push(AppRouter.favorites);
+          },
+        ),
         Observer(
           builder: (_) => Switch(
             value: themeStore.isDarkTheme,

@@ -3,8 +3,8 @@ import 'package:flutter_gastro_go/core/theme/app_colors.dart';
 import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
-import '../../../../core/injection/injection_container.dart';
-import '../../../favorite/presentation/stores/favorites_store.dart';
+import '../../core/injection/injection_container.dart';
+import '../../features/favorite/presentation/stores/favorites_store.dart';
 
 class RestaurantWidget extends StatelessWidget {
   final RestaurantDto restaurant;

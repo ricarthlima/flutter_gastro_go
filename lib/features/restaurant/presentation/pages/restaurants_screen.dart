@@ -10,7 +10,7 @@ import '../../helpers/category_model.dart';
 import '../models/restaurant_filter_model.dart';
 import '../widgets/category_widget.dart';
 import '../widgets/filter_bottom_sheet.dart';
-import '../widgets/restaurant_widget.dart';
+import '../../../../shared/widgets/restaurant_widget.dart';
 
 class RestaurantsScreen extends StatefulWidget {
   const RestaurantsScreen({super.key});
