@@ -1,9 +1,12 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gastro_go/core/injection/injection_container.dart';
 import 'package:flutter_gastro_go/features/dish/domain/entities/dish_dto.dart';
 import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
+import 'package:flutter_gastro_go/shared/widgets/image_placeholder_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
+import '../../../../core/constants/app_constants.dart';
 import '../../../../l10n/app_localizations.dart';
 import '../stores/favorites_store.dart';
 
@@ -124,11 +127,15 @@ class FavoriteDishWidget extends StatelessWidget {
 }
 
 class _RestaurantChip extends StatelessWidget {
-  const _RestaurantChip({required this.restaurant});
   final RestaurantDto restaurant;
+  const _RestaurantChip({required this.restaurant});
 
   @override
   Widget build(BuildContext context) {
+    final String imageUrl =
+        AppConstants.imageBaseUrl +
+        (restaurant.imageUrl ?? "restaurants/default.png");
+
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
       decoration: BoxDecoration(
@@ -140,8 +147,14 @@ class _RestaurantChip extends StatelessWidget {
         children: [
           CircleAvatar(
             radius: 8,
-            backgroundImage: AssetImage(
-              "assets/images/${restaurant.imageUrl ?? 'restaurants/default.png'}",
+            child: CachedNetworkImage(
+              imageUrl: imageUrl,
+              fit: BoxFit.cover,
+              placeholder: (context, url) => ImagePlaceholderWidget(),
+              errorWidget: (context, url, error) => Image.asset(
+                AppConstants.fallbackImageRestaurant,
+                fit: BoxFit.cover,
+              ),
             ),
           ),
           Text(

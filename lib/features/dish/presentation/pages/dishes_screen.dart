@@ -1,8 +1,11 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gastro_go/shared/widgets/error_widget.dart';
+import 'package:flutter_gastro_go/shared/widgets/image_placeholder_widget.dart';
 import 'package:flutter_gastro_go/shared/widgets/loading_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
+import '../../../../core/constants/app_constants.dart';
 import '../../../../core/injection/injection_container.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../l10n/app_localizations.dart';
@@ -36,6 +39,10 @@ class _DishesScreenState extends State<DishesScreen> {
   Widget build(BuildContext context) {
     final i18n = AppLocalizations.of(context)!;
 
+    final String imageUrl =
+        AppConstants.imageBaseUrl +
+        (widget.restaurant.imageUrl ?? "restaurants/default.png");
+
     return Scaffold(
       body: SafeArea(
         child: CustomScrollView(
@@ -50,9 +57,14 @@ class _DishesScreenState extends State<DishesScreen> {
                   children: [
                     Hero(
                       tag: 'restaurant_image_${widget.restaurant.id}',
-                      child: Image.asset(
-                        "assets/images/${widget.restaurant.imageUrl ?? 'restaurants/default.png'}",
+                      child: CachedNetworkImage(
+                        imageUrl: imageUrl,
                         fit: BoxFit.cover,
+                        placeholder: (context, url) => ImagePlaceholderWidget(),
+                        errorWidget: (context, url, error) => Image.asset(
+                          AppConstants.fallbackImageRestaurant,
+                          fit: BoxFit.cover,
+                        ),
                       ),
                     ),
                     Container(

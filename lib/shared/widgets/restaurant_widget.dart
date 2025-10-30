@@ -1,6 +1,9 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_gastro_go/core/constants/app_constants.dart';
 import 'package:flutter_gastro_go/core/theme/app_colors.dart';
 import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
+import 'package:flutter_gastro_go/shared/widgets/image_placeholder_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:go_router/go_router.dart';
 
@@ -16,6 +19,10 @@ class RestaurantWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     final FavoritesStore favoritesStore = getIt<FavoritesStore>();
 
+    final String imageUrl =
+        AppConstants.imageBaseUrl +
+        (restaurant.imageUrl ?? "restaurants/default.png");
+
     return InkWell(
       onTap: () => _onRestaurantPressed(context),
       child: Stack(
@@ -25,9 +32,23 @@ class RestaurantWidget extends StatelessWidget {
             children: [
               Hero(
                 tag: 'restaurant_image_${restaurant.id}',
-                child: Image.asset(
-                  "assets/images/${restaurant.imageUrl ?? 'restaurants/default.png'}",
-                  width: 96,
+                child: ClipOval(
+                  child: CachedNetworkImage(
+                    imageUrl: imageUrl,
+                    width: 96,
+                    height: 96,
+                    fit: BoxFit.cover,
+                    placeholder: (context, url) =>
+                        ImagePlaceholderWidget(height: 96, width: 96),
+                    errorWidget: (context, url, error) {
+                      return Image.asset(
+                        AppConstants.fallbackImageRestaurant,
+                        width: 96,
+                        height: 96,
+                        fit: BoxFit.cover,
+                      );
+                    },
+                  ),
                 ),
               ),
               Column(
