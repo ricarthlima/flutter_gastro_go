@@ -24,12 +24,15 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
       centerTitle: title != null,
       toolbarHeight: 72,
       actions: [
-        IconButton(
-          icon: Icon(Icons.favorite),
-          tooltip: AppLocalizations.of(context)!.navFavorites,
-          onPressed: () {
-            context.push(AppRouter.favorites);
-          },
+        Tooltip(
+          message: AppLocalizations.of(context)!.navFavorites,
+          child: TextButton.icon(
+            icon: Icon(Icons.favorite),
+            label: Text(AppLocalizations.of(context)!.navFavorites),
+            onPressed: () {
+              context.push(AppRouter.favorites);
+            },
+          ),
         ),
         Observer(
           builder: (_) => Switch(
