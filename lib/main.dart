@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gastro_go/core/injection/injection_container.dart';
 import 'package:flutter_gastro_go/core/navigation/app_router.dart';
+import 'package:flutter_gastro_go/core/theme/app_theme.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import 'features/settings/domain/stores/theme_store.dart';
@@ -29,8 +30,8 @@ class MainApp extends StatelessWidget {
         onGenerateTitle: (context) {
           return AppLocalizations.of(context)?.appTitle ?? 'GastroGo';
         },
-        theme: ThemeData(),
-        darkTheme: ThemeData.dark(),
+        theme: AppTheme.lightTheme,
+        darkTheme: AppTheme.darkTheme,
         themeMode: getIt<ThemeStore>().themeMode,
         routerConfig: AppRouter.router,
       ),
