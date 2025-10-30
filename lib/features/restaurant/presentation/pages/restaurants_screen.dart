@@ -5,7 +5,6 @@ import 'package:flutter_gastro_go/features/restaurant/presentation/stores/restau
 import 'package:flutter_gastro_go/features/restaurant/presentation/widgets/home_app_bar.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
-import '../../../../core/theme/app_colors.dart';
 import '../../helpers/categories_data.dart';
 import '../../helpers/category_model.dart';
 import '../widgets/category_widget.dart';
@@ -112,7 +111,6 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                       decoration: InputDecoration(
                         prefixIcon: Icon(Icons.search),
                         labelText: "O que você quer comer?",
-                        labelStyle: TextStyle(color: AppColors.mainLighter),
                       ),
                       onFieldSubmitted: (value) => _animateToEnd(),
                     ),

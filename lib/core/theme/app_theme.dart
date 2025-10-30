@@ -25,8 +25,6 @@ abstract class AppTheme {
           borderSide: BorderSide(width: 1, color: AppColors.main),
         ),
         focusColor: AppColors.main,
-        filled: true,
-        fillColor: Colors.grey[900],
       );
 
   static final AppBarTheme _appBarTheme = AppBarTheme(centerTitle: true);
@@ -50,49 +48,57 @@ abstract class AppTheme {
 
   static const _lightColorScheme = ColorScheme.light(
     primary: AppColors.main, // Cor principal (botões, appbar)
-    onPrimary: Colors.white, // Cor do texto em cima do 'primary'
+    onPrimary: AppColors.background, // Cor do texto em cima do 'primary'
     secondary: AppColors.detach, // Cor secundária (FABs, toggles)
     surface: AppColors.backgroundLight, // Cor de superfície (Cards)
     onSurface: Colors.black, // Cor do texto em cima do 'surface'
     error: Colors.red,
     onError: Colors.white,
+    surfaceTint: AppColors.background,
+    brightness: Brightness.light,
   );
 
-  static const _darkColorScheme = ColorScheme.light(
+  static const _darkColorScheme = ColorScheme.dark(
     primary: AppColors.main, // Cor principal (botões, appbar)
-    onPrimary: Colors.white, // Cor do texto em cima do 'primary'
+    onPrimary: AppColors.backgroundLight, // Cor do texto em cima do 'primary'
     secondary: AppColors.detach, // Cor secundária (FABs, toggles)
     surface: AppColors.background, // Cor de superfície (Cards)
     onSurface: AppColors.backgroundAccentLight,
     error: Colors.red,
     onError: Colors.white,
+    brightness: Brightness.dark,
   );
 
-  // --- 4. TEMA CLARO (Juntando tudo) ---
-  static final ThemeData lightTheme =
-      ThemeData.from(
-        colorScheme: _lightColorScheme,
-        useMaterial3: true,
-      ).copyWith(
-        scaffoldBackgroundColor: AppColors.backgroundLight,
-        elevatedButtonTheme: _elevatedButtonThemeData,
-        appBarTheme: _appBarTheme,
-        textTheme: _baseTextTheme,
-        inputDecorationTheme: _inputDecorationTheme,
-        cardTheme: CardThemeData(shape: _baseShape, elevation: 6),
-      );
+  static final ThemeData lightTheme = () {
+    final base = ThemeData.from(
+      colorScheme: _lightColorScheme,
+      useMaterial3: true,
+    );
 
-  // --- 6. TEMA ESCURO (Juntando tudo) ---
-  static final ThemeData darkTheme =
-      ThemeData.from(
-        colorScheme: _darkColorScheme,
-        useMaterial3: true,
-      ).copyWith(
-        scaffoldBackgroundColor: AppColors.background,
-        elevatedButtonTheme: _elevatedButtonThemeData,
-        appBarTheme: _appBarTheme,
-        textTheme: _baseTextTheme,
-        inputDecorationTheme: _inputDecorationTheme,
-        cardTheme: CardThemeData(shape: _baseShape, elevation: 6),
-      );
+    return base.copyWith(
+      scaffoldBackgroundColor: AppColors.backgroundLight,
+      elevatedButtonTheme: _elevatedButtonThemeData,
+      appBarTheme: _appBarTheme,
+      textTheme: base.textTheme.merge(_baseTextTheme),
+      inputDecorationTheme: _inputDecorationTheme,
+      cardTheme: CardThemeData(shape: _baseShape, elevation: 6),
+    );
+  }();
+
+  static final ThemeData darkTheme = () {
+    final base = ThemeData.from(
+      colorScheme: _darkColorScheme,
+      useMaterial3: true,
+    );
+
+    return base.copyWith(
+      scaffoldBackgroundColor: AppColors.background,
+      elevatedButtonTheme: _elevatedButtonThemeData,
+      appBarTheme: _appBarTheme,
+      // AQUI ESTÁ A MUDANÇA:
+      textTheme: base.textTheme.merge(_baseTextTheme),
+      inputDecorationTheme: _inputDecorationTheme,
+      cardTheme: CardThemeData(shape: _baseShape, elevation: 6),
+    );
+  }();
 }

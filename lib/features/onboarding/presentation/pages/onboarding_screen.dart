@@ -38,8 +38,7 @@ class OnboardingScreen extends StatelessWidget {
                       children: [
                         Text(
                           "Uma experiência culinária",
-                          style: Theme.of(context).textTheme.titleMedium!
-                              .copyWith(color: Colors.white),
+                          style: Theme.of(context).textTheme.titleMedium!,
                         ),
                         Text(
                           "para quem está 'ready to go'!",
