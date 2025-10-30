@@ -20,16 +20,16 @@ abstract class AppTheme {
       InputDecorationTheme(
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(8.0),
-          borderSide: BorderSide(width: 1, color: Colors.white),
+          borderSide: const BorderSide(width: 1, color: Colors.white),
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(8.0),
-          borderSide: BorderSide(width: 1, color: AppColors.main),
+          borderSide: const BorderSide(width: 1, color: AppColors.main),
         ),
         focusColor: AppColors.main,
       );
 
-  static final AppBarTheme _appBarTheme = AppBarTheme(centerTitle: true);
+  static final AppBarTheme _appBarTheme = const AppBarTheme(centerTitle: true);
 
   static final ElevatedButtonThemeData _elevatedButtonThemeData =
       ElevatedButtonThemeData(
@@ -44,7 +44,7 @@ abstract class AppTheme {
             }
             return AppColors.main;
           }),
-          foregroundColor: WidgetStatePropertyAll(Colors.black),
+          foregroundColor: const WidgetStatePropertyAll(Colors.black),
         ),
       );
 

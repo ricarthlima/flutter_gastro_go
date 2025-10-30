@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gastro_go/core/injection/injection_container.dart';
-import 'package:flutter_gastro_go/core/theme/app_colors.dart';
-import 'package:flutter_gastro_go/features/settings/domain/stores/theme_store.dart';
+import '../../../../core/injection/injection_container.dart';
+import '../../../../core/theme/app_colors.dart';
+import '../../../settings/domain/stores/theme_store.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:go_router/go_router.dart';
 
@@ -27,7 +27,7 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
         Tooltip(
           message: AppLocalizations.of(context)!.navFavorites,
           child: TextButton.icon(
-            icon: Icon(Icons.favorite),
+            icon: const Icon(Icons.favorite),
             label: Text(AppLocalizations.of(context)!.navFavorites),
             onPressed: () {
               context.push(AppRouter.favorites);
@@ -39,16 +39,16 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
             value: themeStore.isDarkTheme,
             thumbIcon: WidgetStateProperty.resolveWith((states) {
               if (!states.contains(WidgetState.selected)) {
-                return Icon(Icons.sunny, color: AppColors.backgroundLight);
+                return const Icon(Icons.sunny, color: AppColors.backgroundLight);
               }
-              return Icon(Icons.nightlight, color: AppColors.background);
+              return const Icon(Icons.nightlight, color: AppColors.background);
             }),
             onChanged: (value) {
               themeStore.toggleDarkTheme();
             },
           ),
         ),
-        SizedBox(width: 16),
+        const SizedBox(width: 16),
       ],
     );
   }

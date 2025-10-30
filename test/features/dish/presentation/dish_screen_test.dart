@@ -19,7 +19,7 @@ Widget createTestApp(Widget child) {
   return MaterialApp(
     localizationsDelegates: AppLocalizations.localizationsDelegates,
     supportedLocales: AppLocalizations.supportedLocales,
-    locale: Locale('pt', 'BR'),
+    locale: const Locale('pt', 'BR'),
     home: child,
   );
 }

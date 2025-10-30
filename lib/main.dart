@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_gastro_go/core/injection/injection_container.dart';
-import 'package:flutter_gastro_go/core/navigation/app_router.dart';
-import 'package:flutter_gastro_go/core/theme/app_theme.dart';
+import 'core/injection/injection_container.dart';
+import 'core/navigation/app_router.dart';
+import 'core/theme/app_theme.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 

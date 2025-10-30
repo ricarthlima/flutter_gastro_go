@@ -1,4 +1,4 @@
-import 'package:flutter_gastro_go/features/dish/domain/entities/dish_dto.dart';
+import '../entities/dish_dto.dart';
 import '../../data/repositories/i_dish_repository.dart';
 
 class FilterDishesByVeganUseCase {

@@ -1,7 +1,7 @@
-import 'package:flutter_gastro_go/core/services/api/i_api_service.dart';
-import 'package:flutter_gastro_go/features/dish/data/exceptions/dish_not_found_exception.dart';
-import 'package:flutter_gastro_go/features/dish/data/services/i_dish_service.dart';
-import 'package:flutter_gastro_go/features/dish/domain/entities/dish_dto.dart';
+import '../../../../core/services/api/i_api_service.dart';
+import '../exceptions/dish_not_found_exception.dart';
+import 'i_dish_service.dart';
+import '../../domain/entities/dish_dto.dart';
 
 class DishService implements IDishService {
   final IApiService apiService;
@@ -11,7 +11,7 @@ class DishService implements IDishService {
 
   @override
   Future<List<DishDto>> getAll() async {
-    Map<String, dynamic> result = await apiService.fetchData(url);
+    final Map<String, dynamic> result = await apiService.fetchData(url);
     return (result["dishes"] as List<dynamic>).map((map) {
       return DishDto.fromJson(map);
     }).toList();
@@ -19,8 +19,8 @@ class DishService implements IDishService {
 
   @override
   Future<DishDto> getById(String id) async {
-    List<DishDto> result = await getAll();
-    Iterable<DishDto> query = result.where((rest) => rest.id == id);
+    final List<DishDto> result = await getAll();
+    final Iterable<DishDto> query = result.where((rest) => rest.id == id);
     if (query.isNotEmpty) {
       return query.first;
     }
@@ -31,7 +31,7 @@ class DishService implements IDishService {
   Future<List<DishDto>> getByRestaurantId({
     required String restaurantId,
   }) async {
-    List<DishDto> result = await getAll();
+    final List<DishDto> result = await getAll();
     return result.where((rest) => rest.restaurantId == restaurantId).toList();
   }
 }

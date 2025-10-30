@@ -1,11 +1,11 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gastro_go/core/constants/app_constants.dart';
-import 'package:flutter_gastro_go/core/theme/app_colors.dart';
-import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
-import 'package:flutter_gastro_go/features/restaurant/presentation/widgets/restaurant_fallback_image_widget.dart';
-import 'package:flutter_gastro_go/l10n/app_localizations.dart';
-import 'package:flutter_gastro_go/shared/widgets/image_placeholder_widget.dart';
+import '../../core/constants/app_constants.dart';
+import '../../core/theme/app_colors.dart';
+import '../../features/restaurant/domain/entities/restaurant_dto.dart';
+import '../../features/restaurant/presentation/widgets/restaurant_fallback_image_widget.dart';
+import '../../l10n/app_localizations.dart';
+import 'image_placeholder_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:go_router/go_router.dart';
 
@@ -41,9 +41,9 @@ class RestaurantWidget extends StatelessWidget {
                     height: 96,
                     fit: BoxFit.cover,
                     placeholder: (context, url) =>
-                        ImagePlaceholderWidget(height: 96, width: 96),
+                        const ImagePlaceholderWidget(height: 96, width: 96),
                     errorWidget: (context, url, error) {
-                      return RestaurantFallbackImageWidget(size: 96);
+                      return const RestaurantFallbackImageWidget(size: 96);
                     },
                   ),
                 ),

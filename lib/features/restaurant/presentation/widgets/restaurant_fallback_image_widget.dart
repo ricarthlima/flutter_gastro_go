@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gastro_go/core/constants/app_constants.dart';
+import '../../../../core/constants/app_constants.dart';
 
 class RestaurantFallbackImageWidget extends StatelessWidget {
   final double? size;

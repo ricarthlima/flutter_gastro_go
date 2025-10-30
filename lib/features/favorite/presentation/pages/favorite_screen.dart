@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gastro_go/core/injection/injection_container.dart';
-import 'package:flutter_gastro_go/features/favorite/presentation/stores/favorites_store.dart';
-import 'package:flutter_gastro_go/features/favorite/presentation/widgets/favorite_dish_widget.dart';
-import 'package:flutter_gastro_go/shared/widgets/error_widget.dart';
-import 'package:flutter_gastro_go/shared/widgets/loading_widget.dart';
-import 'package:flutter_gastro_go/shared/widgets/restaurant_widget.dart';
+import '../../../../core/injection/injection_container.dart';
+import '../stores/favorites_store.dart';
+import '../widgets/favorite_dish_widget.dart';
+import '../../../../shared/widgets/error_widget.dart';
+import '../../../../shared/widgets/loading_widget.dart';
+import '../../../../shared/widgets/restaurant_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import '../../../../l10n/app_localizations.dart';
@@ -38,15 +38,15 @@ class _FavoriteScreenState extends State<FavoriteScreen>
           title: Text(i18n.navFavorites),
           bottom: TabBar(
             tabs: [
-              Tab(icon: Icon(Icons.store), text: i18n.navRestaurants),
-              Tab(icon: Icon(Icons.fastfood), text: i18n.dishes),
+              Tab(icon: const Icon(Icons.store), text: i18n.navRestaurants),
+              Tab(icon: const Icon(Icons.fastfood), text: i18n.dishes),
             ],
           ),
         ),
         body: Observer(
           builder: (_) {
             if (store.state == FavoritesState.loading) {
-              return LoadingWidget();
+              return const LoadingWidget();
             }
 
             if (store.state == FavoritesState.error) {

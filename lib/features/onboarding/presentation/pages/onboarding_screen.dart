@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gastro_go/core/extensions/context_dimensions.dart';
-import 'package:flutter_gastro_go/core/navigation/app_router.dart';
-import 'package:flutter_gastro_go/l10n/app_localizations.dart';
-import 'package:flutter_gastro_go/shared/widgets/logo_widget.dart';
+import '../../../../core/extensions/context_dimensions.dart';
+import '../../../../core/navigation/app_router.dart';
+import '../../../../l10n/app_localizations.dart';
+import '../../../../shared/widgets/logo_widget.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../../core/theme/app_colors.dart';
@@ -36,12 +36,12 @@ class OnboardingScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   spacing: 32,
                   children: [
-                    LogoWidget(width: 256),
+                    const LogoWidget(width: 256),
                     Column(
                       children: [
                         Text(
                           i18n.onboardingUpperQuote,
-                          style: Theme.of(context).textTheme.titleMedium!,
+                          style: Theme.of(context).textTheme.titleMedium,
                         ),
                         Text(
                           i18n.onboardingLowerQuote,

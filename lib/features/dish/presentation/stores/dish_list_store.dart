@@ -1,4 +1,4 @@
-import 'package:flutter_gastro_go/features/dish/domain/entities/dish_dto.dart';
+import '../../domain/entities/dish_dto.dart';
 import 'package:mobx/mobx.dart';
 
 import '../../data/repositories/i_dish_repository.dart';

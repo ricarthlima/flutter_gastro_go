@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gastro_go/core/injection/injection_container.dart';
-import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
-import 'package:flutter_gastro_go/features/restaurant/presentation/stores/restaurant_list_store.dart';
-import 'package:flutter_gastro_go/features/restaurant/presentation/widgets/banners_carousel.dart';
-import 'package:flutter_gastro_go/features/restaurant/presentation/widgets/home_app_bar.dart';
-import 'package:flutter_gastro_go/shared/widgets/error_widget.dart';
-import 'package:flutter_gastro_go/shared/widgets/loading_widget.dart';
+import '../../../../core/injection/injection_container.dart';
+import '../../domain/entities/restaurant_dto.dart';
+import '../stores/restaurant_list_store.dart';
+import '../widgets/banners_carousel.dart';
+import '../widgets/home_app_bar.dart';
+import '../../../../shared/widgets/error_widget.dart';
+import '../../../../shared/widgets/loading_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import '../../../../l10n/app_localizations.dart';
@@ -42,12 +42,12 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
     final i18n = AppLocalizations.of(context)!;
 
     return Scaffold(
-      appBar: HomeAppBar(),
+      appBar: const HomeAppBar(),
       body: SafeArea(
         child: Observer(
           builder: (context) {
             if (store.isLoading) {
-              return LoadingWidget();
+              return const LoadingWidget();
             }
 
             if (store.hasError) {
@@ -72,7 +72,7 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                         style: Theme.of(context).textTheme.titleMedium!
                             .copyWith(fontWeight: FontWeight.w700),
                       ),
-                      BannersCarousel(
+                      const BannersCarousel(
                         bannerAssets: [
                           "assets/images/banners/banner_promo.png",
                           "assets/images/banners/banner_promo.png",
@@ -89,7 +89,7 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                           children: List.generate(
                             CategoriesData.listCategories.length,
                             (index) {
-                              CategoryModel category =
+                              final CategoryModel category =
                                   CategoriesData.listCategories[index];
                               return InkWell(
                                 onTap: () {
@@ -116,12 +116,12 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                             child: TextFormField(
                               controller: _searchController,
                               decoration: InputDecoration(
-                                prefixIcon: Icon(Icons.search),
+                                prefixIcon: const Icon(Icons.search),
                                 labelText: i18n.homeSearchLabel,
                                 suffixIcon: store.nameQuery.isEmpty
                                     ? null
                                     : IconButton(
-                                        icon: Icon(Icons.clear),
+                                        icon: const Icon(Icons.clear),
                                         tooltip: i18n.clean,
                                         onPressed: () {
                                           _searchController.clear();
@@ -136,7 +136,7 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                             ),
                           ),
                           IconButton(
-                            icon: Icon(Icons.filter_list),
+                            icon: const Icon(Icons.filter_list),
                             tooltip: i18n.filterBy,
                             onPressed: _showFilterModal,
                           ),
@@ -147,11 +147,11 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
                         children: List.generate(store.restaurants.length, (
                           index,
                         ) {
-                          RestaurantDto restaurant = store.restaurants[index];
+                          final RestaurantDto restaurant = store.restaurants[index];
                           return RestaurantWidget(restaurant: restaurant);
                         }),
                       ),
-                      SizedBox(height: 64),
+                      const SizedBox(height: 64),
                     ],
                   ),
                 ),
@@ -178,7 +178,7 @@ class _RestaurantsScreenState extends State<RestaurantsScreen> {
   void _animateToEnd() {
     _scrollController.animateTo(
       _scrollController.position.maxScrollExtent,
-      duration: Duration(milliseconds: 750),
+      duration: const Duration(milliseconds: 750),
       curve: Curves.ease,
     );
   }

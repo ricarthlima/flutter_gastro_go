@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gastro_go/core/injection/injection_container.dart';
-import 'package:flutter_gastro_go/features/dish/domain/entities/dish_dto.dart';
-import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
-import 'package:flutter_gastro_go/features/restaurant/presentation/widgets/restaurant_fallback_image_widget.dart';
-import 'package:flutter_gastro_go/shared/widgets/image_placeholder_widget.dart';
+import '../../../../core/injection/injection_container.dart';
+import '../../../dish/domain/entities/dish_dto.dart';
+import '../../../restaurant/domain/entities/restaurant_dto.dart';
+import '../../../restaurant/presentation/widgets/restaurant_fallback_image_widget.dart';
+import '../../../../shared/widgets/image_placeholder_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import '../../../../core/constants/app_constants.dart';
@@ -57,7 +57,7 @@ class FavoriteDishWidget extends StatelessWidget {
                         icon: Icon(
                           isFavorite ? Icons.favorite : Icons.favorite_border,
                           color: isFavorite ? Colors.red : Colors.white,
-                          shadows: [
+                          shadows: const [
                             Shadow(color: Colors.black54, blurRadius: 4),
                           ],
                         ),
@@ -80,11 +80,11 @@ class FavoriteDishWidget extends StatelessWidget {
                       ),
                       child: Row(
                         children: [
-                          Icon(Icons.eco, color: Colors.white, size: 14),
-                          SizedBox(width: 4),
+                          const Icon(Icons.eco, color: Colors.white, size: 14),
+                          const SizedBox(width: 4),
                           Text(
                             i18n.vegan,
-                            style: TextStyle(color: Colors.white, fontSize: 10),
+                            style: const TextStyle(color: Colors.white, fontSize: 10),
                           ),
                         ],
                       ),
@@ -152,14 +152,14 @@ class _RestaurantChip extends StatelessWidget {
             child: CachedNetworkImage(
               imageUrl: imageUrl,
               fit: BoxFit.cover,
-              placeholder: (context, url) => ImagePlaceholderWidget(),
+              placeholder: (context, url) => const ImagePlaceholderWidget(),
               errorWidget: (context, url, error) =>
-                  RestaurantFallbackImageWidget(),
+                  const RestaurantFallbackImageWidget(),
             ),
           ),
           Text(
             restaurant.name,
-            style: TextStyle(color: Colors.white, fontSize: 10),
+            style: const TextStyle(color: Colors.white, fontSize: 10),
           ),
         ],
       ),

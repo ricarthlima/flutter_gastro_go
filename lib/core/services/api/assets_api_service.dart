@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:math';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_gastro_go/core/exceptions/fail_fetch_data_exception.dart';
-import 'package:flutter_gastro_go/core/services/api/i_api_service.dart';
+import '../../exceptions/fail_fetch_data_exception.dart';
+import 'i_api_service.dart';
 
 class AssetsApiService implements IApiService {
   @override

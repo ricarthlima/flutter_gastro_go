@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gastro_go/core/injection/injection_container.dart';
-import 'package:flutter_gastro_go/core/theme/app_colors.dart';
-import 'package:flutter_gastro_go/features/dish/domain/entities/dish_dto.dart';
+import '../../../../core/injection/injection_container.dart';
+import '../../../../core/theme/app_colors.dart';
+import '../../domain/entities/dish_dto.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import '../../../../l10n/app_localizations.dart';
 import '../../../favorite/presentation/stores/favorites_store.dart';
@@ -28,13 +28,13 @@ class DishWidget extends StatelessWidget {
             if (dish.isVegan)
               Container(
                 color: Colors.green[600],
-                padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                 child: Row(
                   spacing: 8,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(Icons.eco),
-                    Text(i18n.vegan, style: TextStyle(color: Colors.white)),
+                    const Icon(Icons.eco),
+                    Text(i18n.vegan, style: const TextStyle(color: Colors.white)),
                   ],
                 ),
               ),

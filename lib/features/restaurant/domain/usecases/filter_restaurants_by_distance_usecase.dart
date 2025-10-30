@@ -1,5 +1,5 @@
-import 'package:flutter_gastro_go/features/restaurant/data/repositories/i_restaurant_repository.dart';
-import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
+import '../../data/repositories/i_restaurant_repository.dart';
+import '../entities/restaurant_dto.dart';
 
 class FilterRestaurantsByDistanceUseCase {
   final IRestaurantRepository restaurantRepository;

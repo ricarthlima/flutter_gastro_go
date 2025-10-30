@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gastro_go/features/restaurant/domain/usecases/sort_restaurants_usecase.dart';
-import 'package:flutter_gastro_go/l10n/app_localizations.dart';
+import '../../domain/usecases/sort_restaurants_usecase.dart';
+import '../../../../l10n/app_localizations.dart';
 import '../models/restaurant_filter_model.dart';
 
 class FilterBottomSheet extends StatefulWidget {
@@ -50,13 +50,13 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
                   value: SortType.byDistance,
                   label: Text(i18n.distance),
                   tooltip: i18n.distance,
-                  icon: Icon(Icons.directions_walk),
+                  icon: const Icon(Icons.directions_walk),
                 ),
                 ButtonSegment(
                   value: SortType.byRating,
                   label: Text(i18n.rating),
                   tooltip: i18n.rating,
-                  icon: Icon(Icons.star),
+                  icon: const Icon(Icons.star),
                 ),
               ],
               selected: {_tempFilters.sortType},
@@ -68,14 +68,14 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
                 });
               },
             ),
-            Divider(),
+            const Divider(),
             Tooltip(
               message: i18n.onlyVegans,
               child: SwitchListTile(
                 title: Text(i18n.onlyVegans),
                 value: _tempFilters.filterVegan,
                 contentPadding: EdgeInsets.zero,
-                secondary: Icon(Icons.eco),
+                secondary: const Icon(Icons.eco),
                 onChanged: (newValue) {
                   setState(() {
                     _tempFilters = _tempFilters.copyWith(filterVegan: newValue);
@@ -83,7 +83,7 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
                 },
               ),
             ),
-            Divider(),
+            const Divider(),
             Text(
               "${i18n.minimumRating}: ${_tempFilters.minRating.toStringAsFixed(1)}",
             ),
@@ -99,7 +99,7 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
                 });
               },
             ),
-            Divider(),
+            const Divider(),
             Text(
               "${i18n.maximumDistance}: ${_tempFilters.maxDistance.toStringAsFixed(0)} km",
             ),
@@ -115,7 +115,7 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
                 });
               },
             ),
-            SizedBox(height: 16),
+            const SizedBox(height: 16),
             Row(
               spacing: 16,
               children: [

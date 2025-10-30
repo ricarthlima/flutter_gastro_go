@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gastro_go/l10n/app_localizations.dart';
+import '../../l10n/app_localizations.dart';
 
 class AppErrorWidget extends StatelessWidget {
   final String message;
@@ -14,7 +14,7 @@ class AppErrorWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Padding(
-        padding: EdgeInsetsGeometry.symmetric(horizontal: 32),
+        padding: const EdgeInsetsGeometry.symmetric(horizontal: 32),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,

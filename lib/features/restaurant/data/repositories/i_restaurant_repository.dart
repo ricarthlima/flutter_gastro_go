@@ -1,4 +1,4 @@
-import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
+import '../../domain/entities/restaurant_dto.dart';
 
 abstract class IRestaurantRepository {
   Future<List<RestaurantDto>> getAll();

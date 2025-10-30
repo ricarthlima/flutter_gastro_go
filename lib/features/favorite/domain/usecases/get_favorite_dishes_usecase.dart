@@ -1,5 +1,5 @@
-import 'package:flutter_gastro_go/features/dish/data/repositories/i_dish_repository.dart';
-import 'package:flutter_gastro_go/features/dish/domain/entities/dish_dto.dart';
+import '../../../dish/data/repositories/i_dish_repository.dart';
+import '../../../dish/domain/entities/dish_dto.dart';
 
 import '../../data/repositories/i_favorite_repository.dart';
 

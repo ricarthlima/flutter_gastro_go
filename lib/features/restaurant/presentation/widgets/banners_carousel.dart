@@ -62,7 +62,7 @@ class _BannersCarouselState extends State<BannersCarousel> {
   }
 
   Widget _buildDot(BuildContext context, {required int index}) {
-    bool isActive = _currentPage == index;
+    final bool isActive = _currentPage == index;
     return AnimatedContainer(
       duration: const Duration(milliseconds: 150),
       margin: const EdgeInsets.symmetric(horizontal: 4),

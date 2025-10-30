@@ -2,3 +2,18 @@ include: package:flutter_lints/flutter.yaml
 analyzer:
   errors:
     library_private_types_in_public_api: ignore
+
+linter:
+  rules:
+    prefer_final_fields: true
+    prefer_final_locals: true
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    avoid_print: true
+    curly_braces_in_flow_control_structures: true
+    sort_child_properties_last: true
+    unnecessary_breaks: true
+    unnecessary_null_checks: true
+    prefer_relative_imports: true
+
+    # public_member_api_docs: true # essa é quente

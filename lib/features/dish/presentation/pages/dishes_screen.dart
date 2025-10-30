@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gastro_go/features/restaurant/presentation/widgets/restaurant_fallback_image_widget.dart';
-import 'package:flutter_gastro_go/shared/widgets/error_widget.dart';
-import 'package:flutter_gastro_go/shared/widgets/image_placeholder_widget.dart';
-import 'package:flutter_gastro_go/shared/widgets/loading_widget.dart';
+import '../../../restaurant/presentation/widgets/restaurant_fallback_image_widget.dart';
+import '../../../../shared/widgets/error_widget.dart';
+import '../../../../shared/widgets/image_placeholder_widget.dart';
+import '../../../../shared/widgets/loading_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import '../../../../core/constants/app_constants.dart';
@@ -64,9 +64,9 @@ class _DishesScreenState extends State<DishesScreen> {
                           imageUrl: imageUrl,
                           fit: BoxFit.cover,
                           placeholder: (context, url) =>
-                              ImagePlaceholderWidget(),
+                              const ImagePlaceholderWidget(),
                           errorWidget: (context, url, error) =>
-                              RestaurantFallbackImageWidget(),
+                              const RestaurantFallbackImageWidget(),
                         ),
                       ),
                       Container(
@@ -89,7 +89,7 @@ class _DishesScreenState extends State<DishesScreen> {
                           child: Text(
                             widget.restaurant.description,
                             textAlign: TextAlign.center,
-                            style: TextStyle(
+                            style: const TextStyle(
                               color: AppColors.backgroundAccentLight,
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
@@ -137,14 +137,14 @@ class _DishesScreenState extends State<DishesScreen> {
                               controller: _searchController,
                               decoration: InputDecoration(
                                 labelText: i18n.searchDishes,
-                                prefixIcon: Icon(Icons.search),
+                                prefixIcon: const Icon(Icons.search),
                                 border: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(12),
                                 ),
                                 suffixIcon: store.searchQuery.isEmpty
                                     ? null
                                     : IconButton(
-                                        icon: Icon(Icons.clear),
+                                        icon: const Icon(Icons.clear),
                                         tooltip: i18n.clean,
                                         onPressed: () {
                                           _searchController.clear();
@@ -180,7 +180,7 @@ class _DishesScreenState extends State<DishesScreen> {
                 child: Observer(
                   builder: (_) {
                     if (store.isLoading) {
-                      return LoadingWidget();
+                      return const LoadingWidget();
                     }
 
                     if (store.hasError) {

@@ -1,4 +1,4 @@
-import 'package:flutter_gastro_go/core/services/i_prefs_storage_service.dart';
+import 'i_prefs_storage_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 abstract class _Keys {

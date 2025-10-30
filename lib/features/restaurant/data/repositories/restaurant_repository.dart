@@ -1,6 +1,6 @@
-import 'package:flutter_gastro_go/features/restaurant/data/repositories/i_restaurant_repository.dart';
-import 'package:flutter_gastro_go/features/restaurant/data/services/i_restaurant_service.dart';
-import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
+import 'i_restaurant_repository.dart';
+import '../services/i_restaurant_service.dart';
+import '../../domain/entities/restaurant_dto.dart';
 
 class RestaurantRepository implements IRestaurantRepository {
   IRestaurantService apiService;

@@ -1,4 +1,4 @@
-import 'package:flutter_gastro_go/core/services/i_prefs_storage_service.dart';
+import '../../../../core/services/i_prefs_storage_service.dart';
 
 abstract class ISettingsRepository {
   IPrefsStorageService get storageService;
