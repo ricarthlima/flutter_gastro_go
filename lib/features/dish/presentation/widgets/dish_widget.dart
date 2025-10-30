@@ -3,7 +3,7 @@ import 'package:flutter_gastro_go/core/injection/injection_container.dart';
 import 'package:flutter_gastro_go/core/theme/app_colors.dart';
 import 'package:flutter_gastro_go/features/dish/domain/entities/dish_dto.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import '../../features/favorite/presentation/stores/favorites_store.dart';
+import '../../../favorite/presentation/stores/favorites_store.dart';
 
 class DishWidget extends StatelessWidget {
   final DishDto dish;

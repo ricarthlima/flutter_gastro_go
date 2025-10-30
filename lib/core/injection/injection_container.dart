@@ -177,6 +177,7 @@ Future<void> setupInjections() async {
   getIt.registerLazySingleton<FavoritesStore>(
     () => FavoritesStore(
       getIt<IFavoritesRepository>(),
+      getIt<IRestaurantRepository>(),
       getIt<GetFavoriteRestaurantsUseCase>(),
       getIt<GetFavoriteDishesUseCase>(),
       getIt<ToggleFavoriteRestaurantUseCase>(),

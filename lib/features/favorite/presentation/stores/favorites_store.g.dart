@@ -81,6 +81,24 @@ mixin _$FavoritesStore on _FavoritesStore, Store {
     });
   }
 
+  late final _$allRestaurantsAtom = Atom(
+    name: '_FavoritesStore.allRestaurants',
+    context: context,
+  );
+
+  @override
+  ObservableList<RestaurantDto> get allRestaurants {
+    _$allRestaurantsAtom.reportRead();
+    return super.allRestaurants;
+  }
+
+  @override
+  set allRestaurants(ObservableList<RestaurantDto> value) {
+    _$allRestaurantsAtom.reportWrite(value, super.allRestaurants, () {
+      super.allRestaurants = value;
+    });
+  }
+
   late final _$restaurantFavoriteIdsAtom = Atom(
     name: '_FavoritesStore.restaurantFavoriteIds',
     context: context,
@@ -180,6 +198,7 @@ state: ${state},
 errorMessage: ${errorMessage},
 favoriteRestaurants: ${favoriteRestaurants},
 favoriteDishes: ${favoriteDishes},
+allRestaurants: ${allRestaurants},
 restaurantFavoriteIds: ${restaurantFavoriteIds},
 dishFavoriteIds: ${dishFavoriteIds}
     ''';

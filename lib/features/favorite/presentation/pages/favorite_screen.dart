@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gastro_go/core/injection/injection_container.dart';
 import 'package:flutter_gastro_go/features/favorite/presentation/stores/favorites_store.dart';
+import 'package:flutter_gastro_go/features/favorite/presentation/widgets/favorite_dish_widget.dart';
 import 'package:flutter_gastro_go/shared/widgets/restaurant_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import '../../../../l10n/app_localizations.dart';
-import '../../../../shared/widgets/dish_widget.dart';
 import '../stores/favorites_state.dart';
 
 class FavoriteScreen extends StatefulWidget {
@@ -96,14 +96,17 @@ class _FavoriteScreenState extends State<FavoriteScreen>
       padding: const EdgeInsets.all(16),
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
-        crossAxisSpacing: 16,
-        mainAxisSpacing: 16,
-        childAspectRatio: 0.7,
+        crossAxisSpacing: 8,
+        mainAxisSpacing: 8,
+        childAspectRatio: 0.9,
       ),
       itemCount: store.favoriteDishes.length,
       itemBuilder: (context, index) {
         final dish = store.favoriteDishes[index];
-        return DishWidget(dish: dish);
+        final restaurant = store.allRestaurants.firstWhere(
+          (r) => r.id == dish.restaurantId,
+        );
+        return FavoriteDishWidget(dish: dish, restaurant: restaurant);
       },
     );
   }

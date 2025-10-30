@@ -3,7 +3,7 @@ import 'package:flutter_mobx/flutter_mobx.dart';
 
 import '../../../../core/injection/injection_container.dart';
 import '../../../../core/theme/app_colors.dart';
-import '../../../../shared/widgets/dish_widget.dart';
+import '../widgets/dish_widget.dart';
 import '../../../favorite/presentation/stores/favorites_store.dart';
 import '../../../restaurant/domain/entities/restaurant_dto.dart';
 import '../../domain/entities/dish_dto.dart';

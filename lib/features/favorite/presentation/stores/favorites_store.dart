@@ -2,6 +2,7 @@ import 'package:flutter_gastro_go/features/dish/domain/entities/dish_dto.dart';
 import 'package:flutter_gastro_go/features/restaurant/domain/entities/restaurant_dto.dart';
 import 'package:mobx/mobx.dart';
 
+import '../../../restaurant/data/repositories/i_restaurant_repository.dart';
 import '../../data/repositories/i_favorite_repository.dart';
 import '../../domain/usecases/usecases.dart';
 import 'favorites_state.dart';
@@ -12,6 +13,7 @@ class FavoritesStore = _FavoritesStore with _$FavoritesStore;
 
 abstract class _FavoritesStore with Store {
   final IFavoritesRepository _favoritesRepo;
+  final IRestaurantRepository _restaurantRepo;
   final GetFavoriteRestaurantsUseCase _getFavoriteRestaurants;
   final GetFavoriteDishesUseCase _getFavoriteDishes;
   final ToggleFavoriteRestaurantUseCase _toggleRestaurant;
@@ -19,6 +21,7 @@ abstract class _FavoritesStore with Store {
 
   _FavoritesStore(
     this._favoritesRepo,
+    this._restaurantRepo,
     this._getFavoriteRestaurants,
     this._getFavoriteDishes,
     this._toggleRestaurant,
@@ -36,6 +39,9 @@ abstract class _FavoritesStore with Store {
 
   @observable
   ObservableList<DishDto> favoriteDishes = ObservableList();
+
+  @observable
+  ObservableList<RestaurantDto> allRestaurants = ObservableList();
 
   // global, geralzao
   @observable
@@ -73,12 +79,14 @@ abstract class _FavoritesStore with Store {
       final results = await Future.wait([
         _getFavoriteRestaurants.call(),
         _getFavoriteDishes.call(),
+        _restaurantRepo.getAll(),
       ]);
 
       favoriteRestaurants = ObservableList.of(
         results[0] as List<RestaurantDto>,
       );
       favoriteDishes = ObservableList.of(results[1] as List<DishDto>);
+      allRestaurants = ObservableList.of(results[2] as List<RestaurantDto>);
 
       state = FavoritesState.success;
     } catch (e) {
