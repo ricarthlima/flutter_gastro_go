@@ -7,6 +7,8 @@ import 'package:flutter_gastro_go/features/dish/data/repositories/i_dish_reposit
 import 'package:flutter_gastro_go/features/dish/data/services/dish_service.dart';
 import 'package:flutter_gastro_go/features/dish/data/services/i_dish_service.dart';
 import 'package:flutter_gastro_go/features/dish/domain/usecases/usecases.dart';
+import 'package:flutter_gastro_go/features/favorite/data/repositories/i_favorite_repository.dart';
+import 'package:flutter_gastro_go/features/favorite/data/repositories/objectbox_favorites_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/repositories/i_restaurant_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/repositories/restaurant_repository.dart';
 import 'package:flutter_gastro_go/features/restaurant/data/services/i_restaurant_service.dart';
@@ -14,10 +16,15 @@ import 'package:flutter_gastro_go/features/restaurant/data/services/restaurant_s
 import 'package:flutter_gastro_go/features/restaurant/presentation/stores/restaurant_list_store.dart';
 import 'package:flutter_gastro_go/features/settings/data/repositories/i_settings_repository.dart';
 import 'package:flutter_gastro_go/features/settings/data/repositories/settings_repository.dart';
+import 'package:flutter_gastro_go/objectbox.g.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:path/path.dart' as p;
 
 import '../../features/dish/presentation/stores/dish_list_store.dart';
+import '../../features/favorite/domain/usecases/usecases.dart';
+import '../../features/favorite/presentation/stores/favorites_store.dart';
 import '../../features/restaurant/domain/usecases/usecases.dart';
 import '../../features/settings/domain/stores/theme_store.dart';
 
@@ -27,6 +34,11 @@ Future<void> setupInjections() async {
   SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
 
   getIt.registerLazySingleton<SharedPreferences>(() => sharedPreferences);
+
+  // ObjectBox
+  final dir = await getApplicationDocumentsDirectory();
+  final obStore = await openStore(directory: p.join(dir.path, "gatro-go-db"));
+  getIt.registerLazySingleton<Store>(() => obStore);
 
   // Interfaces
 
@@ -124,6 +136,51 @@ Future<void> setupInjections() async {
       getIt<SearchDishesByNameOrDescriptionUseCase>(),
       getIt<FilterDishesByVeganUseCase>(),
       getIt<SortDishesUseCase>(),
+    ),
+  );
+
+  // Favoritos
+  getIt.registerLazySingleton<IFavoritesRepository>(
+    () => ObjectBoxFavoritesRepository(getIt<Store>()),
+  );
+
+  getIt.registerLazySingleton(
+    () => GetFavoriteRestaurantsUseCase(
+      getIt<IRestaurantRepository>(),
+      getIt<IFavoritesRepository>(),
+    ),
+  );
+
+  getIt.registerLazySingleton(
+    () => GetFavoriteDishesUseCase(
+      getIt<IDishRepository>(),
+      getIt<IFavoritesRepository>(),
+    ),
+  );
+
+  getIt.registerLazySingleton(
+    () => IsRestaurantFavoriteUseCase(getIt<IFavoritesRepository>()),
+  );
+
+  getIt.registerLazySingleton(
+    () => ToggleFavoriteRestaurantUseCase(getIt<IFavoritesRepository>()),
+  );
+
+  getIt.registerLazySingleton(
+    () => IsDishFavoriteUseCase(getIt<IFavoritesRepository>()),
+  );
+
+  getIt.registerLazySingleton(
+    () => ToggleFavoriteDishUseCase(getIt<IFavoritesRepository>()),
+  );
+
+  getIt.registerLazySingleton<FavoritesStore>(
+    () => FavoritesStore(
+      getIt<IFavoritesRepository>(),
+      getIt<GetFavoriteRestaurantsUseCase>(),
+      getIt<GetFavoriteDishesUseCase>(),
+      getIt<ToggleFavoriteRestaurantUseCase>(),
+      getIt<ToggleFavoriteDishUseCase>(),
     ),
   );
 }
